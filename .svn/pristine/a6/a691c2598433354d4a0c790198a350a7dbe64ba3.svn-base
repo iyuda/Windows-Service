@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <configSections>
+        <section name="Settings" type="System.Configuration.AppSettingsSection, System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    </configSections>
+    <Settings>
+        <add key="Database URL" value="http://192.168.1.60:5984/igor_test" />
+        <add key="Last Sequence" value="" />
+        <add key="Web API URL" value="http://localhost:53186/api/Couch/" />
+    </Settings>
+</configuration>

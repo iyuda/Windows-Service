@@ -1,0 +1,40 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Configuration;
+using System.Diagnostics;
+using System.IO;
+using System.Linq;
+using System.Net;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace CheckRevisions
+{
+    class Utilities
+    {
+        public static string LogsDirectory = AppDomain.CurrentDomain.BaseDirectory + "Logs\\" + DateTime.Now.Date.DayOfWeek.ToString();
+        public static string ImportPcr(string id)
+        {
+            try
+            {
+
+                string url = WindowsService.config.GetProfileEntry("Settings", "Web API URL", "http://localhost:85/api/Couch/");
+                url += "ImportPcr?id=" + id;
+                HttpWebRequest webRequest = (HttpWebRequest)WebRequest.Create(url);
+                webRequest.Method = "GET";
+
+                System.Diagnostics.Stopwatch timer = new Stopwatch();
+                timer.Start();
+                WebResponse response = webRequest.GetResponse();
+                timer.Stop();
+                StreamReader reader = new StreamReader(response.GetResponseStream());
+                string ResponseString = reader.ReadToEnd();
+                Logger.LogActivity(url + ":" + System.Environment.NewLine + "GET elapsed time: " + timer.Elapsed + System.Environment.NewLine + response + ":" + ResponseString, "CouchStatus");
+                return ResponseString;// ((HttpWebResponse)response).StatusDescription;
+
+            }
+            catch (WebException ex) { Logger.LogException(ex); return ex.Response.ResponseUri.ToString() + ":  " + ex.Message; }
+            catch (Exception ex) { Logger.LogException(ex); return ex.Message; }
+        }
+    }
+}

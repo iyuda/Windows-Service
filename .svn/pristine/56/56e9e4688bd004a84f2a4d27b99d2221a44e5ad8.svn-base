@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <configSections>
+        <section name="Settings" type="System.Configuration.AppSettingsSection, System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    </configSections>
+    <Settings>
+        <add key="Last Sequence" value="19-g1AAAAI7eJyV0UsOgjAQBuAKJupOT6BH4NFCu5KbaJ-pBGGhrPUmehO9id4ECyUhJoTAZpp0Ml_-djIAwFK7Amx4UXItWJIVnGa6uFwz03IoYNuqqlLt0tnZXCywF4SCwL6BAYbtTGX7VgKNFLEIxZIJsCpzIdUpl2JISGrh8Ccg7OOwzjJOONbCrRWcRqDS87CSE1-Tz00Fd3MY7NHlUQQSAunIPFZ5WuXVKQSqKPCjScrbKp9OgTFBgYcmKV-rNP-ztjuCPAgh6ptLf2z4rps" />
+    </Settings>
+</configuration>

@@ -1,0 +1,10 @@
+C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions3.exe.config
+C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions3.exe
+C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions3.pdb
+C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\Newtonsoft.Json.dll
+C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\Newtonsoft.Json.xml
+C:\Work Area\CheckRevisions\CheckRevisions\obj\Debug\CheckRevisions3.exe
+C:\Work Area\CheckRevisions\CheckRevisions\obj\Debug\CheckRevisions3.pdb
+C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe.config
+C:\Work Area\CheckRevisions\CheckRevisions\obj\Debug\CheckRevisions.exe
+C:\Work Area\CheckRevisions\CheckRevisions\obj\Debug\CheckRevisions.pdb

@@ -1,0 +1,73 @@
+
+8/24/2017 1:42:19 PM
+The process cannot access the file 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\Logs\Thursday\CouchStatus.log' because it is being used by another process.:
+Stack trace: at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   at System.IO.File.InternalAppendAllText(String path, String contents, Encoding encoding)
+   at System.IO.File.AppendAllText(String path, String contents)
+   at CheckRevisions.Logger.LogAction(String strMessage, String LogFileName) in c:\Work Area\CheckRevisions\CheckRevisions\Logger.cs:line 47
+   at CheckRevisions.Program.UrlRequest(String url, String method, String content_type) in c:\Work Area\CheckRevisions\CheckRevisions\Program.cs:line 32
+   at CheckRevisions.Program.CheckRevisions(String LastSeqNo) in c:\Work Area\CheckRevisions\CheckRevisions\Program.cs:line 42
+Source: mscorlib
+
+8/24/2017 2:38:30 PM
+The remote server returned an error: (400) Bad Request.:
+Stack trace: at System.Net.HttpWebRequest.GetResponse()
+   at CheckRevisions.Program.UrlRequest(String url, String method, String content_type) in c:\Work Area\CheckRevisions\CheckRevisions\Program.cs:line 30
+   at CheckRevisions.Program.CheckRevisions(String LastSeqNo) in c:\Work Area\CheckRevisions\CheckRevisions\Program.cs:line 66
+Source: System
+
+8/24/2017 2:40:38 PM
+Cannot send a content-body with this verb-type.:
+Stack trace: at System.Net.HttpWebRequest.CheckProtocol(Boolean onRequestStream)
+   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+   at System.Net.HttpWebRequest.GetRequestStream()
+   at CheckRevisions.Program.UrlRequest(String url, String method, String content_type) in c:\Work Area\CheckRevisions\CheckRevisions\Program.cs:line 26
+   at CheckRevisions.Program.CheckRevisions(String LastSeqNo) in c:\Work Area\CheckRevisions\CheckRevisions\Program.cs:line 66
+Source: System
+
+8/24/2017 3:03:35 PM
+The operation has timed out:
+Stack trace: at System.Net.HttpWebRequest.GetResponse()
+   at CheckRevisions.Program.UrlRequest(String url, String method, String content_type) in c:\Work Area\CheckRevisions\CheckRevisions\Program.cs:line 30
+   at CheckRevisions.Program.CheckRevisions(String LastSeqNo) in c:\Work Area\CheckRevisions\CheckRevisions\Program.cs:line 66
+Source: System
+
+8/24/2017 3:03:56 PM
+The remote server returned an error: (400) Bad Request.:
+Stack trace: at System.Net.HttpWebRequest.GetResponse()
+   at CheckRevisions.Program.UrlRequest(String url, String method, String content_type) in c:\Work Area\CheckRevisions\CheckRevisions\Program.cs:line 30
+   at CheckRevisions.Program.CheckRevisions(String LastSeqNo) in c:\Work Area\CheckRevisions\CheckRevisions\Program.cs:line 66
+Source: System
+
+8/24/2017 3:17:55 PM
+The remote server returned an error: (400) Bad Request.:
+Stack trace: at System.Net.HttpWebRequest.GetResponse()
+   at CheckRevisions.Program.UrlRequest(String url, String method, String content_type) in c:\Work Area\CheckRevisions\CheckRevisions\Program.cs:line 30
+   at CheckRevisions.Program.CheckRevisions(String LastSeqNo) in c:\Work Area\CheckRevisions\CheckRevisions\Program.cs:line 66
+Source: System
+
+8/24/2017 3:19:33 PM
+The remote server returned an error: (400) Bad Request.:
+Stack trace: at System.Net.HttpWebRequest.GetResponse()
+   at CheckRevisions.Program.UrlRequest(String url, String method, String content_type) in c:\Work Area\CheckRevisions\CheckRevisions\Program.cs:line 30
+   at CheckRevisions.Program.CheckRevisions(String LastSeqNo) in c:\Work Area\CheckRevisions\CheckRevisions\Program.cs:line 66
+Source: System
+
+8/24/2017 3:19:47 PM
+The remote server returned an error: (400) Bad Request.:
+Stack trace: at System.Net.HttpWebRequest.GetResponse()
+   at CheckRevisions.Program.UrlRequest(String url, String method, String content_type) in c:\Work Area\CheckRevisions\CheckRevisions\Program.cs:line 30
+   at CheckRevisions.Program.CheckRevisions(String LastSeqNo) in c:\Work Area\CheckRevisions\CheckRevisions\Program.cs:line 66
+Source: System
+
+8/24/2017 3:20:02 PM
+The remote server returned an error: (400) Bad Request.:
+Stack trace: at System.Net.HttpWebRequest.GetResponse()
+   at CheckRevisions.Program.UrlRequest(String url, String method, String content_type) in c:\Work Area\CheckRevisions\CheckRevisions\Program.cs:line 30
+   at CheckRevisions.Program.CheckRevisions(String LastSeqNo) in c:\Work Area\CheckRevisions\CheckRevisions\Program.cs:line 66
+Source: System

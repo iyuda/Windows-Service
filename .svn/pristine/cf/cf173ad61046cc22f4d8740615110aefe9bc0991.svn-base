@@ -1,0 +1,40 @@
+
+10/18/2017 1:59:52 PM
+Unexpected character encountered while parsing value: a. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at CemsMobilePcrSrv.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in c:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\JsonMaker.cs:line 66
+Source: Newtonsoft.Json
+
+10/18/2017 1:59:55 PM
+Unexpected character encountered while parsing value: a. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at CemsMobilePcrSrv.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in c:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\JsonMaker.cs:line 66
+Source: Newtonsoft.Json
+
+10/18/2017 1:59:58 PM
+Unexpected character encountered while parsing value: a. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at CemsMobilePcrSrv.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in c:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\JsonMaker.cs:line 66
+Source: Newtonsoft.Json
+
+10/18/2017 2:00:00 PM
+Unexpected character encountered while parsing value: a. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at CemsMobilePcrSrv.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in c:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\JsonMaker.cs:line 66
+Source: Newtonsoft.Json

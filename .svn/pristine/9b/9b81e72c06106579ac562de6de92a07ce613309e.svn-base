@@ -1,0 +1,40 @@
+
+1/4/2018 11:01:51 AM
+The remote server returned an error: (409) Conflict.:
+Stack trace: at System.Net.HttpWebRequest.GetResponse()
+   at CemsMobilePcrSrv.WindowsService.UrlRequest(String url, String& content, String method, String content_type, String data) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\WindowsService.cs:line 60
+Source: System
+
+1/4/2018 11:02:39 AM
+No connection could be made because the target machine actively refused it 127.0.0.1:53186:
+Stack trace: at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+Source: System
+
+1/4/2018 11:03:15 AM
+Unexpected character encountered while parsing value: U. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at CemsMobilePcrSrv.WindowsService.GetPcrReport(String pcr_id, String FaxNumber, String Agency) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\WindowsService.cs:line 114
+Source: Newtonsoft.Json
+
+1/4/2018 11:03:59 AM
+No connection could be made because the target machine actively refused it 127.0.0.1:53186:
+Stack trace: at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+Source: System
+
+1/4/2018 11:08:34 AM
+Unexpected character encountered while parsing value: U. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at CemsMobilePcrSrv.WindowsService.GetPcrReport(String pcr_id, String FaxNumber, String Agency) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\WindowsService.cs:line 114
+Source: Newtonsoft.Json

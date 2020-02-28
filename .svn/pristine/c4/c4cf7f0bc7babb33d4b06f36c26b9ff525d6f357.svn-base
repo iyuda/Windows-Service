@@ -1,0 +1,37 @@
+
+1/17/2018 12:09:27 PM
+Error reading JObject from JsonReader. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at CemsMobilePcrSrv.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\JsonMaker.cs:line 66
+Source: Newtonsoft.Json
+
+1/17/2018 3:47:01 PM
+The remote server returned an error: (409) Conflict.:
+Stack trace: at System.Net.HttpWebRequest.GetResponse()
+   at CemsMobilePcrSrv.WindowsService.UrlRequest(String url, String& content, String method, String content_type, String data)
+Source: System
+
+1/17/2018 5:10:29 PM
+The remote server returned an error: (404) Not Found.:
+Stack trace: at System.Net.HttpWebRequest.GetResponse()
+   at CemsMobilePcrSrv.WindowsService.UrlRequest(String url, String& content, String method, String content_type, String data) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\WindowsService.cs:line 60
+Source: System
+
+1/17/2018 5:14:30 PM
+The remote server returned an error: (404) Not Found.:
+Stack trace: at System.Net.HttpWebRequest.GetResponse()
+   at CemsMobilePcrSrv.WindowsService.UrlRequest(String url, String& content, String method, String content_type, String data) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\WindowsService.cs:line 60
+Source: System
+
+1/17/2018 5:38:08 PM
+The remote server returned an error: (404) Not Found.:
+Stack trace: at System.Net.HttpWebRequest.GetResponse()
+   at CemsMobilePcrSrv.WindowsService.UrlRequest(String url, String& content, String method, String content_type, String data) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\WindowsService.cs:line 60
+Source: System
+
+1/17/2018 5:44:18 PM
+The remote server returned an error: (404) Not Found.:
+Stack trace: at System.Net.HttpWebRequest.GetResponse()
+   at CemsMobilePcrSrv.WindowsService.UrlRequest(String url, String& content, String method, String content_type, String data) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\WindowsService.cs:line 60
+Source: System

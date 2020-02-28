@@ -1,0 +1,7 @@
+
+4/11/2018 6:03:51 PM
+http://CemsCouchAdmin:CemsCouchAdmin!Pass5984@172.18.0.44:5984/app-pcr/_all_docs/ GET
+The remote server returned an error: (404) Not Found.:
+Stack trace: at System.Net.HttpWebRequest.GetResponse()
+   at CemsMobilePcrSrv.WindowsService.UrlRequest(String url, String& content, String method, String content_type, String data) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\WindowsService.cs:line 78
+Source: System

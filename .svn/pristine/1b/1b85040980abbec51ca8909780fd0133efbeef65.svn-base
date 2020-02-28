@@ -1,0 +1,432 @@
+﻿Installing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe assembly.
+Committing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe assembly.
+Committing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe assembly.
+Committing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+   servicename = Check Revisions
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe assembly.
+Committing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+   servicename = Check Revisions
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe assembly.
+Remove InstallState file because there are no installers.
+Uninstalling assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe assembly.
+Uninstalling assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe assembly.
+Installing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+   servicename = Check Revisions
+Rolling back assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+   servicename = Check Revisions
+Installing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Rolling back assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Installing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Installing service Service1...
+Creating EventLog source Service1 in log Application...
+Rolling back assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Restoring event log to previous state for source Service1.
+Installing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Installing service My Windows Service...
+Service My Windows Service has been successfully installed.
+Creating EventLog source My Windows Service in log Application...
+Committing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Installing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Installing service Service1...
+Creating EventLog source Service1 in log Application...
+Rolling back assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Restoring event log to previous state for source Service1.
+Uninstalling assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Removing EventLog source My Windows Service.
+Service My Windows Service is being removed from the system...
+Service My Windows Service was successfully removed from the system.
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+   servicename = Check Revisions
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Installing service My Windows Service...
+Service My Windows Service has been successfully installed.
+Creating EventLog source My Windows Service in log Application...
+Committing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+   servicename = Check Revisions
+Uninstalling assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Removing EventLog source My Windows Service.
+Service My Windows Service is being removed from the system...
+Service My Windows Service was successfully removed from the system.
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Installing service My Windows Service...
+Service My Windows Service has been successfully installed.
+Creating EventLog source My Windows Service in log Application...
+Committing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Uninstalling assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Removing EventLog source My Windows Service.
+Service My Windows Service is being removed from the system...
+Service My Windows Service was successfully removed from the system.
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Rolling back assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Installing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Installing service My Windows Service...
+Service My Windows Service has been successfully installed.
+Creating EventLog source My Windows Service in log Application...
+Committing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Uninstalling assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Removing EventLog source My Windows Service.
+Service My Windows Service is being removed from the system...
+Service My Windows Service was successfully removed from the system.
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Uninstalling assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Removing EventLog source My Windows Service.
+Warning: The source My Windows Service is not registered on the local machine.
+Service My Windows Service is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Removing EventLog source Service1.
+Warning: The source Service1 is not registered on the local machine.
+Service Service1 is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Installing service My Windows Service...
+Service My Windows Service has been successfully installed.
+Creating EventLog source My Windows Service in log Application...
+Committing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Uninstalling assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Removing EventLog source My Windows Service.
+Service My Windows Service is being removed from the system...
+Service My Windows Service was successfully removed from the system.
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Installing service Service1...
+Creating EventLog source Service1 in log Application...
+Rolling back assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Restoring event log to previous state for source Service1.
+Installing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Installing service My Windows Service...
+Creating EventLog source My Windows Service in log Application...
+Rolling back assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Restoring event log to previous state for source My Windows Service.
+Restoring event log to previous state for source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Installing service My Windows Service...
+Creating EventLog source My Windows Service in log Application...
+Rolling back assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Restoring event log to previous state for source My Windows Service.
+Restoring event log to previous state for source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Uninstalling assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Removing EventLog source My Windows Service.
+Warning: The source My Windows Service is not registered on the local machine.
+Service My Windows Service is being removed from the system...
+Service My Windows Service was successfully removed from the system.
+Removing EventLog source Service1.
+Warning: The source Service1 is not registered on the local machine.
+Service Service1 is being removed from the system...
+An exception occurred during the uninstallation of the System.ServiceProcess.ServiceInstaller installer.
+System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+An exception occurred while uninstalling. This exception will be ignored and the uninstall will continue. However, the application might not be fully uninstalled after the uninstall is complete.
+Installing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Installing service My Windows Service...
+Creating EventLog source My Windows Service in log Application...
+Rolling back assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Restoring event log to previous state for source My Windows Service.
+Restoring event log to previous state for source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Installing service My Windows Service...
+Service My Windows Service has been successfully installed.
+Creating EventLog source My Windows Service in log Application...
+Committing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Uninstalling assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Removing EventLog source My Windows Service.
+Service My Windows Service is being removed from the system...
+Service My Windows Service was successfully removed from the system.
+Removing EventLog source Service1.
+Service Service1 is being removed from the system...
+Service Service1 was successfully removed from the system.
+Installing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Installing service Service1...
+Creating EventLog source Service1 in log Application...
+Rolling back assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Restoring event log to previous state for source Service1.
+Installing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Installing service Service1...
+Creating EventLog source Service1 in log Application...
+Rolling back assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Restoring event log to previous state for source Service1.
+Installing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe
+Installing service Service1...
+Service Service1 has been successfully installed.
+Creating EventLog source Service1 in log Application...
+Installing service My Windows Service...
+Service My Windows Service has been successfully installed.
+Creating EventLog source My Windows Service in log Application...
+Committing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions.exe

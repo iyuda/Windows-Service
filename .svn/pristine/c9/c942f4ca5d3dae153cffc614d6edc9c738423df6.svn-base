@@ -1,0 +1,233 @@
+
+2/7/2018 12:27:56 PM
+http://192.168.1.152:5984/app-pcr/_changes?since=since=11783970-g1AAAAJ7eJzLYWBg4MhgTmEQTM4vTc5ISXLIyU9OzMnILy7JAUoxJTIkyf___z8rgzmJQTyBPRcoxp6SYmBsYW6ITQ8ek5IUgGSSPdwwl1CwYaYpiUmJFmmkGuYAMiweZphYZzPYMEPjNGOTNCNSDUsAGVYPM0w0qB9smKWZsaGFUTKJhuWxAEmGBiAFNG8-xKvMV8EGmiSaWBoakepViIELIAbuh3i3rAFsoIGBmaW5hSlZBh6AGHgf4uUJM8EGppqYWyQlW5Bl4AOIgdAIcT4GNtDYKM3YHHtSyQIA9DDG6w GET
+The remote server returned an error: (400) Bad Request.:
+Stack trace: at System.Net.HttpWebRequest.GetResponse()
+   at CemsMobilePcrSrv.WindowsService.UrlRequest(String url, String& content, String method, String content_type, String data) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\WindowsService.cs:line 60
+Source: System
+
+2/7/2018 12:27:56 PM
+
+Unexpected character encountered while parsing value: T. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at CemsMobilePcrSrv.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\JsonMaker.cs:line 66
+Source: Newtonsoft.Json
+
+2/7/2018 12:27:56 PM
+
+Unexpected character encountered while parsing value: T. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at CemsMobilePcrSrv.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\JsonMaker.cs:line 66
+Source: Newtonsoft.Json
+
+2/7/2018 12:27:56 PM
+
+Object reference not set to an instance of an object.:
+Stack trace: at CemsMobilePcrSrv.WindowsService.CheckRevisions(String LastSeq) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\WindowsService.cs:line 443
+Source: CemsMobilePcrSrv
+
+2/7/2018 12:28:10 PM
+http://192.168.1.152:5984/app-pcr/_changes?since=since=11783970-g1AAAAJ7eJzLYWBg4MhgTmEQTM4vTc5ISXLIyU9OzMnILy7JAUoxJTIkyf___z8rgzmJQTyBPRcoxp6SYmBsYW6ITQ8ek5IUgGSSPdwwl1CwYaYpiUmJFmmkGuYAMiweZphYZzPYMEPjNGOTNCNSDUsAGVYPM0w0qB9smKWZsaGFUTKJhuWxAEmGBiAFNG8-xKvMV8EGmiSaWBoakepViIELIAbuh3i3rAFsoIGBmaW5hSlZBh6AGHgf4uUJM8EGppqYWyQlW5Bl4AOIgdAIcT4GNtDYKM3YHHtSyQIA9DDG6w GET
+The remote server returned an error: (400) Bad Request.:
+Stack trace: at System.Net.HttpWebRequest.GetResponse()
+   at CemsMobilePcrSrv.WindowsService.UrlRequest(String url, String& content, String method, String content_type, String data) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\WindowsService.cs:line 60
+Source: System
+
+2/7/2018 12:28:10 PM
+
+Unexpected character encountered while parsing value: T. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at CemsMobilePcrSrv.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\JsonMaker.cs:line 66
+Source: Newtonsoft.Json
+
+2/7/2018 12:28:11 PM
+
+Unexpected character encountered while parsing value: T. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at CemsMobilePcrSrv.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\JsonMaker.cs:line 66
+Source: Newtonsoft.Json
+
+2/7/2018 12:28:11 PM
+
+Object reference not set to an instance of an object.:
+Stack trace: at CemsMobilePcrSrv.WindowsService.CheckRevisions(String LastSeq) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\WindowsService.cs:line 443
+Source: CemsMobilePcrSrv
+
+2/7/2018 12:28:49 PM
+http://192.168.1.152:5984/app-pcr/_changes?since=since=11783800-g1AAAAJ7eJzLYWBg4MhgTmEQTM4vTc5ISXLIyU9OzMnILy7JAUoxJTIkyf___z8rgzmJQTx-fy5QjD0lxcDYwtwQmx48JiUpAMkke7hhLiFgw0xTEpMSLdJINcwBZFg8zDCxzkawYYbGacYmaUakGpYAMqweZphoUC_YMEszY0MLo2QSDctjAZIMDUAKaN58iFeZL4ENNEk0sTQ0ItWrEAMXQAzcD_FumR7YQAMDM0tzC1OyDDwAMfA-xMsTpoANTDUxt0hKtiDLwAcQA6ER4nwYbKCxUZqxOfakkgUATHrHQA GET
+The remote server returned an error: (400) Bad Request.:
+Stack trace: at System.Net.HttpWebRequest.GetResponse()
+   at CemsMobilePcrSrv.WindowsService.UrlRequest(String url, String& content, String method, String content_type, String data) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\WindowsService.cs:line 60
+Source: System
+
+2/7/2018 12:28:49 PM
+
+Unexpected character encountered while parsing value: T. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at CemsMobilePcrSrv.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\JsonMaker.cs:line 66
+Source: Newtonsoft.Json
+
+2/7/2018 12:28:50 PM
+
+Unexpected character encountered while parsing value: T. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at CemsMobilePcrSrv.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\JsonMaker.cs:line 66
+Source: Newtonsoft.Json
+
+2/7/2018 12:28:50 PM
+
+Object reference not set to an instance of an object.:
+Stack trace: at CemsMobilePcrSrv.WindowsService.CheckRevisions(String LastSeq) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\WindowsService.cs:line 443
+Source: CemsMobilePcrSrv
+
+2/7/2018 12:29:45 PM
+http://192.168.1.152:5984/app-pcr/_changes?since=since=11783940-g1AAAAJ7eJzLYWBg4MhgTmEQTM4vTc5ISXLIyU9OzMnILy7JAUoxJTIkyf___z8rgzmJQTz-dy5QjD0lxcDYwtwQmx48JiUpAMkke7hhLiFgw0xTEpMSLdJINcwBZFg8zDCxziawYYbGacYmaUakGpYAMqweZphoUB_YMEszY0MLo2QSDctjAZIMDUAKaN58iFeZr4ANNEk0sTQ0ItWrEAMXQAzcD_FuWQXYQAMDM0tzC1OyDDwAMfA-xMsTpoANTDUxt0hKtiDLwAcQA6ER4nwUbKCxUZqxOfakkgUAFMTHzA GET
+The remote server returned an error: (400) Bad Request.:
+Stack trace: at System.Net.HttpWebRequest.GetResponse()
+   at CemsMobilePcrSrv.WindowsService.UrlRequest(String url, String& content, String method, String content_type, String data) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\WindowsService.cs:line 60
+Source: System
+
+2/7/2018 12:29:45 PM
+
+Unexpected character encountered while parsing value: T. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at CemsMobilePcrSrv.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\JsonMaker.cs:line 66
+Source: Newtonsoft.Json
+
+2/7/2018 12:29:46 PM
+
+Unexpected character encountered while parsing value: T. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at CemsMobilePcrSrv.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\JsonMaker.cs:line 66
+Source: Newtonsoft.Json
+
+2/7/2018 12:29:46 PM
+
+Object reference not set to an instance of an object.:
+Stack trace: at CemsMobilePcrSrv.WindowsService.CheckRevisions(String LastSeq) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\WindowsService.cs:line 443
+Source: CemsMobilePcrSrv
+
+2/7/2018 12:31:35 PM
+http://192.168.1.152:5984/app-pcr/_changes?since=since=11783940-g1AAAAJ7eJzLYWBg4MhgTmEQTM4vTc5ISXLIyU9OzMnILy7JAUoxJTIkyf___z8rgzmJQTz-dy5QjD0lxcDYwtwQmx48JiUpAMkke7hhLiFgw0xTEpMSLdJINcwBZFg8zDCxziawYYbGacYmaUakGpYAMqweZphoUB_YMEszY0MLo2QSDctjAZIMDUAKaN58iFeZr4ANNEk0sTQ0ItWrEAMXQAzcD_FuWQXYQAMDM0tzC1OyDDwAMfA-xMsTpoANTDUxt0hKtiDLwAcQA6ER4nwUbKCxUZqxOfakkgUAFMTHzA GET
+The remote server returned an error: (400) Bad Request.:
+Stack trace: at System.Net.HttpWebRequest.GetResponse()
+   at CemsMobilePcrSrv.WindowsService.UrlRequest(String url, String& content, String method, String content_type, String data) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\WindowsService.cs:line 60
+Source: System
+
+2/7/2018 12:31:35 PM
+
+Unexpected character encountered while parsing value: T. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at CemsMobilePcrSrv.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\JsonMaker.cs:line 66
+Source: Newtonsoft.Json
+
+2/7/2018 12:31:36 PM
+
+Unexpected character encountered while parsing value: T. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at CemsMobilePcrSrv.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\JsonMaker.cs:line 66
+Source: Newtonsoft.Json
+
+2/7/2018 12:31:36 PM
+
+Object reference not set to an instance of an object.:
+Stack trace: at CemsMobilePcrSrv.WindowsService.CheckRevisions(String LastSeq) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\WindowsService.cs:line 443
+Source: CemsMobilePcrSrv
+
+2/7/2018 12:32:24 PM
+http://192.168.1.152:5984/app-pcr/_changes?since=since=11783940-g1AAAAJ7eJzLYWBg4MhgTmEQTM4vTc5ISXLIyU9OzMnILy7JAUoxJTIkyf___z8rgzmJQTz-dy5QjD0lxcDYwtwQmx48JiUpAMkke7hhLiFgw0xTEpMSLdJINcwBZFg8zDCxziawYYbGacYmaUakGpYAMqweZphoUB_YMEszY0MLo2QSDctjAZIMDUAKaN58iFeZr4ANNEk0sTQ0ItWrEAMXQAzcD_FuWQXYQAMDM0tzC1OyDDwAMfA-xMsTpoANTDUxt0hKtiDLwAcQA6ER4nwUbKCxUZqxOfakkgUAFMTHzA GET
+The remote server returned an error: (400) Bad Request.:
+Stack trace: at System.Net.HttpWebRequest.GetResponse()
+   at CemsMobilePcrSrv.WindowsService.UrlRequest(String url, String& content, String method, String content_type, String data) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\WindowsService.cs:line 60
+Source: System
+
+2/7/2018 12:32:54 PM
+
+Unexpected character encountered while parsing value: T. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at CemsMobilePcrSrv.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\JsonMaker.cs:line 66
+Source: Newtonsoft.Json
+
+2/7/2018 12:32:55 PM
+
+Unexpected character encountered while parsing value: T. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at CemsMobilePcrSrv.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\JsonMaker.cs:line 66
+Source: Newtonsoft.Json
+
+2/7/2018 12:32:55 PM
+
+Object reference not set to an instance of an object.:
+Stack trace: at CemsMobilePcrSrv.WindowsService.CheckRevisions(String LastSeq) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\WindowsService.cs:line 443
+Source: CemsMobilePcrSrv
+
+2/7/2018 12:34:14 PM
+http://192.168.1.152:5984/app-pcr/7c6c4ab6-244d-49f4-a6ee-546e41d0b4c1_pcr_id GET
+The remote server returned an error: (404) Not Found.:
+Stack trace: at System.Net.HttpWebRequest.GetResponse()
+   at CemsMobilePcrSrv.WindowsService.UrlRequest(String url, String& content, String method, String content_type, String data) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\WindowsService.cs:line 60
+Source: System
+
+2/7/2018 12:35:16 PM
+http://192.168.1.152:5984/app-pcr/7c6c4ab6-244d-49f4-a6ee-546e41d0b4c1_pcr_id GET
+The remote server returned an error: (404) Not Found.:
+Stack trace: at System.Net.HttpWebRequest.GetResponse()
+   at CemsMobilePcrSrv.WindowsService.UrlRequest(String url, String& content, String method, String content_type, String data) in C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\WindowsService.cs:line 60
+Source: System
+
+2/7/2018 2:35:54 PM
+http://192.168.1.152:5984/app-pcr/18727066-5d53-42c7-a43a-36a2b8c18046_pcr_id GET
+The remote server returned an error: (404) Not Found.:
+Stack trace: at System.Net.HttpWebRequest.GetResponse()
+   at CemsMobilePcrSrv.WindowsService.UrlRequest(String url, String& content, String method, String content_type, String data)
+Source: System
+
+2/7/2018 3:08:10 PM
+http://localhost:53187/api/Couch/GetPcrReport?pcr_id=c1bb0ea0-5f61-446e-85f5-aa681fdd4094&FaxNumber=7183019711&Agency=Creative EMS Inc. GET
+The request was aborted: The operation has timed out.:
+Stack trace: at System.Net.HttpWebRequest.GetResponse()
+   at CemsMobilePcrSrv.WindowsService.UrlRequest(String url, String& content, String method, String content_type, String data)
+Source: System
+
+2/7/2018 3:30:43 PM
+http://192.168.1.152:5984/app-pcr/b7cf4694-bfb3-4959-bb7a-727828e3ca20_pcr_id GET
+The remote server returned an error: (404) Not Found.:
+Stack trace: at System.Net.HttpWebRequest.GetResponse()
+   at CemsMobilePcrSrv.WindowsService.UrlRequest(String url, String& content, String method, String content_type, String data)
+Source: System

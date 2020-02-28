@@ -1,0 +1,972 @@
+5/8/2018 6:29:52 PM
+Main
+5/8/2018 6:35:16 PM
+Main
+5/8/2018 6:36:05 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs//_changes method: GET
+5/8/2018 6:36:06 PM
+seq: 4;  id: 07a7b57f-0960-43d0-af3f-b7df91d2d273;  rev: 115-0b1e77f61075ea61d4572614777b5bbf;  
+5/8/2018 6:36:11 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/07a7b57f-0960-43d0-af3f-b7df91d2d273 method: GET
+5/8/2018 6:36:22 PM
+ImportPcr Response: 
+5/8/2018 6:36:22 PM
+seq: 12;  id: 62165353-05c8-4ca4-9d0b-d7b20feb32a7;  rev: 4-9d8ff893b31ec83cd510d8d0f962d776;  
+5/8/2018 6:36:24 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/62165353-05c8-4ca4-9d0b-d7b20feb32a7 method: GET
+5/8/2018 6:36:25 PM
+ImportPcr Response: 
+5/8/2018 6:36:26 PM
+seq: 14;  id: 9af33b96-f7d0-4128-9134-de330ce0d270;  rev: 5-1473d836a22f4b34a4fb584a994b7df2;  
+5/8/2018 6:36:26 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/9af33b96-f7d0-4128-9134-de330ce0d270 method: GET
+5/8/2018 6:36:26 PM
+ImportPcr Response: 
+5/8/2018 6:36:26 PM
+seq: 16;  id: e4b77ef4-c967-4b9d-b91d-9bfb315e7708;  rev: 22-1226cf213a3a4bc98a49517365c60f34;  
+5/8/2018 6:36:26 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/e4b77ef4-c967-4b9d-b91d-9bfb315e7708 method: GET
+5/8/2018 6:36:26 PM
+ImportPcr Response: 
+5/8/2018 6:36:26 PM
+seq: 22;  id: 57b87f6f-ef59-4352-aa06-a57f32667d8a;  rev: 43-f7ccb151fe8e476aac524f0c6c8b75a8;  
+5/8/2018 6:36:26 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/57b87f6f-ef59-4352-aa06-a57f32667d8a method: GET
+5/8/2018 6:36:26 PM
+ImportPcr Response: 
+5/8/2018 6:36:26 PM
+seq: 27;  id: 5df112c5-5252-11e8-bd67-56ce7f333890;  rev: 10-96c03a01285e4d17884f0ea73b1b7935;  
+5/8/2018 6:36:26 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/5df112c5-5252-11e8-bd67-56ce7f333890 method: GET
+5/8/2018 6:36:26 PM
+ImportPcr Response: 
+5/8/2018 6:36:27 PM
+seq: 32;  id: e41bfcfb-e8a8-a8e1-6b64-90bd8fa97d7b;  rev: 7-de9cc4b39b94426cbcb45eb7bf679b91;  
+5/8/2018 6:36:27 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/e41bfcfb-e8a8-a8e1-6b64-90bd8fa97d7b method: GET
+5/8/2018 6:36:27 PM
+ImportPcr Response: 
+5/8/2018 6:36:27 PM
+seq: 34;  id: f58d055c-275d-470f-9855-bebf9612a715;  rev: 4-cfae8484ca589bd60dfacb6b0628f598;  
+5/8/2018 6:36:27 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/f58d055c-275d-470f-9855-bebf9612a715 method: GET
+5/8/2018 6:36:27 PM
+ImportPcr Response: 
+5/8/2018 6:36:27 PM
+Skipped due to deletion: seq: 37;  id: b4c2151e-0f97-9a33-5d30-ed231342b177;  rev: 2-95193c8686d0ecc2ef8473705451f59d;  
+5/8/2018 6:36:27 PM
+Skipped due to deletion: seq: 41;  id: e718de2b-529b-11e8-a22d-56ce7f333890;  rev: 4-641c3d164eea6dc5f1f2733c74f67438;  
+5/8/2018 6:36:27 PM
+seq: 47;  id: bd4bc51a-5261-11e8-bd67-56ce7f333890;  rev: 161-1fa5244822a54364997daa9878db99f0;  
+5/8/2018 6:36:27 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/bd4bc51a-5261-11e8-bd67-56ce7f333890 method: GET
+5/8/2018 6:36:27 PM
+ImportPcr Response: 
+5/8/2018 6:36:28 PM
+Skipped due to deletion: seq: 52;  id: 210007b1-ff9c-5d28-bf01-076f7fccb7d8;  rev: 143-f385571bf91fadfaaab9b8e90fed60da;  
+5/8/2018 6:36:28 PM
+seq: 55;  id: dc2b2e55-9567-4782-b2ac-7ab5c4f8ee4b;  rev: 12-7e95111c662d4ec9ad32d1ee297e9902;  
+5/8/2018 6:36:28 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/dc2b2e55-9567-4782-b2ac-7ab5c4f8ee4b method: GET
+5/8/2018 6:36:28 PM
+ImportPcr Response: 
+5/8/2018 6:36:28 PM
+seq: 56;  id: 99e69d72-5262-11e8-bd67-56ce7f333890;  rev: 110-2c4b337d18fb44249788f2bc842f6e31;  
+5/8/2018 6:36:28 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/99e69d72-5262-11e8-bd67-56ce7f333890 method: GET
+5/8/2018 6:36:29 PM
+ImportPcr Response: 
+5/8/2018 6:36:29 PM
+Skipped due to deletion: seq: 59;  id: 14f7a342-220c-a936-4c8d-ddb9cb427b8c;  rev: 2-cdb1be8d3d9bb7f632c1a0a64d873828;  
+5/8/2018 6:36:29 PM
+Skipped due to deletion: seq: 61;  id: f6459960-1eaf-38bf-b992-da064809cb13;  rev: 3-32e7dc337d02b3830ef175b7e2744007;  
+5/8/2018 6:36:29 PM
+Skipped due to deletion: seq: 79;  id: 78542e47-5612-c865-7520-26407be2cc5d;  rev: 2-35f5bde97348950dc4d4dbef592416a1;  
+5/8/2018 6:36:29 PM
+Skipped due to deletion: seq: 82;  id: 46f31574-52ac-11e8-a22d-56ce7f333890;  rev: 5-a4fbab62666436119ca9bef6d4997d90;  
+5/8/2018 6:36:29 PM
+Skipped due to deletion: seq: 202;  id: d868e26d-c118-e99d-91b1-50c2cccb71a5;  rev: 2-12f6dbf871d58f9b94f56aae9c11d7a3;  
+5/8/2018 6:36:29 PM
+Skipped due to deletion: seq: 210;  id: c5c2747d-52b0-11e8-a22d-56ce7f333890;  rev: 3-36852b98cb43f2efca7faa1a151f846d;  
+5/8/2018 6:36:29 PM
+Skipped due to deletion: seq: 211;  id: ac2d6a4f-c290-cf73-6fe7-5cbdcafede68;  rev: 3-f183bf6b86bc7b092c7a9f3cacad92c9;  
+5/8/2018 6:36:29 PM
+Skipped due to deletion: seq: 313;  id: b5b010ed-7eda-4872-a664-74451a872b98;  rev: 9-606c1e9e1d010c9e2dff32da8cba05f3;  
+5/8/2018 6:36:29 PM
+Skipped due to deletion: seq: 322;  id: dd95373e-5292-11e8-a22d-56ce7f333890;  rev: 6-fe40adc49a42222102cae4b7dae6c0f2;  
+5/8/2018 6:36:29 PM
+Skipped due to deletion: seq: 323;  id: d3a1ccc9-5297-11e8-a22d-56ce7f333890;  rev: 2-66447966c75d8d1d76c686b74a22c6ca;  
+5/8/2018 6:36:29 PM
+Skipped due to deletion: seq: 329;  id: 90a9d7cb-2dad-e0fd-b8df-5384ba225a48;  rev: 3-c9f020357fb8a681de297edfe52cfe0c;  
+5/8/2018 6:36:29 PM
+Skipped due to deletion: seq: 330;  id: dc696e63-529e-11e8-a22d-56ce7f333890;  rev: 2-a6971585226160e17f21c0cf8f344cbe;  
+5/8/2018 6:36:29 PM
+Skipped due to deletion: seq: 341;  id: 8aea8c34-52a3-11e8-a22d-56ce7f333890;  rev: 5-7a54661c8760ab483adc4e392ae63360;  
+5/8/2018 6:36:30 PM
+Skipped due to deletion: seq: 343;  id: 389c1887-9cf3-7577-aa01-180d4824f6d8;  rev: 2-55590690a09ab10c3d6b0469334a86c3;  
+5/8/2018 6:36:30 PM
+seq: 344;  id: 1cc03d3a-5262-11e8-bd67-56ce7f333890;  rev: 122-b4c226aef91f49b698c444dcceb605d8;  
+5/8/2018 6:36:30 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/1cc03d3a-5262-11e8-bd67-56ce7f333890 method: GET
+5/8/2018 6:36:30 PM
+ImportPcr Response: 
+5/8/2018 6:36:30 PM
+Skipped due to deletion: seq: 349;  id: 38d45aa7-d69e-1131-1f82-5f8e30244eb9;  rev: 2-29d0487ca00c5bba8bd6d9232951a602;  
+5/8/2018 6:36:30 PM
+Skipped due to deletion: seq: 354;  id: b48638bf-d9e7-ffa8-a282-536f4ec05f39;  rev: 2-1dd0508ad6390d1b50b9e55c32097abc;  
+5/8/2018 6:36:30 PM
+Skipped due to deletion: seq: 355;  id: 0087e9d1-94aa-37a0-408a-6a6c6780b82f;  rev: 10-1cc40473cb26e28d0de9c95ff090f5a2;  
+5/8/2018 6:36:30 PM
+Skipped due to deletion: seq: 356;  id: dec39c0e-52a4-11e8-a22d-56ce7f333890;  rev: 3-c253c826abca0801a6d39838f64d377b;  
+5/8/2018 6:36:30 PM
+Skipped due to deletion: seq: 463;  id: 88f6a525-0e18-9027-e7b8-13538dde2cdf;  rev: 2-35e434bfa09b92837bf76e66b42b1465;  
+5/8/2018 6:36:30 PM
+Skipped due to deletion: seq: 484;  id: 7de724f9-a46e-53e4-8bad-cc36e9b76da0;  rev: 2-c20ebad817d727a6cba862bab266fcfe;  
+5/8/2018 6:36:30 PM
+Skipped due to deletion: seq: 487;  id: 48b15e66-6cd8-eb07-bf0f-ed5178bd20e0;  rev: 2-dc180a2c134d407a50e78e32b0b22ce7;  
+5/8/2018 6:36:30 PM
+Skipped due to deletion: seq: 495;  id: 54485aa4-b138-e9e4-a876-bd6e2006642f;  rev: 2-0b58c28b791dadaaeee60295bdf32011;  
+5/8/2018 6:36:30 PM
+Skipped due to deletion: seq: 496;  id: ad62dc55-0896-faef-0535-656b1f523eab;  rev: 4-c8bc8fefc6399c9ff0f12da90d736188;  
+5/8/2018 6:36:30 PM
+Skipped due to deletion: seq: 506;  id: 8e0daf3e-52ab-11e8-a22d-56ce7f333890;  rev: 6-180db1817e918138bb555d8c95466b01;  
+5/8/2018 6:36:31 PM
+Skipped due to deletion: seq: 509;  id: c3555827-52aa-11e8-a22d-56ce7f333890;  rev: 5-e33965cc44dae0ba1f99cec6e4076c47;  
+5/8/2018 6:36:31 PM
+Skipped due to deletion: seq: 510;  id: f15c09f4-8b83-1074-1194-ed5dc781bb6c;  rev: 2-148afaea1d4b7201e5acb9006009a40f;  
+5/8/2018 6:36:31 PM
+Skipped due to deletion: seq: 513;  id: 9f01cd68-9658-a064-8667-1df70ea4a1cb;  rev: 3-ab998ee91a44338cec3f04058dfc790f;  
+5/8/2018 6:36:31 PM
+Skipped due to deletion: seq: 514;  id: ef772379-52b0-11e8-a22d-56ce7f333890;  rev: 4-dffa8e162ca8085ea41c8cefc72678fa;  
+5/8/2018 6:36:31 PM
+Skipped due to deletion: seq: 517;  id: 342841ac-f397-a4cc-64df-f001eadfd865;  rev: 2-09db478be0292b464606971219454cc0;  
+5/8/2018 6:36:31 PM
+Skipped due to deletion: seq: 522;  id: 28419d39-42ed-925f-86c7-0356f8d9809c;  rev: 3-d8af5abbac29a50d01bbe713024a88df;  
+5/8/2018 6:36:31 PM
+Skipped due to deletion: seq: 538;  id: e06ef9fd-3afc-342a-0a38-53caa11fd12f;  rev: 161-abfecbedf84fa2cdedca6b7b4970c2fc;  
+5/8/2018 6:36:31 PM
+Skipped due to deletion: seq: 564;  id: dfaaf243-afe9-6cb5-3ead-9ca86d0838f9;  rev: 3-de88ec65a3e83fd3482e349f1105f615;  
+5/8/2018 6:36:31 PM
+Skipped due to deletion: seq: 635;  id: 03b84bbc-3308-f387-9b43-62ac6ec03f3d;  rev: 2-1ff62df3264e28ea60413636cefef538;  
+5/8/2018 6:36:31 PM
+Skipped due to deletion: seq: 636;  id: f1fae9db-d295-1f9b-48f2-9e8047b2b194;  rev: 3-a4cae0bb46d193e2f90a7a5b42099f90;  
+5/8/2018 6:36:31 PM
+Skipped due to deletion: seq: 652;  id: a44a48b3-318d-8ed4-69f9-53b77fe2abed;  rev: 5-31753da51814d6d1c28e665d8f1bf15e;  
+5/8/2018 6:36:31 PM
+Skipped due to deletion: seq: 654;  id: 2eb5ac7c-52ba-11e8-a22d-56ce7f333890;  rev: 5-f00467287621915348342cc127fe32bd;  
+5/8/2018 6:36:31 PM
+Skipped due to deletion: seq: 655;  id: 02324a31-52c2-11e8-a22d-56ce7f333890;  rev: 7-d3ef7c442f120c12c2978df00ca2b0e5;  
+5/8/2018 6:36:32 PM
+Skipped due to deletion: seq: 663;  id: d73e0224-d03a-80e9-4390-9a80c3102793;  rev: 2-32e08d17456936b4a10bf2c0465a7bad;  
+5/8/2018 6:36:32 PM
+Skipped due to deletion: seq: 678;  id: 26578f9f-52b4-11e8-a22d-56ce7f333890;  rev: 3-15690946d6dc1a6d98ec110459f9b4a7;  
+5/8/2018 6:36:32 PM
+seq: 694;  id: 7e138f17-af0f-4580-85c8-c32defab9217;  rev: 25-9f378b0fbdb8417f9352b98b3de5a07e;  
+5/8/2018 6:36:32 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/7e138f17-af0f-4580-85c8-c32defab9217 method: GET
+5/8/2018 6:36:32 PM
+ImportPcr Response: 
+5/8/2018 6:36:32 PM
+Skipped due to deletion: seq: 705;  id: d4ec7f9f-2a62-5d1a-b934-1489d337c34b;  rev: 3-5927759df2eff7b3c2fe7d251bf518a3;  
+5/8/2018 6:36:32 PM
+Skipped due to deletion: seq: 706;  id: 7a52feff-7826-f103-3e88-6c7bb2b4449b;  rev: 3-a9b8f729ada8437e0fdb8f4d96385a8a;  
+5/8/2018 6:36:32 PM
+Skipped due to deletion: seq: 761;  id: 5559904a-f3a3-f52f-3c2b-1d6bf6298609;  rev: 3-8f3d577972fab60ef7934a143318352d;  
+5/8/2018 6:36:32 PM
+Skipped due to deletion: seq: 762;  id: 41edb7fd-7575-f5d5-682e-b46fa776bae4;  rev: 3-06fa53df3c4fed6bc85dab5902e66a81;  
+5/8/2018 6:36:32 PM
+seq: 777;  id: cf008934-9a95-4c54-b16f-5a5dda12d84f;  rev: 148-dcdafa8ace3f43afae9a447885e0d28e;  
+5/8/2018 6:36:32 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/cf008934-9a95-4c54-b16f-5a5dda12d84f method: GET
+5/8/2018 6:36:32 PM
+ImportPcr Response: 
+5/8/2018 6:36:32 PM
+Skipped due to deletion: seq: 824;  id: 9156ae4e-7fc6-75cb-1b75-a3edd0ed85c5;  rev: 3-9ae85af087ba291dd7f1f0d81fbadf47;  
+5/8/2018 6:36:32 PM
+seq: 829;  id: e7a6b2af-a47e-4629-b1e5-7c6141433d29;  rev: 5-b15316b35fe6c8e2c4eaa477fcd644ef;  
+5/8/2018 6:36:32 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/e7a6b2af-a47e-4629-b1e5-7c6141433d29 method: GET
+5/8/2018 6:36:33 PM
+ImportPcr Response: 
+5/8/2018 6:36:33 PM
+Skipped due to deletion: seq: 842;  id: 0ca95619-2378-c06d-28f3-8308efa40ae4;  rev: 3-e8d70cf53b16da65317f9932f07b8498;  
+5/8/2018 6:36:33 PM
+Skipped due to deletion: seq: 843;  id: da72832f-52b7-11e8-a22d-56ce7f333890;  rev: 8-7c1bc876562fda174fde3edd6c618f97;  
+5/8/2018 6:36:33 PM
+Skipped due to deletion: seq: 844;  id: 418118fa-e445-83f2-391b-58253a66e017;  rev: 3-8222de8a032dd87d3dc383e4d374e0e2;  
+5/8/2018 6:36:33 PM
+Skipped due to deletion: seq: 875;  id: 92f74be6-3708-8271-c7a4-43cd4ae2a101;  rev: 3-a62a2e2ab1a089d97f0a2fd21ac10a56;  
+5/8/2018 6:36:33 PM
+seq: 877;  id: c338c14e-93af-47c1-bb79-96c2d5a2bfb1;  rev: 32-60292503c87d46f8b0b113ce37340c3c;  
+5/8/2018 6:36:33 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/c338c14e-93af-47c1-bb79-96c2d5a2bfb1 method: GET
+5/8/2018 6:36:33 PM
+ImportPcr Response: 
+5/8/2018 6:36:33 PM
+Skipped due to deletion: seq: 878;  id: 321b35d5-f9b0-88ab-6361-b4e6b1d1a1b1;  rev: 3-ecbbac4ce7fba8731f9976852e5053bb;  
+5/8/2018 6:36:33 PM
+Skipped due to deletion: seq: 961;  id: 83b130af-d669-66be-52bd-48d121a05797;  rev: 3-8cd0f1f63a9fe415bff27373d6a5ee7c;  
+5/8/2018 6:36:33 PM
+Skipped due to deletion: seq: 981;  id: 3798821d-b3e4-2220-d640-91ea807e44eb;  rev: 171-cb252cdd70fc7bf48fed6a3e8d3e94bb;  
+5/8/2018 6:36:33 PM
+Skipped due to deletion: seq: 990;  id: d402d317-52c5-11e8-a22d-56ce7f333890;  rev: 5-d1410348aa57df2fcffd08d1910cb3fd;  
+5/8/2018 6:36:33 PM
+Skipped due to deletion: seq: 996;  id: 7f07108b-4ab2-b273-e17a-2f0255c994f2;  rev: 7-4d636e502b1aaf3d798b2531b5720c78;  
+5/8/2018 6:36:33 PM
+Skipped due to deletion: seq: 997;  id: 63ee906c-7012-0c14-98b1-b2465f782c9b;  rev: 3-338c2a6c60f789d03bda49e6967e43a9;  
+5/8/2018 6:36:34 PM
+Skipped due to deletion: seq: 1113;  id: 36a156d3-52bf-11e8-a22d-56ce7f333890;  rev: 6-9691eea71eb1dac5cf476cca9db209af;  
+5/8/2018 6:36:34 PM
+Skipped due to deletion: seq: 1128;  id: f0b55d27-52c2-11e8-a22d-56ce7f333890;  rev: 6-b1df78b361b6989586572e1f51789388;  
+5/8/2018 6:36:34 PM
+Skipped due to deletion: seq: 1175;  id: 42bd0b63-77da-b21e-84cc-a68ef356d0ad;  rev: 2-743e885d30290e8d639db28824aeddc1;  
+5/8/2018 6:36:34 PM
+Skipped due to deletion: seq: 1191;  id: 9a582d60-275d-6382-203b-97229bd90c62;  rev: 3-8ea61d9d8cf2b3df05427acdc424586b;  
+5/8/2018 6:36:34 PM
+Skipped due to deletion: seq: 1192;  id: 361cbff9-e4bc-741f-9aa3-911cf446b24a;  rev: 3-c1b8b71c073c9ccbc027dfb0e4b53a07;  
+5/8/2018 6:36:34 PM
+Skipped due to deletion: seq: 1194;  id: 18b08a72-6927-4b3e-96c2-a902d0730e57;  rev: 3-e906632b885bd596b3b86ef3e40a94de;  
+5/8/2018 6:36:34 PM
+Skipped due to deletion: seq: 1195;  id: 2c69da1b-71fc-9120-13d3-9c806d41e6b7;  rev: 3-9f6f61d330ccccf9960a55c63067a44a;  
+5/8/2018 6:36:34 PM
+Skipped due to deletion: seq: 1196;  id: 13a0ad2f-52c1-11e8-a22d-56ce7f333890;  rev: 3-56c9a9ca78033f70cb9d37c2590e4ac8;  
+5/8/2018 6:36:34 PM
+Skipped due to deletion: seq: 1198;  id: 6319eaa8-5222-11e8-bd67-56ce7f333890;  rev: 10-676787e9ca8c1fefb008c1eaad434eaa;  
+5/8/2018 6:36:34 PM
+seq: 1217;  id: 4f4632a0-fbb6-49eb-a467-71a57e3bb692;  rev: 19-de6a0dc43ec84b47acf6d3083a94ff67;  
+5/8/2018 6:36:34 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/4f4632a0-fbb6-49eb-a467-71a57e3bb692 method: GET
+5/8/2018 6:36:34 PM
+ImportPcr Response: 
+5/8/2018 6:36:34 PM
+Skipped due to deletion: seq: 1258;  id: 2d93850c-2d24-b4dd-9931-2f4e35c34c73;  rev: 3-53379580d0a30f7cc830659e598d5b64;  
+5/8/2018 6:36:35 PM
+Skipped due to deletion: seq: 1260;  id: 7319db82-fe20-77f0-d82d-1f0a1ff2eb8c;  rev: 3-b689ba881bd2d058e09e9127dbcbf27b;  
+5/8/2018 6:36:35 PM
+seq: 1279;  id: 859a986d-c450-d651-9750-0ae8cb692719;  rev: 1-2181e39c3d78abc7ebc2d87557c5b73d;  
+5/8/2018 6:36:35 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/859a986d-c450-d651-9750-0ae8cb692719 method: GET
+5/8/2018 6:36:35 PM
+ImportPcr Response: 
+5/8/2018 6:36:35 PM
+Skipped due to deletion: seq: 1281;  id: b8934b60-bbb9-f0a3-55c3-2e37a3da5002;  rev: 3-289327f8db964673d74b25caba5c605e;  
+5/8/2018 6:36:35 PM
+Skipped due to deletion: seq: 1296;  id: 827ae3c0-52ac-11e8-a22d-56ce7f333890;  rev: 3-eb660a007694b89ad3aa854711c0c8e4;  
+5/8/2018 6:36:35 PM
+Skipped due to deletion: seq: 1316;  id: 32763465-a7a4-58ad-4b58-29e8895bb412;  rev: 3-d8f1595b6952f0baa291dd3740179e28;  
+5/8/2018 6:36:35 PM
+Skipped due to deletion: seq: 1318;  id: 7991fa6a-c378-99f3-1452-10055a1fc8db;  rev: 3-e2cd8ffa7179db809ebf4da776f4600d;  
+5/8/2018 6:36:35 PM
+seq: 1322;  id: 64b98d49-5254-11e8-bd67-56ce7f333890;  rev: 136-d989c79776729c83f0c8a54ef5b68936;  
+5/8/2018 6:36:35 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/64b98d49-5254-11e8-bd67-56ce7f333890 method: GET
+5/8/2018 6:36:36 PM
+ImportPcr Response: 
+5/8/2018 6:36:36 PM
+Skipped due to deletion: seq: 1489;  id: a6ca1c12-f007-6ca5-0522-c2f349e35ae1;  rev: 3-03483600ceba995c174e682fafea7b6e;  
+5/8/2018 6:36:36 PM
+seq: 1506;  id: 60725a5e-e191-f8ab-d4fe-b2a1531a817d;  rev: 151-bb5e3428263824fc706b62696362843f;  
+5/8/2018 6:36:36 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/60725a5e-e191-f8ab-d4fe-b2a1531a817d method: GET
+5/8/2018 6:36:36 PM
+ImportPcr Response: 
+5/8/2018 6:36:36 PM
+Skipped due to deletion: seq: 1510;  id: 43483e70-52c1-11e8-a22d-56ce7f333890;  rev: 2-917271c642d7615f08040349ee211982;  
+5/8/2018 6:36:36 PM
+Skipped due to deletion: seq: 1512;  id: 500c0102-52c3-11e8-a22d-56ce7f333890;  rev: 6-4946a459e3f30cf7cd5ca833aa6bb95a;  
+5/8/2018 6:36:36 PM
+Skipped due to deletion: seq: 1513;  id: e83f7f96-e8e7-bb84-b381-66ae78e0cb09;  rev: 3-c461a8c955a0c937c7b2318df885ee7a;  
+5/8/2018 6:36:36 PM
+Skipped due to deletion: seq: 1544;  id: 703c28c2-52ba-11e8-a22d-56ce7f333890;  rev: 5-eba35e8f1aa8d82edf7851999ea3e30f;  
+5/8/2018 6:36:36 PM
+Skipped due to deletion: seq: 1548;  id: 93f558e3-8b7c-4ca8-8934-a25baf3033ba;  rev: 8-25e5294380d2f4a564fa9f3ca50f4ed9;  
+5/8/2018 6:36:36 PM
+Skipped due to deletion: seq: 1595;  id: 9b365694-52bd-11e8-a22d-56ce7f333890;  rev: 5-2d25ac6fd0bfe63814f3e0cd91c5b293;  
+5/8/2018 6:36:36 PM
+Skipped due to deletion: seq: 1597;  id: a324ef7a-af9e-4354-88a3-edbb4130ab53;  rev: 9-4819f21f4cdf66ee6541d06ad4736840;  
+5/8/2018 6:36:37 PM
+Skipped due to deletion: seq: 1598;  id: a43333e5-bb9e-3778-a0d5-30e9c8a8523c;  rev: 6-19a234f7432660f9823d7bf1d31061f8;  
+5/8/2018 6:36:37 PM
+seq: 1600;  id: ae036244-b540-88dd-65c6-7db5a9d88471;  rev: 1-f25da61563e9e92459d9c40a91c18380;  
+5/8/2018 6:36:37 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/ae036244-b540-88dd-65c6-7db5a9d88471 method: GET
+5/8/2018 6:36:37 PM
+ImportPcr Response: 
+5/8/2018 6:36:37 PM
+Skipped due to deletion: seq: 1603;  id: 8d51de68-52c7-11e8-a22d-56ce7f333890;  rev: 6-7c47af693df3f7722b6a4d5232399d35;  
+5/8/2018 6:36:37 PM
+Skipped due to deletion: seq: 1679;  id: ad1d4687-52cc-11e8-a22d-56ce7f333890;  rev: 2-531b9616a363eb58ad6bffbb89e4fa42;  
+5/8/2018 6:36:37 PM
+Skipped due to deletion: seq: 1683;  id: 8f10d947-afaf-4740-87c9-1ea360e491a6;  rev: 6-e4deff02c373431e8a44b87d437c113b;  
+5/8/2018 6:36:37 PM
+Skipped due to deletion: seq: 1684;  id: b73ad0cc-e969-0f86-c1c7-e86f1a38d016;  rev: 3-a241d7befa612f2cb1c83683e06969c1;  
+5/8/2018 6:36:37 PM
+Skipped due to deletion: seq: 1687;  id: e3a27d68-52ce-11e8-a22d-56ce7f333890;  rev: 7-a1608078c1f84dc9b0b1ba61301fddd3;  
+5/8/2018 6:36:37 PM
+Skipped due to deletion: seq: 1688;  id: 60ccd1bc-52cf-11e8-a22d-56ce7f333890;  rev: 4-957831ed7aa913ee11170056f92329a0;  
+5/8/2018 6:36:37 PM
+seq: 1689;  id: 0f4c93cb-963a-4095-b802-7d251fcaeee8;  rev: 5-4c6b50c2fdebc7b6c48734376e773185;  
+5/8/2018 6:36:37 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/0f4c93cb-963a-4095-b802-7d251fcaeee8 method: GET
+5/8/2018 6:36:37 PM
+ImportPcr Response: 
+5/8/2018 6:36:37 PM
+Skipped due to deletion: seq: 1712;  id: a342c673-52d1-11e8-a22d-56ce7f333890;  rev: 5-bf72b16c99ba2a175b8cb5b34c9cb516;  
+5/8/2018 6:36:38 PM
+Skipped due to deletion: seq: 1713;  id: 9809b8b1-52c4-11e8-a22d-56ce7f333890;  rev: 8-2ed5d6ccc8ba533ce15afaf9eb80bb41;  
+5/8/2018 6:36:38 PM
+Skipped due to deletion: seq: 1714;  id: b51633d0-52d1-11e8-a22d-56ce7f333890;  rev: 3-5f976b0254db635bdec308c1d6ca3341;  
+5/8/2018 6:36:38 PM
+seq: 1720;  id: 74f6ba03-939b-5f13-a019-5ad7c567c816;  rev: 5-cbeaa131cdb44f9b8ebce0bd5670729c;  
+5/8/2018 6:36:38 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/74f6ba03-939b-5f13-a019-5ad7c567c816 method: GET
+5/8/2018 6:36:38 PM
+ImportPcr Response: 
+5/8/2018 6:36:38 PM
+Skipped due to deletion: seq: 1725;  id: 1b99b775-52d5-11e8-a22d-56ce7f333890;  rev: 3-78e5acef816e9f0aeacf57f5b6c17d05;  
+5/8/2018 6:36:38 PM
+Skipped due to deletion: seq: 1739;  id: cd837f49-e934-4f18-81fa-acd47e5556c7;  rev: 13-ea822db93c0ef27a2dd6bb04555d9cef;  
+5/8/2018 6:36:38 PM
+Skipped due to deletion: seq: 1740;  id: 33635117-52c6-11e8-a22d-56ce7f333890;  rev: 3-a7c3c8d5cad6c29966d60c5673a782ab;  
+5/8/2018 6:36:38 PM
+Skipped due to deletion: seq: 1788;  id: f5456ba1-d5fe-0bff-dc2b-3bd1857b53d0;  rev: 3-4f2813fb8210daca44440b34ddee15af;  
+5/8/2018 6:36:38 PM
+seq: 1811;  id: 05346389-5263-11e8-bd67-56ce7f333890;  rev: 1528-6d433ad4b2328084cf66479e85d2a620;  
+5/8/2018 6:36:38 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/05346389-5263-11e8-bd67-56ce7f333890 method: GET
+5/8/2018 6:36:38 PM
+ImportPcr Response: 
+5/8/2018 6:36:38 PM
+seq: 1813;  id: fb76fc8f-a648-4e17-b201-55e55d667009;  rev: 25-f24617f0d74e4717b2712d540e3040f0;  
+5/8/2018 6:36:38 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/fb76fc8f-a648-4e17-b201-55e55d667009 method: GET
+5/8/2018 6:36:39 PM
+ImportPcr Response: 
+5/8/2018 6:36:39 PM
+Skipped due to deletion: seq: 1814;  id: b767e426-52c8-11e8-a22d-56ce7f333890;  rev: 5-77d4dd77c8cca9f9d80db35c75450db3;  
+5/8/2018 6:36:39 PM
+seq: 1877;  id: 2fd58ba7-e3ea-c545-f4a9-2ec80a391b7d;  rev: 13-f96582cb48b94fecb0ccbd8a4ee53265;  
+5/8/2018 6:36:39 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/2fd58ba7-e3ea-c545-f4a9-2ec80a391b7d method: GET
+5/8/2018 6:36:39 PM
+ImportPcr Response: 
+5/8/2018 6:36:39 PM
+Skipped due to deletion: seq: 1886;  id: 45fa1358-bf56-4662-a653-388fe46734e3;  rev: 8-c3b5dcad00ba0bd31ab92f52471c5f7f;  
+5/8/2018 6:36:39 PM
+Skipped due to deletion: seq: 1924;  id: c192b05e-4a5f-d3aa-65bb-0bcd2b41745b;  rev: 3-f0cdfed76dcad6965b3741a68f974cf1;  
+5/8/2018 6:36:39 PM
+Skipped due to deletion: seq: 1935;  id: fbd3b8dc-52cf-11e8-a22d-56ce7f333890;  rev: 6-c095f98cf8b12239f927b71e127d33ef;  
+5/8/2018 6:36:39 PM
+Skipped due to deletion: seq: 1936;  id: 72bbfae9-543d-cc99-6481-deaed61c05e4;  rev: 3-8656ea4cca13ca742fa7dd715286140e;  
+5/8/2018 6:36:39 PM
+Skipped due to deletion: seq: 1939;  id: b354fcc8-0e8f-473d-83fa-5843dd94c435;  rev: 14-6a49aae32ff1890d7842fadd6a439ecc;  
+5/8/2018 6:36:39 PM
+Skipped due to deletion: seq: 1943;  id: 7fec4ee1-8a04-777a-0e6c-0b43c235ac95;  rev: 10-34d8fe36957f57f071161a28410d4760;  
+5/8/2018 6:36:39 PM
+Skipped due to deletion: seq: 2045;  id: 405f642a-c7bb-9afd-d2b1-a5148a74a052;  rev: 3-8123ce959e0a2ca57a0e383354dfdd79;  
+5/8/2018 6:36:40 PM
+seq: 2054;  id: e919c4b1-1523-2196-bfaf-84308edf12fc;  rev: 1-f627ea722663686d97ad37bc570d2744;  
+5/8/2018 6:36:40 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/e919c4b1-1523-2196-bfaf-84308edf12fc method: GET
+5/8/2018 6:36:40 PM
+ImportPcr Response: 
+5/8/2018 6:36:40 PM
+Skipped due to deletion: seq: 2055;  id: 0a2ed5b8-52d6-11e8-a22d-56ce7f333890;  rev: 8-75c9d26e6cf95a5e6655c61f352911fd;  
+5/8/2018 6:36:40 PM
+Skipped due to deletion: seq: 2103;  id: 500f5bf5-89c5-4a64-d563-d483f3962096;  rev: 8-a68015a637122121c7294f968792ede8;  
+5/8/2018 6:36:40 PM
+Skipped due to deletion: seq: 2152;  id: 59a18e4d-52db-11e8-a22d-56ce7f333890;  rev: 2-d621e94d51bfc0a7b9a723bbb456eb9c;  
+5/8/2018 6:36:40 PM
+Skipped due to deletion: seq: 2155;  id: ca81f939-52cb-11e8-a22d-56ce7f333890;  rev: 3-0f384f14c9faf14b5c49c3b1a9b8cdab;  
+5/8/2018 6:36:40 PM
+Skipped due to deletion: seq: 2172;  id: a43a1447-62dd-0326-6548-25f1843b8fef;  rev: 3-2b93fe215f29d9506e97589fd3b80dfa;  
+5/8/2018 6:36:40 PM
+Skipped due to deletion: seq: 2181;  id: a40352a4-52d3-11e8-a22d-56ce7f333890;  rev: 6-031c5c5edc0f9cb7b8afbf4733df1965;  
+5/8/2018 6:36:40 PM
+seq: 2248;  id: 12e5719d-692f-4508-9aac-29aada7c6ed0;  rev: 26-5162fcadd875521475745157f61853c8;  
+5/8/2018 6:36:40 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/12e5719d-692f-4508-9aac-29aada7c6ed0 method: GET
+5/8/2018 6:36:40 PM
+ImportPcr Response: 
+5/8/2018 6:36:40 PM
+Skipped due to deletion: seq: 2253;  id: 7710def8-52cb-11e8-a22d-56ce7f333890;  rev: 2-14830c55d1cc24cfe120f55e7a63f9fd;  
+5/8/2018 6:36:40 PM
+seq: 2256;  id: d7ff6b7b-a757-455a-8a7f-996c8e7f03d1;  rev: 104-4050caabc93c3f89ae58bc658656b4ec;  
+5/8/2018 6:36:40 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/d7ff6b7b-a757-455a-8a7f-996c8e7f03d1 method: GET
+5/8/2018 6:36:41 PM
+ImportPcr Response: 
+5/8/2018 6:36:41 PM
+Skipped due to deletion: seq: 2258;  id: 2136347a-52d4-11e8-a22d-56ce7f333890;  rev: 6-5915f38a9eb0d79caa8a8b338777a7eb;  
+5/8/2018 6:36:41 PM
+Skipped due to deletion: seq: 2263;  id: b9d2aea6-8987-051c-3eb3-54be5afeb765;  rev: 3-7955a19d0bdddb596a01f18203eeef28;  
+5/8/2018 6:36:41 PM
+Skipped due to deletion: seq: 2314;  id: bcfd1041-3f95-456a-85a1-939f4387be83;  rev: 6-fae20aef56750e34bdb7ff13110630ab;  
+5/8/2018 6:36:41 PM
+Skipped due to deletion: seq: 2350;  id: 63d3c198-572e-1181-9450-d0b2c3c330f2;  rev: 108-42488a4287bae4a06438241c677b4852;  
+5/8/2018 6:36:41 PM
+Skipped due to deletion: seq: 2351;  id: 0623eb39-52cc-11e8-a22d-56ce7f333890;  rev: 4-5c053a6b4c4e5f45328fdca7743fa962;  
+5/8/2018 6:36:41 PM
+Skipped due to deletion: seq: 2354;  id: b9093eac-52cc-11e8-a22d-56ce7f333890;  rev: 2-84283da43c460e1010fa433a2c5cb7eb;  
+5/8/2018 6:36:41 PM
+seq: 2371;  id: e8578b79-7968-2575-5a72-fcb320685e7c;  rev: 1-c8bfb3bdcf74ef3ed122cf7a950b7df9;  
+5/8/2018 6:36:41 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/e8578b79-7968-2575-5a72-fcb320685e7c method: GET
+5/8/2018 6:36:41 PM
+ImportPcr Response: 
+5/8/2018 6:36:41 PM
+Skipped due to deletion: seq: 2372;  id: fb20b3f4-c829-1a27-7a3f-462d8a7a4d43;  rev: 3-51dd15290389b30b75a9dcfe8342cc59;  
+5/8/2018 6:36:41 PM
+Skipped due to deletion: seq: 2373;  id: 2beda8bb-782c-42d3-81f3-d256126f58c3;  rev: 8-908f493a8e75ce7fe4f4c8ab441dc03c;  
+5/8/2018 6:36:41 PM
+Skipped due to deletion: seq: 2411;  id: 3b734aa6-52da-11e8-a22d-56ce7f333890;  rev: 5-e0daa3800d54d046410286683008d4d6;  
+5/8/2018 6:36:41 PM
+Skipped due to deletion: seq: 2417;  id: b5df4757-9a74-36cb-4b24-bc1964fa09cf;  rev: 4-1e403d369a4bdce4d2c3916e27f9504e;  
+5/8/2018 6:36:42 PM
+Skipped due to deletion: seq: 2437;  id: d3af33ce-52d3-11e8-a22d-56ce7f333890;  rev: 5-0b27af2396efb783c10bd8de6a8f68a8;  
+5/8/2018 6:36:42 PM
+Skipped due to deletion: seq: 2441;  id: e12c1196-0bd3-4baa-bd5d-b67c3b416ffc;  rev: 16-c57647b13afc8add5685afb437e0324a;  
+5/8/2018 6:36:42 PM
+Skipped due to deletion: seq: 2444;  id: 5fa7ab20-e8ae-4a62-889e-a93b2e5ca8d6;  rev: 30-4687e78c8e01373cd449714e35308d8e;  
+5/8/2018 6:36:42 PM
+Skipped due to deletion: seq: 2464;  id: f0dbea89-7a14-47fd-b5b8-e7ff46866c03;  rev: 10-3399ce08572f92229afdd6e17fc01613;  
+5/8/2018 6:36:42 PM
+Skipped due to deletion: seq: 2465;  id: 16606c70-b7c7-f67d-28f0-062a0617c9c4;  rev: 65-5ac0cb972b1c9dff86dcb98b03fde114;  
+5/8/2018 6:36:42 PM
+Skipped due to deletion: seq: 2480;  id: 134b61f1-876f-48d3-93b2-5dd48507d569;  rev: 7-48752173a433b49c96ede6b7efc38d6e;  
+5/8/2018 6:36:42 PM
+Skipped due to deletion: seq: 2631;  id: b1d252c4-58d7-8809-267f-3adc2bfefff6;  rev: 3-32a09388d223265539c958c7a1724872;  
+5/8/2018 6:36:42 PM
+Skipped due to deletion: seq: 2640;  id: a3d22310-00d4-f09d-a390-c5866343e4b2;  rev: 80-b84f2383f2d4861d1b485be328ff34fb;  
+5/8/2018 6:36:42 PM
+Skipped due to deletion: seq: 2652;  id: 210db5c3-52e3-11e8-a22d-56ce7f333890;  rev: 2-0f2007b7c73cd7d816941144612b1880;  
+5/8/2018 6:36:43 PM
+Skipped due to deletion: seq: 2660;  id: 1f4a5af2-4801-40ee-a43c-8e845dc862c6;  rev: 3-1285f4c6d56a32e945e8979a63134534;  
+5/8/2018 6:36:43 PM
+seq: 2663;  id: 78384a83-f827-4072-965c-7fdddc93cd3b;  rev: 18-903737210c1145ef947c561a5c8d0e07;  
+5/8/2018 6:36:43 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/78384a83-f827-4072-965c-7fdddc93cd3b method: GET
+5/8/2018 6:36:43 PM
+ImportPcr Response: 
+5/8/2018 6:36:43 PM
+Skipped due to deletion: seq: 2668;  id: 8db00242-4e4b-417a-9196-4bb9ea11ff01;  rev: 7-b706386f68ca7bc92233e8d5e431e841;  
+5/8/2018 6:36:43 PM
+Skipped due to deletion: seq: 2673;  id: 07f07578-f08a-f383-d11c-f4c368388bd9;  rev: 3-4b6e16d2de36c88d68ce2a559da49310;  
+5/8/2018 6:36:43 PM
+Skipped due to deletion: seq: 2674;  id: ab1c5589-6ae9-471d-8d66-a228e99b953c;  rev: 8-7443736c259d02711268266c13b66b39;  
+5/8/2018 6:36:43 PM
+Skipped due to deletion: seq: 2696;  id: edea428b-52d9-11e8-a22d-56ce7f333890;  rev: 4-0e42b6d094261af0c7061e8ef628e587;  
+5/8/2018 6:36:43 PM
+Skipped due to deletion: seq: 2707;  id: 20eaf6ce-b410-60f5-037e-f78639dced1d;  rev: 2-5ca245394c30ad62e8dd210adef9fb14;  
+5/8/2018 6:36:43 PM
+Skipped due to deletion: seq: 2749;  id: 6df031dd-7bfa-81b0-6cfd-e624dd2311af;  rev: 3-b005526ed8ba358ef61139c3609691b4;  
+5/8/2018 6:36:43 PM
+Skipped due to deletion: seq: 2750;  id: b4491b0b-52cf-11e8-a22d-56ce7f333890;  rev: 3-1e1c12e5373c7c28d873df8422d7f06d;  
+5/8/2018 6:36:43 PM
+Skipped due to deletion: seq: 2776;  id: 3c64e4e8-1895-48e9-9790-03b400ae3052;  rev: 65-a1e7e29a9f5b5c16f0d5b24e3623d322;  
+5/8/2018 6:36:43 PM
+Skipped due to deletion: seq: 2777;  id: 106c7e57-d199-ea1c-4143-f995efc669fb;  rev: 3-b5c7f917099af773860564e697b75b78;  
+5/8/2018 6:36:43 PM
+Skipped due to deletion: seq: 2812;  id: 7a3af794-6075-161c-f588-95a3bb2436cf;  rev: 3-269b4dc8714592124c2968b13278e8c1;  
+5/8/2018 6:36:44 PM
+Skipped due to deletion: seq: 2813;  id: a401a954-67bb-3f6a-a436-16ed36ee5719;  rev: 3-d5ffcab6785c57d8a4a87e6843c2e98d;  
+5/8/2018 6:36:44 PM
+Skipped due to deletion: seq: 2820;  id: f38a4b66-52d8-11e8-a22d-56ce7f333890;  rev: 5-cfe3b846ca52f28df8e13419fac1e8b3;  
+5/8/2018 6:36:44 PM
+Skipped due to deletion: seq: 2830;  id: 8fab7a64-de5a-d6f5-75bd-b9c1dbd3723b;  rev: 3-b6911fd18bf27825df75f57513d1bda5;  
+5/8/2018 6:36:44 PM
+Skipped due to deletion: seq: 2892;  id: dc560763-415e-8f4b-9794-2e366c6a33c1;  rev: 3-8127bc9b722b49635d800e24c4096b55;  
+5/8/2018 6:36:44 PM
+Skipped due to deletion: seq: 2945;  id: a1b227a5-c876-1286-6961-496e2ffc63b3;  rev: 74-540e64d49cd2c7b1b803ab8f7094dbc1;  
+5/8/2018 6:36:44 PM
+seq: 2959;  id: 5206d795-5f79-4819-8f12-457f1ad6bd20;  rev: 5-9c997a0522ab2172e0968375cabe5c82;  
+5/8/2018 6:36:44 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/5206d795-5f79-4819-8f12-457f1ad6bd20 method: GET
+5/8/2018 6:36:44 PM
+ImportPcr Response: 
+5/8/2018 6:36:44 PM
+Skipped due to deletion: seq: 2976;  id: 1d0a547f-bb66-6d82-45fa-ab8b5504b1c1;  rev: 8-bddaf6288dd0148cfcaa3641186d4108;  
+5/8/2018 6:36:44 PM
+Skipped due to deletion: seq: 2977;  id: be302500-1eff-d371-ebc5-d3807b78df51;  rev: 2-ef3caa84f060f2c531ceb0ccbe903926;  
+5/8/2018 6:36:44 PM
+Skipped due to deletion: seq: 2986;  id: 72eef629-52df-11e8-a22d-56ce7f333890;  rev: 8-bb15bd0eaa3218461cf25f3fba0c528f;  
+5/8/2018 6:36:44 PM
+Skipped due to deletion: seq: 2995;  id: 14dd0536-0845-2754-4103-6b683aaf620e;  rev: 2-6046588bbce08253ed72360dd2a2a360;  
+5/8/2018 6:36:44 PM
+Skipped due to deletion: seq: 2996;  id: ff78d78b-99d1-32cf-fc2d-4d5198ce055b;  rev: 3-ebd0528bfcf61af8c014fc054ad58d06;  
+5/8/2018 6:36:44 PM
+Skipped due to deletion: seq: 2998;  id: 44072a87-a7c0-a6a6-ed21-8d83bc9f5094;  rev: 3-5493d80771daaf4e0ccf2d747254b9c8;  
+5/8/2018 6:36:45 PM
+Skipped due to deletion: seq: 3001;  id: 2a3b322e-87d2-0b1d-81e2-3a9b38849c7e;  rev: 3-f62d379dfe40067d0b37a34e641eaa2d;  
+5/8/2018 6:36:45 PM
+Skipped due to deletion: seq: 3029;  id: 1f61ad9b-c7b8-93ae-1e3a-9d7b69a32717;  rev: 15-d0eb319bfd2833dce94419b58b1b7cf7;  
+5/8/2018 6:36:45 PM
+Skipped due to deletion: seq: 3045;  id: 712bc928-cb8e-4eb1-be78-5cba80bf2a35;  rev: 5-8b275d308d3ead0d4597c76863906b8a;  
+5/8/2018 6:36:45 PM
+seq: 3080;  id: 040ae01f-25c3-fafa-e56b-edf85e41dd60;  rev: 68-010bd9d75b12860819203c23e2ae9230;  
+5/8/2018 6:36:45 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/040ae01f-25c3-fafa-e56b-edf85e41dd60 method: GET
+5/8/2018 6:36:45 PM
+ImportPcr Response: 
+5/8/2018 6:36:45 PM
+seq: 3096;  id: a7c4292c-0d66-2ed8-53ae-e4711b7cfab1;  rev: 43-4164548ae1a583955886f52cc4160d32;  
+5/8/2018 6:36:45 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/a7c4292c-0d66-2ed8-53ae-e4711b7cfab1 method: GET
+5/8/2018 6:36:45 PM
+ImportPcr Response: 
+5/8/2018 6:36:45 PM
+Skipped due to deletion: seq: 3098;  id: 1d350e8c-a6c6-c5fc-ccc4-f7ac2704f453;  rev: 3-8a137ef9f60a48f0bedf58b5e73cf120;  
+5/8/2018 6:36:45 PM
+seq: 3123;  id: 79e148d2-1ace-a149-6083-a17cd0ac92e0;  rev: 1-8543923ef2120073c7f010e7b7c9c4a8;  
+5/8/2018 6:36:45 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/79e148d2-1ace-a149-6083-a17cd0ac92e0 method: GET
+5/8/2018 6:36:46 PM
+ImportPcr Response: 
+5/8/2018 6:36:46 PM
+Skipped due to deletion: seq: 3228;  id: 77c2c265-31ae-7642-f2c8-a6c457f7c2a7;  rev: 3-efe3d31b465f485661e3b21399083a77;  
+5/8/2018 6:36:46 PM
+Skipped due to deletion: seq: 3268;  id: e09f2c27-93e0-4026-1c7c-b4994bb924a3;  rev: 13-4a953958421e83819fe1cf7efb94a4c9;  
+5/8/2018 6:36:46 PM
+Skipped due to deletion: seq: 3271;  id: 8b84c3f8-009a-67f2-6427-93dcdbfaafe9;  rev: 9-a041e779b37c9fe6c4618ef76ea2b8cc;  
+5/8/2018 6:36:46 PM
+Skipped due to deletion: seq: 3297;  id: 5989a7c2-f201-4387-a87e-56d075146119;  rev: 45-3c5ddebff9e261e6f17df0e0a1529db6;  
+5/8/2018 6:36:46 PM
+Skipped due to deletion: seq: 3306;  id: 234b6ec5-5bd0-ecfd-52a0-4bed602c54be;  rev: 298-dfba33b20604f43ede97772f46cb6433;  
+5/8/2018 6:36:46 PM
+Skipped due to deletion: seq: 3320;  id: a02d6a68-374b-48be-bd97-d333468253a6;  rev: 8-ea037fe9779de219017f3a4bc55acc97;  
+5/8/2018 6:36:46 PM
+Skipped due to deletion: seq: 3321;  id: dfa9725c-8cd7-05ae-a618-a86ec774182d;  rev: 26-d2261d9e167eb91143833dd21af57575;  
+5/8/2018 6:36:46 PM
+Skipped due to deletion: seq: 3348;  id: 88e466a7-52da-11e8-a22d-56ce7f333890;  rev: 5-c3886fa54e682acb57471a782a6b1b14;  
+5/8/2018 6:36:46 PM
+Skipped due to deletion: seq: 3349;  id: c744bd61-9a88-6687-d7eb-cab119f05702;  rev: 70-b75874435a6a339b00ae87151c8f80a0;  
+5/8/2018 6:36:46 PM
+seq: 3351;  id: f3995be1-9772-3154-11f8-b2b222c80f2b;  rev: 1-388e3e90a5449ff54c729269412dd7a2;  
+5/8/2018 6:36:46 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/f3995be1-9772-3154-11f8-b2b222c80f2b method: GET
+5/8/2018 6:36:46 PM
+ImportPcr Response: 
+5/8/2018 6:36:46 PM
+Skipped due to deletion: seq: 3355;  id: 3711f256-7b59-725b-0e1d-8a0c73465b4f;  rev: 133-c74384dee2db95cbe2440710dc5956a1;  
+5/8/2018 6:36:46 PM
+Skipped due to deletion: seq: 3357;  id: 2ac11dea-b51e-49e0-9db7-778207d7bcf5;  rev: 8-96740f0605b133dad206a93511526fd7;  
+5/8/2018 6:36:47 PM
+Skipped due to deletion: seq: 3364;  id: adca9017-beab-a1ae-6a90-6545ae1a8378;  rev: 2-e846b08e7dfc3df5c1d7a9fae8d128b7;  
+5/8/2018 6:36:47 PM
+Skipped due to deletion: seq: 3365;  id: bf05789b-a891-05a5-8dcc-73b61bda8afb;  rev: 7-e4e32c15524e2a8d95cb37904a0aee59;  
+5/8/2018 6:36:47 PM
+Skipped due to deletion: seq: 3366;  id: b7baf008-52e7-11e8-a22d-56ce7f333890;  rev: 6-8fd88c4c505e4cfeedcaad71b71f9655;  
+5/8/2018 6:36:47 PM
+Skipped due to deletion: seq: 3367;  id: 201de4a7-599b-73d6-05ee-f77beafeffc8;  rev: 4-a9ffcb80cff9270cfd93d88c1f83a3eb;  
+5/8/2018 6:36:47 PM
+Skipped due to deletion: seq: 3381;  id: 23d35bd0-ba2f-9adb-df06-bf994346e22a;  rev: 10-11f9ef73f3726d5a2af6da24b6a7bc95;  
+5/8/2018 6:36:47 PM
+Skipped due to deletion: seq: 3388;  id: 0d2c2c23-5ce9-f9a8-b70a-f7b4ea10f73b;  rev: 15-4beeaef77e70a97e8be4b2bec8a3fecb;  
+5/8/2018 6:36:47 PM
+seq: 3492;  id: a4335251-25dd-57e5-0c54-5ca14bd53868;  rev: 84-f647713770b0a187b2c74ed6e90bd4cc;  
+5/8/2018 6:36:47 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/a4335251-25dd-57e5-0c54-5ca14bd53868 method: GET
+5/8/2018 6:36:47 PM
+ImportPcr Response: 
+5/8/2018 6:36:47 PM
+Skipped due to deletion: seq: 3566;  id: 221f2a92-82d4-c04d-7e88-bcd1d68319a0;  rev: 3-78c6ae8cdbd892de009af2b3a513f526;  
+5/8/2018 6:36:47 PM
+seq: 3572;  id: 33f61c13-60eb-4437-aa9e-8c8a260537f5;  rev: 38-a988667a4cef4b7ab52f9108c0f7ed94;  
+5/8/2018 6:36:47 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/33f61c13-60eb-4437-aa9e-8c8a260537f5 method: GET
+5/8/2018 6:36:48 PM
+ImportPcr Response: 
+5/8/2018 6:36:48 PM
+Skipped due to deletion: seq: 3586;  id: 1ea8b4b9-500d-9b5a-7184-7046f3ecd0e5;  rev: 3-698b6bf732873f32a3fdf0e4e7f9a91b;  
+5/8/2018 6:36:48 PM
+Skipped due to deletion: seq: 3591;  id: c15a4d29-b210-4c91-8d7d-de166b590dad;  rev: 17-d95d76227aadfe5b8c04f538cb22067b;  
+5/8/2018 6:36:48 PM
+Skipped due to deletion: seq: 3593;  id: 505dc546-52e2-11e8-a22d-56ce7f333890;  rev: 5-ed53ac0a6c9c94b6e93a5e2065e7777e;  
+5/8/2018 6:36:48 PM
+seq: 3615;  id: fc653b41-a79e-dacc-4349-f23b4755661a;  rev: 1-7f4f6e6682ecf021a236241d10957b51;  
+5/8/2018 6:36:48 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/fc653b41-a79e-dacc-4349-f23b4755661a method: GET
+5/8/2018 6:36:48 PM
+ImportPcr Response: 
+5/8/2018 6:36:48 PM
+seq: 3624;  id: c06541c7-5bb1-4042-aaec-d0661e872daa;  rev: 91-45d28b06b44580fc818d9c823fd896e1;  
+5/8/2018 6:36:48 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/c06541c7-5bb1-4042-aaec-d0661e872daa method: GET
+5/8/2018 6:36:48 PM
+ImportPcr Response: 
+5/8/2018 6:36:48 PM
+Skipped due to deletion: seq: 3625;  id: 5819b75f-bce9-4aaa-bc71-dc778000561b;  rev: 5-52b7ac77c6845087a747527fe9050343;  
+5/8/2018 6:36:49 PM
+Skipped due to deletion: seq: 3633;  id: facfaf3f-6f0e-1195-3334-24b9d1bc32e5;  rev: 3-31fc69ea5be6eacabe7abddebd8a3c92;  
+5/8/2018 6:36:49 PM
+Skipped due to deletion: seq: 3635;  id: 0ed0e670-52e2-11e8-a22d-56ce7f333890;  rev: 6-b23e78def0485a03716dfb5804c5e9da;  
+5/8/2018 6:36:49 PM
+Skipped due to deletion: seq: 3668;  id: 26d02070-f38d-d60f-d760-71f7014bf1da;  rev: 3-78db11ae0a6fc94c1942a766eb5466d7;  
+5/8/2018 6:36:49 PM
+Skipped due to deletion: seq: 3669;  id: a24318e4-dec3-30f0-8d3a-2c8450bb4b88;  rev: 3-d9c5149c2a54779e7a1884e49edd4b5c;  
+5/8/2018 6:36:49 PM
+seq: 3672;  id: 8e90a7a5-9e9c-9158-e8ff-b59b8ab79c5a;  rev: 1-1b2d5f45971dd805eb8e050dc37c5a55;  
+5/8/2018 6:36:49 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/8e90a7a5-9e9c-9158-e8ff-b59b8ab79c5a method: GET
+5/8/2018 6:36:49 PM
+ImportPcr Response: 
+5/8/2018 6:36:49 PM
+Skipped due to deletion: seq: 3673;  id: 5841687b-107a-6a4d-9e18-28446fa62c2b;  rev: 3-d86610ceb1ad8f743251fa1c6b0b8548;  
+5/8/2018 6:36:49 PM
+Skipped due to deletion: seq: 3694;  id: 5dc24412-15da-4213-b518-8b14339025c3;  rev: 13-c4ebfdba0c4b385576c867c36d0de8a2;  
+5/8/2018 6:36:49 PM
+Skipped due to deletion: seq: 3709;  id: 2b55af6b-97db-8caa-78e7-045c392ec232;  rev: 3-91d7d1689724496728cc666d084fad8d;  
+5/8/2018 6:36:49 PM
+Skipped due to deletion: seq: 3759;  id: 924c1823-4f62-2dd1-fe45-88c06f86bd22;  rev: 3-632bd34418225dc77bf280c3ae0b9635;  
+5/8/2018 6:36:50 PM
+seq: 3785;  id: bed80d96-a2de-04ff-02ca-3b7ed0d121d0;  rev: 1-eef3766bea3528198038b9fa810760b3;  
+5/8/2018 6:36:50 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/bed80d96-a2de-04ff-02ca-3b7ed0d121d0 method: GET
+5/8/2018 6:36:50 PM
+ImportPcr Response: 
+5/8/2018 6:36:50 PM
+Skipped due to deletion: seq: 3786;  id: 5a80ba57-ba2e-46f9-b0da-7658686a39eb;  rev: 13-f6ca39b13aa27942de2ee83c8c9c5c03;  
+5/8/2018 6:36:50 PM
+Skipped due to deletion: seq: 3787;  id: 88967843-48b0-5a24-3fb4-d0f4fdfdd095;  rev: 3-fa6a46765d248758c609185651319776;  
+5/8/2018 6:36:50 PM
+Skipped due to deletion: seq: 3788;  id: ab9a700a-c4f3-2287-e944-b1751861b5f4;  rev: 3-7e00dfec68714c7c0f3cb698ebe6f4c7;  
+5/8/2018 6:36:50 PM
+seq: 3791;  id: 0fec20fa-3d73-461a-aa84-336c35aa4a1e;  rev: 104-1932480607481f85b90504c915ec48ec;  
+5/8/2018 6:36:50 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/0fec20fa-3d73-461a-aa84-336c35aa4a1e method: GET
+5/8/2018 6:36:50 PM
+ImportPcr Response: 
+5/8/2018 6:36:50 PM
+Skipped due to deletion: seq: 3794;  id: 71fe48a2-5ef3-d9bc-f06f-636b13e47cb2;  rev: 70-3a0f272c3218c629d13b82cc08d7b036;  
+5/8/2018 6:36:51 PM
+Skipped due to deletion: seq: 3818;  id: 49081fdc-8c43-038c-6e41-02a3d911e78e;  rev: 3-65b6c7c5849cd2d710909c7af6a428ae;  
+5/8/2018 6:36:51 PM
+Skipped due to deletion: seq: 3833;  id: 1f041aa7-b299-e1d7-977d-908d05691dbd;  rev: 2-7f44225738cfa7146a1603f30874a691;  
+5/8/2018 6:36:51 PM
+Skipped due to deletion: seq: 3834;  id: 89a8fd33-a00a-42d0-9883-8700db78e33d;  rev: 8-65fb9bd39c6926ad77ccbece5fd2f740;  
+5/8/2018 6:36:51 PM
+Skipped due to deletion: seq: 3835;  id: b75f4540-4ad6-f12b-90d6-41fdee5a1034;  rev: 3-96b473e5a9f2b064741e1a9a47af7d30;  
+5/8/2018 6:36:51 PM
+Skipped due to deletion: seq: 3837;  id: 0d84254d-823f-f0d4-01eb-24233778dd0e;  rev: 3-5e9ab1818fc110efef4763bdbbf0993b;  
+5/8/2018 6:36:51 PM
+Skipped due to deletion: seq: 3838;  id: f10116a4-6eea-bedf-2b5b-cf32b9f0e781;  rev: 3-70887339e3966d23349246408e305075;  
+5/8/2018 6:36:51 PM
+Skipped due to deletion: seq: 3839;  id: 04d8a767-5eac-7762-ec23-a78f5af73f77;  rev: 3-e487d04d2cf65e25209562e687c4f63b;  
+5/8/2018 6:36:51 PM
+Skipped due to deletion: seq: 3840;  id: 78dd2b44-4460-3304-e8ff-d7a7d1958d70;  rev: 3-6d281b2f7b9b58a90d22552f76f011d3;  
+5/8/2018 6:36:51 PM
+Skipped due to deletion: seq: 3841;  id: 41cdb55d-18a4-a364-62f1-e946de5824a3;  rev: 10-32aa08f35d27d535f9bd1298d38c0965;  
+5/8/2018 6:36:51 PM
+Skipped due to deletion: seq: 3855;  id: 077788e4-5afd-d3f6-430a-d09698ded294;  rev: 40-eccca86242195a0f4090d4a4a7766649;  
+5/8/2018 6:36:51 PM
+Skipped due to deletion: seq: 3857;  id: 06f43888-4910-4a23-a241-4cceeedbffac;  rev: 36-d493df043900b7f5b897e8537dfbda76;  
+5/8/2018 6:36:51 PM
+Skipped due to deletion: seq: 3858;  id: 08b88e10-cc5e-4a34-a0db-b0ecfc36d412;  rev: 152-31dbfeadd91e58869e535b544c34e17e;  
+5/8/2018 6:36:51 PM
+Skipped due to deletion: seq: 3859;  id: 7cb245fa-7264-6d09-6991-c923152556a0;  rev: 3-dd105940c1df29b4a0ac0636a6b6abe7;  
+5/8/2018 6:36:52 PM
+Skipped due to deletion: seq: 3860;  id: 7dbd4982-6607-1f6d-47e4-f3519ed23ac9;  rev: 3-31ccaf9fde691ced3d7acd4e1d5f1c49;  
+5/8/2018 6:36:52 PM
+Skipped due to deletion: seq: 3861;  id: b9b1f962-47aa-478b-8ba8-1a7a639828b0;  rev: 61-11392948a1a2f4081b890a64e4ecec93;  
+5/8/2018 6:36:52 PM
+Skipped due to deletion: seq: 3863;  id: 38e8f54a-52e3-11e8-a22d-56ce7f333890;  rev: 6-5197c14667bf3ce0d1ea9b43f68f7c16;  
+5/8/2018 6:36:52 PM
+Skipped due to deletion: seq: 3865;  id: 6a3ee040-52e7-11e8-a22d-56ce7f333890;  rev: 4-e51bcc57b6a78825e95ac51a82b3515b;  
+5/8/2018 6:36:52 PM
+Skipped due to deletion: seq: 3866;  id: 82425b91-839c-d9e4-aab6-b94e209fd1d1;  rev: 2-7a91b1ba1e474ca5f3b38a79e22b8b64;  
+5/8/2018 6:36:52 PM
+Skipped due to deletion: seq: 3869;  id: 51415416-1f08-2c9f-eec7-78f43c36fd66;  rev: 10-d0af99529a6aeb7fccdea4d03b7de241;  
+5/8/2018 6:36:52 PM
+Skipped due to deletion: seq: 3870;  id: 9d59a071-e1cf-bfab-5376-eaa4dd4913d1;  rev: 3-907bc89f54837ecaf4bf0a72a55a2e6c;  
+5/8/2018 6:36:52 PM
+Skipped due to deletion: seq: 3880;  id: a057237b-52e8-11e8-a22d-56ce7f333890;  rev: 7-ed25092e96026657c54e7a493c3ca86a;  
+5/8/2018 6:36:52 PM
+Skipped due to deletion: seq: 3905;  id: 63aac152-c5b4-89bb-6b91-ee844950c7da;  rev: 3-ec855f8edb65fd38334cffbfd3088c0a;  
+5/8/2018 6:36:52 PM
+Skipped due to deletion: seq: 3906;  id: 85c6bee5-5495-42ea-c49b-13a311fe2780;  rev: 3-9b4f79035bd0c5bcb8cb882eea365bbf;  
+5/8/2018 6:36:52 PM
+Skipped due to deletion: seq: 3919;  id: efcece3e-4043-8195-819c-6bfb4d967264;  rev: 3-a6aa506e67bdef37a23edc6ed208ff04;  
+5/8/2018 6:36:52 PM
+Skipped due to deletion: seq: 3920;  id: b5ae38ac-863c-f915-4836-b8ac7f424398;  rev: 3-84eeea71dc239db63e7e74f634ec33c3;  
+5/8/2018 6:36:52 PM
+Skipped due to deletion: seq: 3921;  id: c86b69c1-52e4-11e8-a22d-56ce7f333890;  rev: 8-2ab256a632fc862283a1a1992a6b6952;  
+5/8/2018 6:36:52 PM
+Skipped due to deletion: seq: 3922;  id: 7fab838f-688b-25b4-002e-24418ec67035;  rev: 3-d980d63dd9dc8b73e4ffa75a5d5540b3;  
+5/8/2018 6:36:52 PM
+Skipped due to deletion: seq: 3923;  id: 308ad092-640b-38e4-5dfb-dffeed7f52da;  rev: 3-5b7ff08d77f64720fec00e1c1afeba39;  
+5/8/2018 6:36:53 PM
+Skipped due to deletion: seq: 3943;  id: 06bb057c-8a6c-3f10-2e0a-ffb1a8069e03;  rev: 3-83746f35833aa944fb70da8a53d08553;  
+5/8/2018 6:36:53 PM
+Skipped due to deletion: seq: 3944;  id: 8b79d605-aca9-5013-dc48-91ac45d0665f;  rev: 3-8b5026cb9cd10ef4dbbca7c6e97d1615;  
+5/8/2018 6:36:53 PM
+Skipped due to deletion: seq: 3946;  id: 267a8425-e342-1baf-5681-845f73abe86c;  rev: 3-b8cc011afede278901daa1212fadb57b;  
+5/8/2018 6:36:53 PM
+Skipped due to deletion: seq: 3947;  id: 5cbd6b90-3816-fab9-dc8b-49f20e86abf8;  rev: 3-58a331aaa7541db26de93e8d35f4384b;  
+5/8/2018 6:36:53 PM
+Skipped due to deletion: seq: 3948;  id: 9dfca984-6882-7775-82ed-b0609f2322e3;  rev: 3-5ddcad83ddd0a8095ee0a8937abd93ab;  
+5/8/2018 6:36:53 PM
+Skipped due to deletion: seq: 3949;  id: 28836830-12af-593f-130f-162219c2c02e;  rev: 3-cf113d4f0ab94637984ab189ba9a8f53;  
+5/8/2018 6:36:53 PM
+Skipped due to deletion: seq: 3950;  id: c63dc083-551d-8beb-ede2-c906b34fa4a0;  rev: 3-aa51b533ab3e54c14be94b7f73ec4b49;  
+5/8/2018 6:36:53 PM
+Skipped due to deletion: seq: 3951;  id: 3b8a4a9d-f5db-18c5-a459-fa0be15ff163;  rev: 3-3a01780b3d92d0db6d9a8fcbc968223e;  
+5/8/2018 6:36:53 PM
+Skipped due to deletion: seq: 3952;  id: 40d3a6fe-4304-e01c-0da0-290e80d3dfb9;  rev: 3-0ecbb43af8f879e17a7a9af22a2c0625;  
+5/8/2018 6:36:53 PM
+Skipped due to deletion: seq: 3956;  id: 9a43be3a-77eb-4a62-977b-0bf1edf2b0b4;  rev: 66-fa37ee17f915448b05cb7cc01afbab4d;  
+5/8/2018 6:36:53 PM
+Skipped due to deletion: seq: 3957;  id: 54d4067d-7d40-b1e4-8fcd-5c24bab50cbb;  rev: 3-98dbf409b064fc43465c4b5e94592187;  
+5/8/2018 6:36:53 PM
+Skipped due to deletion: seq: 3958;  id: 1996fe03-f8db-335d-ba9c-e8e3f106f6f7;  rev: 3-4476c9b3c9d7bebf6930cb8903a866e8;  
+5/8/2018 6:36:53 PM
+Skipped due to deletion: seq: 3959;  id: a3618c7b-0a1b-ceca-7922-e82aacc0e06c;  rev: 3-86f84dd8116549f4be2301f9d255cfe4;  
+5/8/2018 6:36:54 PM
+seq: 3960;  id: 0c924e05-bca5-45de-b18e-f6e8eb006f58;  rev: 106-889c3779d91aa4118ceb33006658dea9;  
+5/8/2018 6:36:54 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/0c924e05-bca5-45de-b18e-f6e8eb006f58 method: GET
+5/8/2018 6:39:38 PM
+0c924e05-bca5-45de-b18e-f6e8eb006f58 pcr status: fax_error
+5/8/2018 6:46:19 PM
+ImportPcr Response: https://www.creativeems.com/cems/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  
+5/8/2018 6:46:19 PM
+Skipped due to deletion: seq: 3970;  id: 4c2676c1-3889-51ca-966a-e0566d91b8a1;  rev: 3-e7519669a03d25daaa8202bf640acfef;  
+5/8/2018 6:46:19 PM
+Skipped due to deletion: seq: 3971;  id: 2e2f1bc4-52e6-11e8-a22d-56ce7f333890;  rev: 5-d764e28d061e354ac9e2dbe41aa92716;  
+5/8/2018 6:46:19 PM
+Skipped due to deletion: seq: 3974;  id: 92ee58dd-b249-4925-4d3e-4e9a56d1b2af;  rev: 3-bda625b24f9e771855bc92eba5ef357d;  
+5/8/2018 6:46:19 PM
+Skipped due to deletion: seq: 3976;  id: f8814c1d-52e5-11e8-a22d-56ce7f333890;  rev: 2-52f9ac9e3b25b5c8ef90401d750d5ee7;  
+5/8/2018 6:46:19 PM
+Skipped due to deletion: seq: 3978;  id: 5d403cce-acf5-bc53-f4b3-b8144db284bb;  rev: 3-023c6691335822ad4e9883c05e454c0b;  
+5/8/2018 6:46:19 PM
+Skipped due to deletion: seq: 3984;  id: 24c31423-d937-acaa-01fe-cb8abec459e1;  rev: 3-4c21e6af074316a899757026246ea82b;  
+5/8/2018 6:46:19 PM
+Skipped due to deletion: seq: 4040;  id: f2fd0744-3faf-7de9-c224-4f5e81c123f7;  rev: 2-c2769b274fc6951c49b246b8bd403e2d;  
+5/8/2018 6:46:19 PM
+Skipped due to deletion: seq: 4041;  id: d2023a00-3d35-73e4-714d-cce9db13d5f8;  rev: 3-a13263bb687410b7c61a1bbb612ad899;  
+5/8/2018 6:46:19 PM
+Skipped due to deletion: seq: 4106;  id: 2de38a1d-5075-1449-5d47-7e498a956fa3;  rev: 3-f6caf1cb265ec7a734324bc7ecf237f5;  
+5/8/2018 6:46:20 PM
+Skipped due to deletion: seq: 4107;  id: bf91e155-bb83-90c6-98ee-033b95e6a04d;  rev: 3-6a27a2ee204f9569a5cd3e1238ee77db;  
+5/8/2018 6:46:20 PM
+Skipped due to deletion: seq: 4108;  id: 5376c511-145f-207d-4351-ced5d405f928;  rev: 3-064dd5498a60404a877a5397081d5689;  
+5/8/2018 6:46:20 PM
+Skipped due to deletion: seq: 4109;  id: 0072a1a9-ffb7-4174-79ac-4377275d48ec;  rev: 3-a8c4179168643c24a4bbbc4c00c02601;  
+5/8/2018 6:46:20 PM
+Skipped due to deletion: seq: 4112;  id: 1bada077-c96c-f8ce-27a8-0c07bd6da1ee;  rev: 3-9cc5a403cd34c49e1c1551a9f20852a3;  
+5/8/2018 6:46:20 PM
+Skipped due to deletion: seq: 4113;  id: 7bd4e8ec-0eca-aa2c-c0ff-519d2a9c5f55;  rev: 3-5c20804659e6e70e24bb0c9cd5b65c59;  
+5/8/2018 6:46:20 PM
+Skipped due to deletion: seq: 4114;  id: de104d9f-a0c9-f851-2e84-23079c32df29;  rev: 3-67b4dca285bdddd029e77f38be788803;  
+5/8/2018 6:46:20 PM
+Skipped due to deletion: seq: 4115;  id: b5309661-cb3d-c3f1-7ab1-6165a078979a;  rev: 3-eeef7a6e3c46bff0d5406e77f922fe90;  
+5/8/2018 6:46:20 PM
+Skipped due to deletion: seq: 4116;  id: f8f0a063-3b23-c6b1-882b-654de7ca3b4d;  rev: 3-7dc2eac7afb832e1a9a3b4cc019d4259;  
+5/8/2018 6:46:20 PM
+Skipped due to deletion: seq: 4128;  id: 36d0ea81-5b4d-b2bf-0793-6446cac77a30;  rev: 3-cb0d14359e5333460082a666374f71f6;  
+5/8/2018 6:46:20 PM
+Skipped due to deletion: seq: 4129;  id: 34b8c82c-7168-5a2d-a447-b7cfebf85dfe;  rev: 3-fd6968cf328dfafb7e45175df141e473;  
+5/8/2018 6:46:20 PM
+Skipped due to deletion: seq: 4130;  id: cf85d180-eecd-ff42-aaf2-f3eda91c60d8;  rev: 3-4888fccf319636ce5fe642d08b31d7d6;  
+5/8/2018 6:46:20 PM
+Skipped due to deletion: seq: 4134;  id: 0355d47e-5bc3-cd79-d00e-f92f768539af;  rev: 3-4b943a0149078398140a25a6e1b160ce;  
+5/8/2018 6:46:20 PM
+Skipped due to deletion: seq: 4135;  id: 6e1f381c-5574-b115-ff40-b5e9798903cf;  rev: 3-ecb286de90e93be6d760d9f5fd168214;  
+5/8/2018 6:46:20 PM
+Skipped due to deletion: seq: 4136;  id: 9b02d17b-d17c-1899-06bf-c9bb2fed4791;  rev: 3-7890160956b63307350ebcb4d6a238e8;  
+5/8/2018 6:46:21 PM
+Skipped due to deletion: seq: 4137;  id: d91f658c-abb0-f3d5-c419-316bf888d817;  rev: 3-c9dc8b66e12fe5911fff413bd4c5b405;  
+5/8/2018 6:46:21 PM
+Skipped due to deletion: seq: 4138;  id: 10871fbf-a69e-91c6-71fc-6949f66651bb;  rev: 3-e95420041a826fb46d1fadda33560459;  
+5/8/2018 6:46:21 PM
+Skipped due to deletion: seq: 4139;  id: 22b8b9f3-28d7-4336-5a77-e49f97067ad6;  rev: 3-ebfe6b953d63d8b73f7443d883b5b504;  
+5/8/2018 6:46:21 PM
+Skipped due to deletion: seq: 4140;  id: 3113b894-79ff-4984-109b-e416d1175ce0;  rev: 3-5fc64c12f0f0832b93c59f318e4149a4;  
+5/8/2018 6:46:21 PM
+Skipped due to deletion: seq: 4141;  id: 8ed6d28e-a10c-ced6-9b48-e879ef16b479;  rev: 3-5998e33a5e4f8a3b0c3a998fbd32633d;  
+5/8/2018 6:46:21 PM
+Skipped due to deletion: seq: 4142;  id: 8f7f5431-6c01-fd3a-c2ab-bfbd9d4d97f0;  rev: 3-ffa354f6ca32aae5d732cd7832e955b8;  
+5/8/2018 6:46:21 PM
+Skipped due to deletion: seq: 4143;  id: d28ec9da-69f8-b212-b24f-2370061c9b2c;  rev: 3-42246359290050895f3e8f9e76efd89e;  
+5/8/2018 6:46:21 PM
+Skipped due to deletion: seq: 4144;  id: 2e9b23c9-9cae-5a74-b583-68419039208e;  rev: 3-96e3ddc7aefc959ec34562cd42da4069;  
+5/8/2018 6:46:21 PM
+Skipped due to deletion: seq: 4145;  id: 2e4810b3-6b6a-321e-3e86-ceb837a2d222;  rev: 3-e6dae995b96ab68df3bdbd150afadcaf;  
+5/8/2018 6:46:21 PM
+Skipped due to deletion: seq: 4146;  id: fb69b77f-875b-7ae9-2fef-7085d5131242;  rev: 3-d6f96d6dca293ff26c00febe72ff77ce;  
+5/8/2018 6:46:21 PM
+Skipped due to deletion: seq: 4147;  id: c5bc3788-1cab-90a5-0c2c-d005a5e81d23;  rev: 3-6c3959600602d8a4b74decd0d34c4ade;  
+5/8/2018 6:46:21 PM
+Skipped due to deletion: seq: 4148;  id: b9827453-121d-fa65-efcc-c9b54a10491b;  rev: 3-bb265498f00b4ddf7d77caebfcb8cc65;  
+5/8/2018 6:46:21 PM
+Skipped due to deletion: seq: 4149;  id: 7f17470e-c947-9805-1ee6-0166f77697fe;  rev: 3-3064ff7bcd7c865b865621204fc6d6a4;  
+5/8/2018 6:46:21 PM
+Skipped due to deletion: seq: 4151;  id: 43894d49-70ba-a439-a213-4578192f8dd2;  rev: 3-3e53049bd2b95180556d05ce8c048891;  
+5/8/2018 6:46:22 PM
+Skipped due to deletion: seq: 4152;  id: 627f6a05-3e2f-eaee-d44a-6934a497b8e5;  rev: 3-0a9d12f134303ea3939240a6c1ae6027;  
+5/8/2018 6:46:22 PM
+Skipped due to deletion: seq: 4153;  id: 7482b45e-8407-eee8-e7ec-4735c2ddf465;  rev: 3-6416689486e2d4f85aa379d4eb4ff2fc;  
+5/8/2018 6:46:22 PM
+Skipped due to deletion: seq: 4154;  id: 3ae6cd86-8d83-7171-f66e-0ffe766c03ce;  rev: 3-a995f6a6af548cbbf597f8951d860b7c;  
+5/8/2018 6:46:22 PM
+Skipped due to deletion: seq: 4156;  id: 1358d811-a28e-6ae3-f56b-4080f66285fd;  rev: 3-c4cd403dd627d5ed159ed26166c257e0;  
+5/8/2018 6:46:22 PM
+Skipped due to deletion: seq: 4157;  id: c4fd55bf-a139-b492-753a-b97c54fa8055;  rev: 3-1342ae1889cce65b5be5e1c8e2899824;  
+5/8/2018 6:46:39 PM
+Skipped due to deletion: seq: 4158;  id: edd91b50-340a-79a2-5321-8429d143f42c;  rev: 3-116706fa1ddab5acf3ae2d09dd3cf250;  
+5/8/2018 6:46:39 PM
+Skipped due to deletion: seq: 4159;  id: 8e312a3f-4a2f-9b70-350a-3824b5ba3589;  rev: 3-c9728fd8e760f96a6c19ce459711a566;  
+5/8/2018 6:46:39 PM
+Skipped due to deletion: seq: 4160;  id: 901e80b5-da07-515c-1965-c987fbcd2837;  rev: 3-c7fbbafe10188fef10935d860473b6a0;  
+5/8/2018 6:46:39 PM
+Skipped due to deletion: seq: 4161;  id: 7672af7a-2a20-0531-f9b0-61f331b850c5;  rev: 3-561be53827806f02a241926bf55562f9;  
+5/8/2018 6:46:39 PM
+Skipped due to deletion: seq: 4163;  id: c4eeb4bb-8bac-1d3b-6efc-927be60c3b9e;  rev: 3-f4c0d675ae88328f8dfbab96cd18ae9d;  
+5/8/2018 6:46:39 PM
+Skipped due to deletion: seq: 4164;  id: 84f2d4d0-1e8b-9327-0543-e1fa30fc8913;  rev: 3-168fd88576eb4e91436f848f646b19a3;  
+5/8/2018 6:46:39 PM
+Skipped due to deletion: seq: 4165;  id: 17cea598-6695-148d-a569-6825d79137e4;  rev: 3-196a083af8753969ea53a9536488f4cc;  
+5/8/2018 6:46:39 PM
+Skipped due to deletion: seq: 4178;  id: 089c6059-c1e8-d125-1405-1cdfe2cb6c3e;  rev: 3-da7f31ade31333c5a1e67f274ba1cdd7;  
+5/8/2018 6:46:39 PM
+Skipped due to deletion: seq: 4179;  id: 94574762-9675-b181-8dd0-2dac340a7e65;  rev: 3-a66b3dfdbd645107a1846c2b3f6e218a;  
+5/8/2018 6:46:39 PM
+Skipped due to deletion: seq: 4180;  id: 76e8c16a-7a6d-b797-a654-24b18097d0cc;  rev: 3-7a7a2ea271e30d831d0d5d062a0f5532;  
+5/8/2018 6:46:39 PM
+Skipped due to deletion: seq: 4181;  id: 4b94d9d9-059d-2b57-d60d-f5b7fbe1b018;  rev: 3-021e8ec0f43d3421cf8ff4ea42b92d1b;  
+5/8/2018 6:46:39 PM
+Skipped due to deletion: seq: 4182;  id: 4e6d71c2-6322-653d-5025-d6031d334fea;  rev: 3-976fd787d6bde2e82ff84d0a806a9185;  
+5/8/2018 6:46:39 PM
+Skipped due to deletion: seq: 4183;  id: 1d508730-455c-b290-ef58-2806cfc80ca3;  rev: 3-b499ba853141d05c157f9fded6472812;  
+5/8/2018 6:46:40 PM
+Skipped due to deletion: seq: 4184;  id: 92f1bf12-52ac-c6e4-44f0-78ecb27bf2dd;  rev: 3-3f50367a4721a9c039f0ff37b7a90534;  
+5/8/2018 6:46:40 PM
+Skipped due to deletion: seq: 4185;  id: dcf8a229-5ba8-e3c2-dc73-a8924e1c8772;  rev: 3-d04d751ce41f07946be3884649d6e6a3;  
+5/8/2018 6:46:40 PM
+Skipped due to deletion: seq: 4186;  id: a2a6390b-b921-4287-1096-d3ffd585dd96;  rev: 3-d193bb7190b5a2880f6c6bf277fcc787;  
+5/8/2018 6:46:40 PM
+Skipped due to deletion: seq: 4187;  id: 48c232c0-6e98-1d04-c51f-0968079dfb56;  rev: 3-611d3d04517248c2004d2b904f1bb142;  
+5/8/2018 6:46:40 PM
+Skipped due to deletion: seq: 4188;  id: 7c633d7a-568a-3974-0a60-8e93ca99bf82;  rev: 3-59f5db95a7ad1494be9d571dd3ef3cd5;  
+5/8/2018 6:46:40 PM
+Skipped due to deletion: seq: 4190;  id: 09b7d8d2-d80f-ae3b-969c-3eabf49546ac;  rev: 3-6765a5055451770c63024d4e185e4ee7;  
+5/8/2018 6:46:40 PM
+Skipped due to deletion: seq: 4191;  id: 0deec2a6-4aeb-f4d6-e6f6-631ca1c96951;  rev: 3-ee6a28959f7aa5b5fffecc46a4f3cf05;  
+5/8/2018 6:46:40 PM
+Skipped due to deletion: seq: 4192;  id: 8356aae5-4c06-c306-9d40-661435cec90f;  rev: 3-5cf2ba1768fee7c8da6cec9a0437fe0e;  
+5/8/2018 6:46:40 PM
+Skipped due to deletion: seq: 4193;  id: a20ed43e-9a86-5e2a-44cd-c4d4d379dadc;  rev: 3-418abfae6011f9ddcde4ed8fb97b784a;  
+5/8/2018 6:46:40 PM
+Skipped due to deletion: seq: 4194;  id: a9de29ed-07be-0a74-d2dc-c9b7a1241132;  rev: 3-0f461c55843d23a578d817b342b53ec0;  
+5/8/2018 6:46:40 PM
+Skipped due to deletion: seq: 4195;  id: ca1c571c-bd64-3fd9-8958-1f800c36e2ad;  rev: 3-d0e88e17e434007f7f43c672184b8213;  
+5/8/2018 6:46:40 PM
+Skipped due to deletion: seq: 4196;  id: a88a2a03-1d4b-5a73-8b00-119ba47be338;  rev: 3-9b05fe96bf6049e24e34b169e9eb4392;  
+5/8/2018 6:46:40 PM
+Skipped due to deletion: seq: 4197;  id: ae575474-b0f4-f596-5418-8f0c8bc2da73;  rev: 3-09655eb5674d02f998afb866444b01c1;  
+5/8/2018 6:46:41 PM
+Skipped due to deletion: seq: 4198;  id: a203d0ec-afca-115a-edcf-beeb4bfd710b;  rev: 3-e4f1f1af5d1119a2fb0f28c108977207;  
+5/8/2018 6:46:41 PM
+Skipped due to deletion: seq: 4199;  id: f14dfa6a-b82b-b30b-7986-f8d71590dbf2;  rev: 3-c1cb7085949739c1ee24d3b0df303a2e;  
+5/8/2018 6:46:41 PM
+Skipped due to deletion: seq: 4200;  id: e7e4ebd1-7cca-35f9-ed1a-8786b2ef9602;  rev: 3-be52b713deb37e7f995a1a3602bd5d7b;  
+5/8/2018 6:46:41 PM
+Skipped due to deletion: seq: 4204;  id: d24e2aa0-cd19-7ad8-baa0-cc214b80f3b9;  rev: 2-4c9e23ee5cc475ca1d84387ba1823cb3;  
+5/8/2018 6:46:41 PM
+Skipped due to deletion: seq: 4205;  id: af46fa31-26a1-aef2-74e9-b9bdeeade6cb;  rev: 3-cbaf50972b2ad6c649cfbd5c7442f951;  
+5/8/2018 6:46:41 PM
+Skipped due to deletion: seq: 4250;  id: 57a31c82-41ca-8473-9fa7-cfad59a232d3;  rev: 3-3d9c4a877f3ddd8cd4332076702cef50;  
+5/8/2018 6:46:41 PM
+Skipped due to deletion: seq: 4279;  id: a98734e0-9a9c-540d-b01d-3c4cbe305a13;  rev: 3-74bdb04b7aef87e6bc2fbef85cf1decd;  
+5/8/2018 6:46:41 PM
+Skipped due to deletion: seq: 4280;  id: f481004f-4f3f-e8b0-ec01-66eac3942130;  rev: 3-1fbe5dfe022e193c86450df2c704555f;  
+5/8/2018 6:46:41 PM
+Skipped due to deletion: seq: 4297;  id: 7c7305df-4fb2-787c-7eda-18582e0afc5b;  rev: 4-056deb0262455db8ee7bfbd074eda4e1;  
+5/8/2018 6:46:41 PM
+Skipped due to deletion: seq: 4301;  id: 29f484ce-bc6f-6eac-abf7-90fe4baa8f34;  rev: 3-f609e282dabf9af9e48b8e1752822e72;  
+5/8/2018 6:46:41 PM
+Skipped due to deletion: seq: 4302;  id: adb75cce-a6be-b8b8-82cc-c3e4efe8294a;  rev: 3-c1986b5330a35157c2d04f7c422e73d9;  
+5/8/2018 6:46:41 PM
+Skipped due to deletion: seq: 4303;  id: f7127503-23e4-989f-a29c-ea9f7b7e4d65;  rev: 3-636290b581a585b583a09f0683ef3554;  
+5/8/2018 6:46:41 PM
+Skipped due to deletion: seq: 4304;  id: 6411bbe2-4a2e-25a2-83d7-82c1170c4b9d;  rev: 3-3df779d28056fc76450fb630c121d39d;  
+5/8/2018 6:46:41 PM
+Skipped due to deletion: seq: 4305;  id: 422c12d3-5041-49fa-bd61-bd80c5871d9d;  rev: 3-74a2ae7a987ffa303cf12f7743720cb0;  
+5/8/2018 6:46:42 PM
+Skipped due to deletion: seq: 4306;  id: 2ae6d9ec-5972-18bb-4b20-1ed724db0c35;  rev: 3-934541bf095aa0c5b93cc9f168353cd4;  
+5/8/2018 6:46:42 PM
+Skipped due to deletion: seq: 4307;  id: 67368ba5-48d5-0dc9-ea55-08998cc9654f;  rev: 3-e9bcf73b649216bb2a88bbd3d183fb10;  
+5/8/2018 6:46:42 PM
+Skipped due to deletion: seq: 4308;  id: 777e4201-6be7-768e-487f-07dc7d6cb58f;  rev: 3-05ed03a5c52e9a33ca79392a4d9d2aac;  
+5/8/2018 6:46:42 PM
+Skipped due to deletion: seq: 4309;  id: 4de5232a-ebc6-1b56-1a5f-2a8a75df87ea;  rev: 3-b6f67191da5b0aa67f61cebaed45ce41;  
+5/8/2018 6:46:42 PM
+Skipped due to deletion: seq: 4310;  id: 8897d80c-dc2e-7f8b-41ce-83d5ab1499a3;  rev: 3-0da1b7d888ec9913d95d35e6513b9d38;  
+5/8/2018 6:46:42 PM
+Skipped due to deletion: seq: 4311;  id: bbf9cc18-6018-13b4-1556-077ca055cd1f;  rev: 3-a47d989894df8f1ea3a1d4ee4be6f87c;  
+5/8/2018 6:46:42 PM
+Skipped due to deletion: seq: 4312;  id: 8f25b3fa-2c0e-5ea7-9213-45a803c5ed4d;  rev: 3-000a047d9e61afaec816dba28fdbe3f1;  
+5/8/2018 6:46:42 PM
+Skipped due to deletion: seq: 4313;  id: be8cf52c-3593-4350-940e-352aa2378601;  rev: 3-0e819f06d6bfdf03d139fcf40e442319;  
+5/8/2018 6:46:42 PM
+Skipped due to deletion: seq: 4314;  id: e84ed51d-102b-616d-573a-2a9948ebc874;  rev: 3-37096054d78e3e01699487fda8bf3281;  
+5/8/2018 6:46:42 PM
+Skipped due to deletion: seq: 4321;  id: 8dd64d13-e16e-d3f9-38d2-ead6140e390e;  rev: 3-ddcf2b97e5654d9fd8bec7a57fe5fe03;  
+5/8/2018 6:46:42 PM
+Skipped due to deletion: seq: 4322;  id: 65c49856-3b51-d9fc-38d9-cd1eed890302;  rev: 3-8a16860fdc9786b2247c34b4df200101;  
+5/8/2018 6:46:42 PM
+Skipped due to deletion: seq: 4330;  id: 98e2d1f1-d020-998c-59b3-380ef68b8315;  rev: 2-c3c5dc5f5927f4dc2b92bf7d609a4777;  
+5/8/2018 6:46:42 PM
+Skipped due to deletion: seq: 4331;  id: 61700846-b18f-b472-be8c-9f757bb2d942;  rev: 3-63c2b4f0339e98a1774002659f815672;  
+5/8/2018 6:46:42 PM
+Skipped due to deletion: seq: 4349;  id: 60a1b54f-4906-4074-a5da-2292179d3003;  rev: 3-f1bbd6c9977b152a44daf97b23b5d17e;  
+5/8/2018 6:46:43 PM
+Skipped due to deletion: seq: 4350;  id: ee9da4b0-52ea-11e8-a22d-56ce7f333890;  rev: 2-2e2370ff5bbe2a967d3687a5479e6ea5;  
+5/8/2018 6:46:43 PM
+Skipped due to deletion: seq: 4351;  id: e3ac0a26-27b5-2695-b771-7c126626fa11;  rev: 3-24170b89b9b3567e8f0aaa08d69dde58;  
+5/8/2018 6:46:43 PM
+Skipped due to deletion: seq: 4352;  id: e8043c21-5b93-2dbe-440b-2e4af64a0342;  rev: 3-13c7423ffad885c554396351c6145ea8;  
+5/8/2018 6:46:43 PM
+Skipped due to deletion: seq: 4353;  id: dd4c747e-ecd7-23ef-0676-3a503819e59d;  rev: 3-083e33b888661e1d52b9985e10f4d320;  
+5/8/2018 6:46:43 PM
+Skipped due to deletion: seq: 4358;  id: d320b152-c1ca-4706-af9e-b2267469cc97;  rev: 2-a6c92b6f77ef34718db533c43716cd1c;  
+5/8/2018 6:46:43 PM
+Skipped due to deletion: seq: 4359;  id: 7ce32ee7-64e6-01bf-07b5-7de65eaf6854;  rev: 3-ee7ed7e6267f724b7e1c2b342348b3ff;  
+5/8/2018 6:46:43 PM
+Skipped due to deletion: seq: 4367;  id: 24a95ad4-52ec-11e8-a22d-56ce7f333890;  rev: 4-f579862b7258cb87367768a78b2fafbb;  
+5/8/2018 6:46:43 PM
+Skipped due to deletion: seq: 4368;  id: faf208ff-900d-48d2-0028-124fc17ff11a;  rev: 3-7064d31c9e34f9b3d3e8d98644a64612;  
+5/8/2018 6:46:43 PM
+Skipped due to deletion: seq: 4369;  id: 89024bff-d59d-b376-fe89-88b7b335224d;  rev: 3-23ad21927694792551da8ce142ca86ac;  
+5/8/2018 6:46:43 PM
+Skipped due to deletion: seq: 4370;  id: fc26a355-eb6e-eb0f-1278-f99faf2892cc;  rev: 3-e3ad20e186ce5937b8eb22840fa4ab7d;  
+5/8/2018 6:46:43 PM
+Skipped due to deletion: seq: 4397;  id: 34fc5e17-b13f-4492-af18-0c25df922de7;  rev: 22-f5157c2b9067b051cb4627a0fd022566;  
+5/8/2018 6:46:43 PM
+Skipped due to deletion: seq: 4398;  id: 8bd8607e-f341-114a-2724-f38250d69a66;  rev: 3-61ee19cf57b50337aa0ecfb588d785da;  
+5/8/2018 6:46:43 PM
+Skipped due to deletion: seq: 4400;  id: 0de5213e-2e5c-914e-a133-b4eb44ec5c5a;  rev: 3-46f27faba4459535641045ceebb1ae5a;  
+5/8/2018 6:46:44 PM
+Skipped due to deletion: seq: 4405;  id: 71ef4a10-163f-3c0a-db64-df857606af11;  rev: 3-05f8da0a579f9fd012488c72264bcdbd;  
+5/8/2018 6:46:44 PM
+seq: 4406;  id: cd22811c-6375-4343-0469-6020360dfd76;  rev: 1-9a3da2661ce53d725eae7e67ea571416;  
+5/8/2018 6:46:44 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/cd22811c-6375-4343-0469-6020360dfd76 method: GET
+5/8/2018 6:46:44 PM
+ImportPcr Response: 
+5/8/2018 6:46:44 PM
+Skipped due to deletion: seq: 4407;  id: fe9751b0-8465-e371-71a1-76dc27a613c9;  rev: 3-87b9e64dc2fe48353d70823d41848cd0;  
+5/8/2018 6:46:44 PM
+Skipped due to deletion: seq: 4408;  id: 66604bed-bab2-3faf-39c5-89b6d640a7bc;  rev: 3-1ca9e3a5e182d8da134d377ff934789d;  
+5/8/2018 6:46:44 PM
+Skipped due to deletion: seq: 4409;  id: dd8fda6e-582f-ee64-c7d2-6cc61e8cea01;  rev: 3-e64001da2a1144187c5de3f4c95d523e;  
+5/8/2018 6:46:44 PM
+seq: 4416;  id: 2443f715-cfa9-7b7e-7883-0e3fc5e22a76;  rev: 158-db8776697d1e4ac1ab2f4f48963f638b;  
+5/8/2018 6:46:44 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/2443f715-cfa9-7b7e-7883-0e3fc5e22a76 method: GET
+5/8/2018 6:46:46 PM
+2443f715-cfa9-7b7e-7883-0e3fc5e22a76 pcr status: fax_error
+5/8/2018 6:48:00 PM
+UrlRequest for: http://172.18.0.44:85/api/Couch/GetPcrReport?pcr_id=83fdf0a8-59d6-c945-9a23-161be7e7b5bd&agency_id=42ba67f1-ecbb-43c4-8b9a-afc172f062cc&FaxNumber=8453331561&agency_name=Kiryas Joel Community Ambulance Corp. method: GET
+5/8/2018 6:49:50 PM
+UrlRequest for: http://172.18.0.44:5984/app-pcrs/2443f715-cfa9-7b7e-7883-0e3fc5e22a76 method: PUT

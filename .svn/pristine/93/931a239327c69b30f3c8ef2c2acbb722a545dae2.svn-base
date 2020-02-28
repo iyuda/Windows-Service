@@ -1,0 +1,71 @@
+1/4/2018 10:58:34 AM
+Main
+1/4/2018 11:00:22 AM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/_changes?since=11661370-g1AAAAJ7eJzLYWBg4MhgTmEQTM4vTc5ISXLIyU9OzMnILy7JAUoxJTIkyf___z8rgzmJQVy5Lxcoxp6SYmBsYW6ITQ8ek5IUgGSSPdwwnmVgw0xTEpMSLdJINcwBZFg8zDCxAHWwYYbGacYmaUakGpYAMqweZpio5EKwYZZmxoYWRskkGpbHAiQZGoAU0Lz5ENedKQMbaJJoYmloRKpXIQYugBi4H2Kg2SmwgQYGZpbmFqZkGXgAYuB9iJcDDoANTDUxt0hKtiDLwAcQA6ERwmQHNtDYKM3YHHtSyQIA7zDGIw method: GET
+1/4/2018 11:00:25 AM
+seq: 11661373;  id: 213215fd-3821-436b-b075-6fff3082d5a2;  rev: 3-5005352a3cc94130a83dc35baba8c226;  
+1/4/2018 11:00:25 AM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/213215fd-3821-436b-b075-6fff3082d5a2 method: GET
+1/4/2018 11:00:25 AM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 11:01:18 AM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/213215fd-3821-436b-b075-6fff3082d5a2 method: PUT
+1/4/2018 11:01:19 AM
+http://192.168.1.152:5984/app-pcr/213215fd-3821-436b-b075-6fff3082d5a2 PUT Response: {"ok":true,"id":"213215fd-3821-436b-b075-6fff3082d5a2","rev":"4-e358b2cf3b3a9bc6838187571bf25cb1"}
+
+1/4/2018 11:01:19 AM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":true,"pcr_id":"732a8eb5-8cd8-4185-9545-3e2037032b92","action":"created"}
+1/4/2018 11:01:19 AM
+seq: 11661375;  id: 3dcb900b-64e8-4758-8f45-2fdffd9fc7ec;  rev: 206-9bdc596b3f5b78fbf06ad451f89a82d9;  
+1/4/2018 11:01:19 AM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/3dcb900b-64e8-4758-8f45-2fdffd9fc7ec method: GET
+1/4/2018 11:01:39 AM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 11:01:51 AM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/3dcb900b-64e8-4758-8f45-2fdffd9fc7ec method: PUT
+1/4/2018 11:01:51 AM
+http://192.168.1.152:5984/app-pcr/3dcb900b-64e8-4758-8f45-2fdffd9fc7ec PUT Response: {"ok":true,"id":"3dcb900b-64e8-4758-8f45-2fdffd9fc7ec","rev":"207-25c908b1bd0bc6c047c1907a15f02409"}
+
+1/4/2018 11:01:51 AM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/3dcb900b-64e8-4758-8f45-2fdffd9fc7ec method: PUT
+1/4/2018 11:01:51 AM
+http://192.168.1.152:5984/app-pcr/3dcb900b-64e8-4758-8f45-2fdffd9fc7ec?rev=206-9bdc596b3f5b78fbf06ad451f89a82d9 PUT Response: The remote server returned an error: (409) Conflict.
+1/4/2018 11:01:51 AM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":true,"pcr_id":"10e655bf-6d23-4907-9261-683e3d8e2334","action":"updated"}
+1/4/2018 11:01:51 AM
+seq: 11661377;  id: b92dbb20-72e4-4ba8-a170-002e5837673b;  rev: 152-7bc5ae75d230aeb866a9cff0a0678290;  
+1/4/2018 11:01:51 AM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/b92dbb20-72e4-4ba8-a170-002e5837673b method: GET
+1/4/2018 11:01:51 AM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 11:01:56 AM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/b92dbb20-72e4-4ba8-a170-002e5837673b method: PUT
+1/4/2018 11:01:56 AM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":false,"pcr_id":null,"action":null,"ErrorMessage":"CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'pcr_type' cannot be null. The SQL statement executed was: UPDATE `pcr` SET `pcr_type`=:yp0, `printed`=:yp1, `admitted`=:yp2, `qa`=:yp3, `utc_insert`=:yp4, `utc_update`=:yp5, `id`=:yp6, `ems_run`=:yp7, `pcr_dispatch_id`=:yp8, `pcr_demographic_id`=:yp9, `pcr_assessment_id`=:yp10, `pcr_disposition_id`=:yp11, `pcr_narrative_notes_id`=:yp12, `pcr_narcotics_id`=:yp13, `pcr_rma_id`=:yp14, `pcr_authorization_id`=:yp15, `pcr_apcf_id`=:yp16, `pcr_number`=:yp17, `agency_id`=:yp18 WHERE `pcr`.`id`='284210d4-c227-408a-bb9b-136a2b5b1565'. Bound with :yp0=NULL, :yp1=0, :yp2=0, :yp3=0, :yp4='1970-01-01 00:00:00', :yp5='1970-01-01 00:00:00', :yp6='284210d4-c227-408a-bb9b-136a2b5b1565', :yp7='2963a642-40d0-40c9-b43b-8141cffdfd19', :yp8='8207127f-302f-4ad8-ae9d-672eb9dd55d9', :yp9='3e1ba0c4-bb82-48ac-ae89-0f1196a76ba3', :yp10='e18d7fff-41fd-424f-93bd-2b0e8a150543', :yp11='be945573-e52d-4c32-9d7d-492ec8f9ed27', :yp12='8455327d-a900-465f-99ee-8f38755e95c5', :yp13='7e3f0713-70c4-4b55-8a60-6b9cc2d0c740', :yp14='be06bd29-2645-446c-b7df-b5aea74c4b6a', :yp15='7a95ddcc-1ab9-4ca8-b2d1-423ec1cb9fcd', :yp16='208f12e1-2636-4cf1-86ba-3abdc067c88e', :yp17=' -01042018-110159-7', :yp18='85ff1684-d60e-11e3-ab84-842b2b4bbc99'"}
+1/4/2018 11:01:57 AM
+seq: 11661379;  id: a6a3b042-f0e0-11e7-9dc4-56ce7f333890;  rev: 206-cd9211b64a3f4ff12b21ce6d6e4ed10c;  
+1/4/2018 11:01:57 AM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/a6a3b042-f0e0-11e7-9dc4-56ce7f333890 method: GET
+1/4/2018 11:01:57 AM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 11:01:59 AM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/a6a3b042-f0e0-11e7-9dc4-56ce7f333890 method: PUT
+1/4/2018 11:01:59 AM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":false,"pcr_id":null,"action":null,"ErrorMessage":"CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'pcr_type' cannot be null. The SQL statement executed was: UPDATE `pcr` SET `pcr_type`=:yp0, `printed`=:yp1, `admitted`=:yp2, `qa`=:yp3, `utc_insert`=:yp4, `utc_update`=:yp5, `id`=:yp6, `ems_run`=:yp7, `pcr_dispatch_id`=:yp8, `pcr_demographic_id`=:yp9, `pcr_assessment_id`=:yp10, `pcr_disposition_id`=:yp11, `pcr_narrative_notes_id`=:yp12, `pcr_narcotics_id`=:yp13, `pcr_rma_id`=:yp14, `pcr_authorization_id`=:yp15, `pcr_apcf_id`=:yp16, `pcr_number`=:yp17, `agency_id`=:yp18 WHERE `pcr`.`id`='29444922-54ac-4856-ba0a-020ad8e18b02'. Bound with :yp0=NULL, :yp1=0, :yp2=0, :yp3=0, :yp4='1970-01-01 00:00:00', :yp5='1970-01-01 00:00:00', :yp6='29444922-54ac-4856-ba0a-020ad8e18b02', :yp7='28031240-1ad2-43d0-81ed-42ba7a820586', :yp8='ef3cbae3-0846-4a93-8835-ad10cda14383', :yp9='6e7d7c39-1d47-4402-91ba-a2bffcf3f57a', :yp10='11787108-11c6-4ad4-816b-361a4ba87599', :yp11='08fa95fc-df35-4254-9792-df80a0f76396', :yp12='23a5d9f2-284c-407e-b084-67d6c32360f0', :yp13='ded63dcb-87a5-4e3a-85bb-439e4d821530', :yp14='a374678e-e823-4344-a9a8-d9e500c54e74', :yp15='7c6b55c0-7e23-4305-bda1-d5b6d0889069', :yp16='2a1b16ff-0624-4c8b-a6cc-45f1010f396a', :yp17=' -01042018-110205-0', :yp18='f282aefd-e695-11e3-8fa5-842b2b4bbc99'"}
+1/4/2018 11:01:59 AM
+seq: 11661381;  id: f3c0f6d4-f4ad-4566-bb3c-3d368d3e05b2;  rev: 72-de6e980b8909e74e40a225bc96f76ef8;  
+1/4/2018 11:02:00 AM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/f3c0f6d4-f4ad-4566-bb3c-3d368d3e05b2 method: GET
+1/4/2018 11:02:12 AM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 11:02:18 AM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/f3c0f6d4-f4ad-4566-bb3c-3d368d3e05b2 method: PUT
+1/4/2018 11:02:18 AM
+http://192.168.1.152:5984/app-pcr/f3c0f6d4-f4ad-4566-bb3c-3d368d3e05b2 PUT Response: {"ok":true,"id":"f3c0f6d4-f4ad-4566-bb3c-3d368d3e05b2","rev":"73-41319f757c414c6b9082ef145707720e"}
+
+1/4/2018 11:02:38 AM
+UrlRequest for: http://localhost:53186/api/Couch/GetPcrReport?pcr_id=7920d71a-3214-4189-9742-8f6f67daeb30&FaxNumber=7183019711&Agency=Creative EMS Inc. method: GET
+1/4/2018 11:03:30 AM
+UrlRequest for: http://localhost:53186/api/Couch/GetPcrReport?pcr_id=7920d71a-3214-4189-9742-8f6f67daeb30&FaxNumber=7183019711&Agency=Creative EMS Inc. method: GET
+1/4/2018 11:09:33 AM
+UrlRequest for: http://www.creativeemstest.com:85/api/Couch/GetPcrReport?pcr_id=7920d71a-3214-4189-9742-8f6f67daeb30&FaxNumber=7183019711&Agency=Creative EMS Inc.GetPcrReport?pcr_id=7920d71a-3214-4189-9742-8f6f67daeb30&FaxNumber=7183019711&Agency=Creative EMS Inc. method: GET

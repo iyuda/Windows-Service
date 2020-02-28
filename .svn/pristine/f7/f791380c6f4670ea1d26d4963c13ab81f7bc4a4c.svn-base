@@ -1,0 +1,14 @@
+
+11/1/2017 4:33:44 PM
+Error reading JObject from JsonReader. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at CemsMobilePcrSrv.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in c:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\JsonMaker.cs:line 66
+Source: Newtonsoft.Json
+
+11/1/2017 4:34:06 PM
+Error reading JObject from JsonReader. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at CemsMobilePcrSrv.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in c:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\JsonMaker.cs:line 66
+Source: Newtonsoft.Json

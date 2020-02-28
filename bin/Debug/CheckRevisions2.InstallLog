@@ -1,0 +1,19 @@
+﻿Installing assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions2.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions2.exe
+Installing service Windows Service Test2...
+Service Windows Service Test2 has been successfully installed.
+Creating EventLog source Windows Service Test2 in log Application...
+Installing service Check Revisions...
+Creating EventLog source Check Revisions in log Application...
+Rolling back assembly 'C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions2.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions2.InstallLog
+   assemblypath = C:\Work Area\CheckRevisions\CheckRevisions\bin\Debug\CheckRevisions2.exe
+Restoring event log to previous state for source Check Revisions.
+Restoring event log to previous state for source Windows Service Test2.
+Service Windows Service Test2 is being removed from the system...
+Service Windows Service Test2 was successfully removed from the system.

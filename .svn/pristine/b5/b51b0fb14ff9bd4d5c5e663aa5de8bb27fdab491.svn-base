@@ -1,0 +1,477 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using Newtonsoft.Json.Linq;
+using Newtonsoft.Json;
+using MySql.Data.MySqlClient;
+using System.Web.Script.Serialization;
+using System.Text;
+namespace CemsMobilePcrSrv
+    {
+    public static class JsonMaker
+        {
+         public static List<T> GetListFromJSON<T>(string jsonString) where T : class, new()
+         {
+              if (jsonString == null) return null;
+              JavaScriptSerializer jss = new JavaScriptSerializer();
+              List<T> list = jss.Deserialize<List<T>>(jsonString);
+              return list;
+         }
+        public static string GetJSONFromList<T>(List<T> ListParam, string Prefix = "")
+            {
+            try
+                {
+                return Prefix ==""?"": "\"" + Prefix + "\": " + JsonConvert.SerializeObject(ListParam);
+                }
+            catch (Exception ex)
+                {
+                return Logger.LogException(ex);
+                }
+            }
+        public static string GetJSON(dynamic obj, Boolean SkipTableName = false, string Prefix = "")
+            {
+            try
+                {
+
+              
+                string json = JsonConvert.SerializeObject(obj, Formatting.Indented);
+                JsonSerializerSettings Jsettings = new JsonSerializerSettings();
+                if (!SkipTableName)
+                    {
+                    if (Prefix == "") Prefix = obj.GetTableName(); else Prefix += obj.GetTableName();
+                    json = "\"" + Prefix + "\": " + json;
+                    }
+                return json;
+                }
+            catch (Exception ex)
+                {
+                return Logger.LogException(ex);
+                }
+            }
+
+        public static object  GetIOSJsonExtract(string Expression, string Input = "data")
+        {
+             object value;
+             try
+             {
+                  string JsonString = Input.Replace("'", @"\'").Replace("\"", "'");  //.Replace(".", "@");
+                  if (Expression.Contains("@"))
+                  {
+                       string[] SplitArray = Expression.Split('@');
+                       Expression += "." + SplitArray[SplitArray.Length - 1];
+                  }
+
+
+                  JObject JsonObject = JObject.Parse(@JsonString);
+                  IEnumerable<JToken> Selection = (JToken)null;
+                  if (!Expression.Contains("*"))
+                    Selection = JsonObject.SelectToken(Expression);
+                  else
+                    Selection = JsonObject.SelectTokens(Expression);
+                  value = Selection == null ? null : Selection;
+                  if (!(value + "").Contains("{") && !(value + "").Contains("["))
+                  {
+                       string[] TempArray = Expression.Split('.');
+                       Logger.LogJsonUpdates(TempArray[TempArray.Length - 1].Replace("['", "").Replace("']", ""), "JsonExtracts");
+                  }
+                  //StringBuilder message = new StringBuilder();
+                  //message.Append("UpdateJsonValue: " + System.Environment.NewLine);
+                  //message.Append("Path: " + Expression + System.Environment.NewLine);
+                  //message.Append("Value: " + value + System.Environment.NewLine);
+                  //Logger.LogJsonUpdates(message.ToString(), "JsonExtracts");
+                  //var values = Selection.Select(o => o.First);
+                  //foreach (JToken token in Selection)
+                  //{
+                  //     Console.WriteLine(token.Path + ": " + token);
+                  //}
+             }
+                  
+             catch (Exception ex) { Logger.LogException(ex); return null; }
+             return value;
+             //string value;
+             //try
+             //{
+             //     MySqlConnectionStringBuilder builder = new MySqlConnectionStringBuilder(DbConnect.ConnectionString);
+             //     builder.Database = "IOS";
+             //     using (MySqlConnection cn = new MySqlConnection(builder.GetConnectionString(true)))
+             //     {
+             //          cn.Open();
+             //          //string QueryString = "select json_extract(data," + (Expression.Contains("'") ? Expression : "'" + Expression + "'") + ") FROM json_pcr j where id='5db404f9-d2eb-11e6-b953-3052cb650342'";
+             //          string QueryString = "select json_extract('" + Input + "', " + (Expression.Contains("'") ? Expression : "'" + Expression + "'") + ") FROM json_pcr j where id='5db404f9-d2eb-11e6-b953-3052cb650342'";
+             //          MySqlCommand cmd = new MySqlCommand(QueryString, cn);
+             //          value = cmd.ExecuteScalar().ToString();
+             //     }
+             //}
+             //catch (Exception ex) { Logger.LogException(ex); return null; }
+             //return value;
+
+        }
+        //public static bool ModifyArrayItem(string Path, string SearchField, string SearchValue, String ModifyField, string ModifyValue, bool MustExist=false)
+        //{
+        //     try
+        //     {
+        //     object JsonData = Pcr.OutgoingJson;
+        //     string JsonString = JsonData.ToString().Replace("'", @"\'").Replace("\"", "'"); //.Replace(".", "@");
+        //     JToken JsonToken = JObject.Parse(@JsonString);
+        //     //JArray jarray = (JArray)JsonToken.SelectToken(Path.Replace("buttons", "shmuttons"));
+        //     JArray jarray = (JArray)JsonToken.SelectToken(Path);
+
+        //     JToken SearchToken=null;
+        //     if (jarray == null && MustExist) return false;
+        //     if (jarray == null)
+        //     {
+        //          //JsonMaker.UpdateJsonValue(Path.Replace("buttons", "shmuttons"), "[]");
+        //          JsonMaker.UpdateJsonValue(Path, "[]");
+        //          JsonData = Pcr.OutgoingJson;
+        //          JsonString = JsonData.ToString().Replace("'", @"\'").Replace("\"", "'");
+        //          JsonToken = JObject.Parse(@JsonString);
+        //          //jarray = (JArray)JsonToken.SelectToken(Path.Replace("buttons", "shmuttons"));
+        //          jarray = (JArray)JsonToken.SelectToken(Path);
+        //     }
+        //     //return false;
+        //     else
+        //     {
+        //          SearchToken = jarray.Children().FirstOrDefault(x => x.SelectToken(SearchField).ToString() == SearchValue);
+        //     }
+        //     if (SearchToken == null && MustExist) return false;
+
+        //     if (SearchToken == null)
+        //     {
+                  
+        //          JObject ArrayItem = new JObject();
+        //          ArrayItem[SearchField] = SearchValue;
+        //          ArrayItem[ModifyField] = ModifyValue;
+                  
+        //          if (Path.Contains("RunType"))
+        //          {
+        //               ArrayItem["id"] = SearchValue.Replace(" ", "");
+        //               ArrayItem["img"] = "check-circle-o";
+        //          }
+        //          else if (Path.Contains("Vitals_"))
+        //          {
+        //               ArrayItem["id"] = SearchValue.Replace(" ", "");
+        //               ArrayItem["str"] = "check-circle-o";
+        //          }
+
+        //          //if (Path.Contains("DispositionWide"))
+        //          //{
+        //          //     ArrayItem["img"] = "check-circle-o";
+        //          //}
+
+        //          //else if (Path.Contains("CALLTYPE"))
+        //          //{
+        //          //     ArrayItem["img"] = "check-circle-o";
+        //          //     ArrayItem["id"] = Path.Replace("$.Dispatch.", "").Replace("$.['Dispatch'].","");
+        //          //     ArrayItem["str"] = "";
+        //          //}
+        //          //else if (Path.Contains("LightsSirens"))
+        //          //{
+        //          //     ArrayItem["img"] = "check-square-o";
+        //          //     ArrayItem["str"] = SearchValue == "LSToScene" ? "To Scene" : "To Destination";
+        //          //}
+        //          //else if (Path.Contains("RMAReason"))
+        //          //{
+        //          //     ArrayItem["img"] = "check-circle-o";
+        //          //     if (button != null) ArrayItem["str"] = button._name.Replace("RMA ", "");
+        //          //}
+        //          //else if (Path.Contains("Necessity"))
+        //          //{
+        //          //     ArrayItem["img"] = "check-circle-o";
+        //          //     ArrayItem["str"] = ArrayItem["id"];
+        //          //}
+        //          //else if (Path.Contains("HIPAA"))
+        //          //{
+        //          //     ArrayItem["img"] = "check-circle-o";
+        //          //     switch (SearchValue)
+        //          //     {
+        //          //            case "Patient's Legal Guardian": 
+        //          //                 ArrayItem["id"] ="REP1"; break;
+        //          //            case "Relative or other person who receives social security or other governmental benefits on behalf of the patient": 
+        //          //                 ArrayItem["id"] = "REP2"; break;
+        //          //            case "Relative or other person who arranges for the patient's treatment or exercises other responsibility for the patient's affair": 
+        //          //                 ArrayItem["id"] ="REP3"; break;
+        //          //            case "Representative of an agency or institution that did not furnish the services for which payment is claimed (i.e. ambulance services) but furnished other care, services, or assistance to the patient": 
+        //          //                 ArrayItem["id"] ="REP4"; break;
+        //          //            case "Patient Care Report (signed by representative of facility)": 
+        //          //                 ArrayItem["id"] ="SECDOC1";  break;
+        //          //            case "Facility Face Sheet/Admissions Record": 
+        //          //                 ArrayItem["id"] ="SECDOC2";  break;
+        //          //            case "Patient Medical Record": 
+        //          //                 ArrayItem["id"] ="SECDOC3";  break;
+        //          //            case "Hospital Log or Other Similar Facility Record": 
+        //          //                 ArrayItem["id"] = "SECDOC4"; break;
+        //          //     }
+        //          //     if (button != null) ArrayItem["str"] = button._name.Replace("RMA ", "");
+
+        //          //}
+
+        //          jarray.Add(ArrayItem); 
+                                    
+        //      //    return false;
+        //     }
+        //     else
+        //          SearchToken.SelectToken(ModifyField).Replace(ModifyValue);
+        //     Pcr.OutgoingJson = (JObject)JsonToken; 
+        //     return true;
+        //     }
+        //     catch (Exception ex) { Logger.LogException(ex); return false; }
+        //}
+        public static bool UpdateJsonValue(string Path, string Value, ref JToken JsonOut)
+        {
+
+             object JsonData = JsonOut; //Pcr.OutgoingJson;
+             try
+             {
+                  string JsonString = JsonData.ToString().Replace("'", @"\'").Replace("\"", "'"); //.Replace(".", "@");
+                  if (Path.Contains("@"))
+                  {
+                       string[] SplitArray = Path.Split('@');
+                       Path += "." + SplitArray[SplitArray.Length - 1];
+                       Path = "$~" + "['" + Path.Replace("$.", "").Replace(".", "']~['").Replace("@", ".") + "']";
+                  }
+                  else if (!Path.Contains("['"))
+                       Path = "$~" + "['" + Path.Replace("$.", "").Replace(".", "']~['").Replace("@", ".") + "']";
+                  else
+                       Path = "$~" + Path.Replace("$.", "").Replace("].[", "]~[");
+                  if (Path.Contains(" '"))
+                       Path = Path.Replace("['", "[[").Replace("']", "]]").Replace("'", "").Replace("[[", "['").Replace("]]", "']");
+                  //  JObject JsonObject = (JObject)JsonConvert.DeserializeObject(JsonData.ToString());
+                  JToken JsonToken = JObject.Parse(@JsonString);
+                  JToken ModifyToken = JsonToken;
+                  string RemainingPath = Path;
+                  foreach (string item in Path.Split('~'))
+                  {
+                       // string work_item = item.Replace("['", "[[").Replace("']", "]]").Replace("'", "").Replace("[[", "['").Replace("]]", "']");
+                       JToken Selection = (JToken)ModifyToken.SelectToken(item.Replace(" ", "_"));
+                       if (Selection != null)
+                            ModifyToken = Selection;
+                       else if (item != "$")
+                       {
+                            string last_loop_item = "";
+                            JToken PrevJsonToken = ModifyToken;
+                            string[] RemainingPathArray = RemainingPath.Split('~');
+                            foreach (string loopitem in RemainingPathArray)
+                            {
+                                 dynamic JsonObject;
+                                 if (Value != "[]" || loopitem != RemainingPathArray[RemainingPathArray.Length - 1])
+                                      JsonObject = new JObject();
+                                 else
+                                      JsonObject = new JArray();
+                                 ModifyToken[loopitem.Replace("['", "").Replace("']", "")] = JsonObject;
+                                 PrevJsonToken = ModifyToken;
+                                 ModifyToken = JsonObject;
+                                 last_loop_item = loopitem;
+                            }
+                            //if (last_loop_item != "") PrevJsonToken[last_loop_item] = Value;
+                            //JsonData = PrevJsonToken.Root;
+                            if (Value == "[]" && ModifyToken.ToString().Contains("[")) break;
+
+                            //JsonObject.AddAfterSelf(@"{" + RemainingPath.Replace(".", "}:{") + "="+ Value+ "}");
+                       }
+                       RemainingPath = string.Join("~", RemainingPath.Split('~').Skip(1).ToArray());
+                  }
+                  Path = Path.Replace("~", ".");
+                  if (Value != "[]") JsonToken.SelectToken(Path).Replace(Value + "");
+
+                  JsonData = (JObject)JsonToken;
+                  JsonOut = (JToken) JsonData; ;
+                  StringBuilder message = new StringBuilder();
+                  message.Append("UpdateJsonValue: " + System.Environment.NewLine);
+                  message.Append("Path: " + Path + System.Environment.NewLine);
+                  message.Append("Value: " + Value + System.Environment.NewLine);
+                  Logger.LogJsonUpdates(message.ToString());
+                  message = new StringBuilder();
+                  if (Value != "[]")
+                  {
+                       message.Append("Path: " + Path + System.Environment.NewLine);
+                       message.Append("Value: " + Value + System.Environment.NewLine);
+                       Logger.LogJsonUpdates(message.ToString(), "JsonFields");
+                  }
+                  return true;
+                  //JsonObject[Path] = Value;
+
+
+             }
+             catch (Exception ex) { Logger.LogException(ex); return false; }
+
+        }
+        public static bool UpdateJsonValue(string Path, string Value, ref string JsonOut)
+        {
+
+             object JsonData = JsonOut; //Pcr.OutgoingJson;
+             try
+             {
+                  string JsonString = JsonData.ToString().Replace("'", @"\'").Replace("\"", "'"); //.Replace(".", "@");
+                  if (Path.Contains("@"))
+                  {
+                       string[] SplitArray = Path.Split('@');
+                       Path += "." + SplitArray[SplitArray.Length - 1];
+                       Path = "$~" + "['" + Path.Replace("$.", "").Replace(".", "']~['").Replace("@", ".") + "']";
+                  }
+                  else if (!Path.Contains("['"))
+                       Path = "$~" + "['" + Path.Replace("$.", "").Replace(".", "']~['").Replace("@", ".") + "']";
+                  else
+                       Path = "$~" + Path.Replace("$.", "").Replace("].[", "]~[");
+                  if (Path.Contains(" '"))
+                       Path = Path.Replace("['", "[[").Replace("']", "]]").Replace("'", "").Replace("[[", "['").Replace("]]", "']");
+                  //  JObject JsonObject = (JObject)JsonConvert.DeserializeObject(JsonData.ToString());
+                  JToken JsonToken = JObject.Parse(@JsonString);
+                  JToken ModifyToken = JsonToken;
+                  string RemainingPath = Path;
+                  foreach (string item in Path.Split('~'))
+                  {
+                       // string work_item = item.Replace("['", "[[").Replace("']", "]]").Replace("'", "").Replace("[[", "['").Replace("]]", "']");
+                       JToken Selection = (JToken)ModifyToken.SelectToken(item.Replace(" ", "_"));
+                       if (Selection != null)
+                            ModifyToken = Selection;
+                       else if (item != "$")
+                       {
+                            string last_loop_item = "";
+                            JToken PrevJsonToken = ModifyToken;
+                            string[] RemainingPathArray = RemainingPath.Split('~');
+                            foreach (string loopitem in RemainingPathArray)
+                            {
+                                 dynamic JsonObject;
+                                 if (Value != "[]" || loopitem != RemainingPathArray[RemainingPathArray.Length - 1])
+                                      JsonObject = new JObject();
+                                 else
+                                      JsonObject = new JArray();
+                                 ModifyToken[loopitem.Replace("['", "").Replace("']", "")] = JsonObject;
+                                 PrevJsonToken = ModifyToken;
+                                 ModifyToken = JsonObject;
+                                 last_loop_item = loopitem;
+                            }
+                            //if (last_loop_item != "") PrevJsonToken[last_loop_item] = Value;
+                            //JsonData = PrevJsonToken.Root;
+                            if (Value == "[]" && ModifyToken.ToString().Contains("[")) break;
+
+                            //JsonObject.AddAfterSelf(@"{" + RemainingPath.Replace(".", "}:{") + "="+ Value+ "}");
+                       }
+                       RemainingPath = string.Join("~", RemainingPath.Split('~').Skip(1).ToArray());
+                  }
+                  Path = Path.Replace("~", ".");
+                  if (Value != "[]") JsonToken.SelectToken(Path).Replace(Value + "");
+
+                  JsonData = (JObject)JsonToken;
+                  JsonOut = JsonData.ToString(); ;
+                  StringBuilder message = new StringBuilder();
+                  message.Append("UpdateJsonValue: " + System.Environment.NewLine);
+                  message.Append("Path: " + Path + System.Environment.NewLine);
+                  message.Append("Value: " + Value + System.Environment.NewLine);
+                  Logger.LogJsonUpdates(message.ToString());
+                  message = new StringBuilder();
+                  if (Value != "[]")
+                  {
+                       message.Append("Path: " + Path + System.Environment.NewLine);
+                       message.Append("Value: " + Value + System.Environment.NewLine);
+                       Logger.LogJsonUpdates(message.ToString(), "JsonFields");
+                  }
+                  return true;
+                  //JsonObject[Path] = Value;
+
+
+             }
+             catch (Exception ex) { Logger.LogException(ex); return false; }
+
+        }
+        public static bool ModifyArrayItem(ref JToken JsonOut, string Path, string SearchField, string SearchValue, String ModifyField, object ModifyValue, bool MustExist = false)
+        {
+             try
+             {
+                  object JsonData = JsonOut; // HttpContext.Current.Session["json_out"];
+                  string JsonString = JsonData.ToString().Replace("'", @"\'").Replace("\"", "'"); //.Replace(".", "@");
+                  JToken JsonToken = JObject.Parse(@JsonString);
+                  JArray jarray = (JArray)JsonToken.SelectToken(Path);
+
+                  JToken SearchToken = null;
+                  if (jarray == null && MustExist) return false;
+                  if (jarray == null)
+                  {
+                       //JsonMaker.UpdateJsonValue(Path.Replace("buttons", "shmuttons"), "[]");
+                       JsonMaker.UpdateJsonValue(Path, "[]", ref JsonToken);
+                       JsonData = JsonToken; // HttpContext.Current.Session["json_out"]; ;
+                       JsonString = JsonData.ToString().Replace("'", @"\'").Replace("\"", "'");
+                       JsonToken = JObject.Parse(@JsonString);
+                       //jarray = (JArray)JsonToken.SelectToken(Path.Replace("buttons", "shmuttons"));
+                       jarray = (JArray)JsonToken.SelectToken(Path);
+                  }
+                  //return false;
+                  else
+                  {
+                       SearchToken = jarray.Children().FirstOrDefault(x => x.SelectToken(SearchField).ToString() == SearchValue);
+                  }
+                  if (SearchToken == null && MustExist) return false;
+
+                  if (SearchToken == null)
+                  {
+
+                       JObject ArrayItem = new JObject();
+                       JToken tokenToAdd = JToken.Parse(JsonConvert.SerializeObject(SearchValue, Formatting.Indented));
+                       ArrayItem[SearchField] = tokenToAdd;
+                       tokenToAdd = JToken.Parse(JsonConvert.SerializeObject(ModifyValue, Formatting.Indented));
+                       ArrayItem[ModifyField] = tokenToAdd;
+
+                       jarray.Add(ArrayItem);
+
+
+                  }
+                  else
+                  {
+                      // SearchToken.SelectToken(ModifyField).Replace(ModifyValue);
+                       SearchToken[ModifyField] = JToken.Parse(JsonConvert.SerializeObject(ModifyValue, Formatting.Indented));
+                  }          
+
+                  JsonOut = JsonToken;
+
+                  //StringBuilder message = new StringBuilder();
+                 
+                  return true;
+             }
+             catch (Exception ex) { Logger.LogException(ex); return false; }
+        }
+
+       
+        public static string GetIOSJsonExtract(string Expression, object JsonData, bool LogExtracts=false)
+        {
+
+             string value;
+             try
+             {
+                  string JsonString = JsonData.ToString().Replace("'", @"\'").Replace("\"", "'"); //.Replace(".", "@");
+                  if (Expression.Contains("@"))
+                  {
+                       string[] SplitArray = Expression.Split('@');
+                       Expression += "." + SplitArray[SplitArray.Length - 1];
+                       Expression = ("$~" + "['" + Expression.Replace("$.", "").Replace(".", "']~['").Replace("@", ".") + "']").Replace("~", ".");
+                  }
+
+
+                  JObject JsonObject = JObject.Parse(@JsonString);
+                  JToken Selection = JsonObject.SelectToken(Expression);
+                  value = Selection == null || Selection.Type == JTokenType.Null ? null : Selection.ToString();
+
+                  if (!(value + "").Contains("{") && !(value + "").Contains("["))
+                  {
+                       string[] TempArray;
+                       if (Expression.Contains("['"))
+                       {
+                            Expression = Expression.Replace("'].['", "~");
+                            Expression = Expression.Replace("['", "").Replace("']", "");
+                            TempArray = Expression.Split('~');
+                       }
+                       else
+                            TempArray = Expression.Split('.');
+                       Logger.LogJsonUpdates(TempArray[TempArray.Length - 1], "JsonExtracts");
+                  }
+
+             }
+             catch (Exception ex) { Logger.LogException(ex); return null; }
+             return value;
+
+        }
+
+
+    
+        }
+    }

@@ -1,0 +1,859 @@
+1/4/2018 10:58:34 AM
+Main
+1/4/2018 11:00:22 AM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/_changes?since=11661370-g1AAAAJ7eJzLYWBg4MhgTmEQTM4vTc5ISXLIyU9OzMnILy7JAUoxJTIkyf___z8rgzmJQVy5Lxcoxp6SYmBsYW6ITQ8ek5IUgGSSPdwwnmVgw0xTEpMSLdJINcwBZFg8zDCxAHWwYYbGacYmaUakGpYAMqweZpio5EKwYZZmxoYWRskkGpbHAiQZGoAU0Lz5ENedKQMbaJJoYmloRKpXIQYugBi4H2Kg2SmwgQYGZpbmFqZkGXgAYuB9iJcDDoANTDUxt0hKtiDLwAcQA6ERwmQHNtDYKM3YHHtSyQIA7zDGIw method: GET
+1/4/2018 11:00:25 AM
+seq: 11661373;  id: 213215fd-3821-436b-b075-6fff3082d5a2;  rev: 3-5005352a3cc94130a83dc35baba8c226;  
+1/4/2018 11:00:25 AM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/213215fd-3821-436b-b075-6fff3082d5a2 method: GET
+1/4/2018 11:00:25 AM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 11:01:18 AM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/213215fd-3821-436b-b075-6fff3082d5a2 method: PUT
+1/4/2018 11:01:19 AM
+http://192.168.1.152:5984/app-pcr/213215fd-3821-436b-b075-6fff3082d5a2 PUT Response: {"ok":true,"id":"213215fd-3821-436b-b075-6fff3082d5a2","rev":"4-e358b2cf3b3a9bc6838187571bf25cb1"}
+
+1/4/2018 11:01:19 AM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":true,"pcr_id":"732a8eb5-8cd8-4185-9545-3e2037032b92","action":"created"}
+1/4/2018 11:01:19 AM
+seq: 11661375;  id: 3dcb900b-64e8-4758-8f45-2fdffd9fc7ec;  rev: 206-9bdc596b3f5b78fbf06ad451f89a82d9;  
+1/4/2018 11:01:19 AM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/3dcb900b-64e8-4758-8f45-2fdffd9fc7ec method: GET
+1/4/2018 11:01:39 AM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 11:01:51 AM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/3dcb900b-64e8-4758-8f45-2fdffd9fc7ec method: PUT
+1/4/2018 11:01:51 AM
+http://192.168.1.152:5984/app-pcr/3dcb900b-64e8-4758-8f45-2fdffd9fc7ec PUT Response: {"ok":true,"id":"3dcb900b-64e8-4758-8f45-2fdffd9fc7ec","rev":"207-25c908b1bd0bc6c047c1907a15f02409"}
+
+1/4/2018 11:01:51 AM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/3dcb900b-64e8-4758-8f45-2fdffd9fc7ec method: PUT
+1/4/2018 11:01:51 AM
+http://192.168.1.152:5984/app-pcr/3dcb900b-64e8-4758-8f45-2fdffd9fc7ec?rev=206-9bdc596b3f5b78fbf06ad451f89a82d9 PUT Response: The remote server returned an error: (409) Conflict.
+1/4/2018 11:01:51 AM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":true,"pcr_id":"10e655bf-6d23-4907-9261-683e3d8e2334","action":"updated"}
+1/4/2018 11:01:51 AM
+seq: 11661377;  id: b92dbb20-72e4-4ba8-a170-002e5837673b;  rev: 152-7bc5ae75d230aeb866a9cff0a0678290;  
+1/4/2018 11:01:51 AM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/b92dbb20-72e4-4ba8-a170-002e5837673b method: GET
+1/4/2018 11:01:51 AM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 11:01:56 AM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/b92dbb20-72e4-4ba8-a170-002e5837673b method: PUT
+1/4/2018 11:01:56 AM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":false,"pcr_id":null,"action":null,"ErrorMessage":"CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'pcr_type' cannot be null. The SQL statement executed was: UPDATE `pcr` SET `pcr_type`=:yp0, `printed`=:yp1, `admitted`=:yp2, `qa`=:yp3, `utc_insert`=:yp4, `utc_update`=:yp5, `id`=:yp6, `ems_run`=:yp7, `pcr_dispatch_id`=:yp8, `pcr_demographic_id`=:yp9, `pcr_assessment_id`=:yp10, `pcr_disposition_id`=:yp11, `pcr_narrative_notes_id`=:yp12, `pcr_narcotics_id`=:yp13, `pcr_rma_id`=:yp14, `pcr_authorization_id`=:yp15, `pcr_apcf_id`=:yp16, `pcr_number`=:yp17, `agency_id`=:yp18 WHERE `pcr`.`id`='284210d4-c227-408a-bb9b-136a2b5b1565'. Bound with :yp0=NULL, :yp1=0, :yp2=0, :yp3=0, :yp4='1970-01-01 00:00:00', :yp5='1970-01-01 00:00:00', :yp6='284210d4-c227-408a-bb9b-136a2b5b1565', :yp7='2963a642-40d0-40c9-b43b-8141cffdfd19', :yp8='8207127f-302f-4ad8-ae9d-672eb9dd55d9', :yp9='3e1ba0c4-bb82-48ac-ae89-0f1196a76ba3', :yp10='e18d7fff-41fd-424f-93bd-2b0e8a150543', :yp11='be945573-e52d-4c32-9d7d-492ec8f9ed27', :yp12='8455327d-a900-465f-99ee-8f38755e95c5', :yp13='7e3f0713-70c4-4b55-8a60-6b9cc2d0c740', :yp14='be06bd29-2645-446c-b7df-b5aea74c4b6a', :yp15='7a95ddcc-1ab9-4ca8-b2d1-423ec1cb9fcd', :yp16='208f12e1-2636-4cf1-86ba-3abdc067c88e', :yp17=' -01042018-110159-7', :yp18='85ff1684-d60e-11e3-ab84-842b2b4bbc99'"}
+1/4/2018 11:01:57 AM
+seq: 11661379;  id: a6a3b042-f0e0-11e7-9dc4-56ce7f333890;  rev: 206-cd9211b64a3f4ff12b21ce6d6e4ed10c;  
+1/4/2018 11:01:57 AM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/a6a3b042-f0e0-11e7-9dc4-56ce7f333890 method: GET
+1/4/2018 11:01:57 AM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 11:01:59 AM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/a6a3b042-f0e0-11e7-9dc4-56ce7f333890 method: PUT
+1/4/2018 11:01:59 AM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":false,"pcr_id":null,"action":null,"ErrorMessage":"CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'pcr_type' cannot be null. The SQL statement executed was: UPDATE `pcr` SET `pcr_type`=:yp0, `printed`=:yp1, `admitted`=:yp2, `qa`=:yp3, `utc_insert`=:yp4, `utc_update`=:yp5, `id`=:yp6, `ems_run`=:yp7, `pcr_dispatch_id`=:yp8, `pcr_demographic_id`=:yp9, `pcr_assessment_id`=:yp10, `pcr_disposition_id`=:yp11, `pcr_narrative_notes_id`=:yp12, `pcr_narcotics_id`=:yp13, `pcr_rma_id`=:yp14, `pcr_authorization_id`=:yp15, `pcr_apcf_id`=:yp16, `pcr_number`=:yp17, `agency_id`=:yp18 WHERE `pcr`.`id`='29444922-54ac-4856-ba0a-020ad8e18b02'. Bound with :yp0=NULL, :yp1=0, :yp2=0, :yp3=0, :yp4='1970-01-01 00:00:00', :yp5='1970-01-01 00:00:00', :yp6='29444922-54ac-4856-ba0a-020ad8e18b02', :yp7='28031240-1ad2-43d0-81ed-42ba7a820586', :yp8='ef3cbae3-0846-4a93-8835-ad10cda14383', :yp9='6e7d7c39-1d47-4402-91ba-a2bffcf3f57a', :yp10='11787108-11c6-4ad4-816b-361a4ba87599', :yp11='08fa95fc-df35-4254-9792-df80a0f76396', :yp12='23a5d9f2-284c-407e-b084-67d6c32360f0', :yp13='ded63dcb-87a5-4e3a-85bb-439e4d821530', :yp14='a374678e-e823-4344-a9a8-d9e500c54e74', :yp15='7c6b55c0-7e23-4305-bda1-d5b6d0889069', :yp16='2a1b16ff-0624-4c8b-a6cc-45f1010f396a', :yp17=' -01042018-110205-0', :yp18='f282aefd-e695-11e3-8fa5-842b2b4bbc99'"}
+1/4/2018 11:01:59 AM
+seq: 11661381;  id: f3c0f6d4-f4ad-4566-bb3c-3d368d3e05b2;  rev: 72-de6e980b8909e74e40a225bc96f76ef8;  
+1/4/2018 11:02:00 AM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/f3c0f6d4-f4ad-4566-bb3c-3d368d3e05b2 method: GET
+1/4/2018 11:02:12 AM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 11:02:18 AM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/f3c0f6d4-f4ad-4566-bb3c-3d368d3e05b2 method: PUT
+1/4/2018 11:02:18 AM
+http://192.168.1.152:5984/app-pcr/f3c0f6d4-f4ad-4566-bb3c-3d368d3e05b2 PUT Response: {"ok":true,"id":"f3c0f6d4-f4ad-4566-bb3c-3d368d3e05b2","rev":"73-41319f757c414c6b9082ef145707720e"}
+
+1/4/2018 11:02:38 AM
+UrlRequest for: http://localhost:53186/api/Couch/GetPcrReport?pcr_id=7920d71a-3214-4189-9742-8f6f67daeb30&FaxNumber=7183019711&Agency=Creative EMS Inc. method: GET
+1/4/2018 11:03:30 AM
+UrlRequest for: http://localhost:53186/api/Couch/GetPcrReport?pcr_id=7920d71a-3214-4189-9742-8f6f67daeb30&FaxNumber=7183019711&Agency=Creative EMS Inc. method: GET
+1/4/2018 11:09:33 AM
+UrlRequest for: http://www.creativeemstest.com:85/api/Couch/GetPcrReport?pcr_id=7920d71a-3214-4189-9742-8f6f67daeb30&FaxNumber=7183019711&Agency=Creative EMS Inc.GetPcrReport?pcr_id=7920d71a-3214-4189-9742-8f6f67daeb30&FaxNumber=7183019711&Agency=Creative EMS Inc. method: GET
+1/4/2018 6:48:10 PM
+Main
+1/4/2018 6:48:28 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/_changes?since=11661370-g1AAAAJ7eJzLYWBg4MhgTmEQTM4vTc5ISXLIyU9OzMnILy7JAUoxJTIkyf___z8rgzmJQVy5Lxcoxp6SYmBsYW6ITQ8ek5IUgGSSPdwwnmVgw0xTEpMSLdJINcwBZFg8zDCxAHWwYYbGacYmaUakGpYAMqweZpio5EKwYZZmxoYWRskkGpbHAiQZGoAU0Lz5ENedKQMbaJJoYmloRKpXIQYugBi4H2Kg2SmwgQYGZpbmFqZkGXgAYuB9iJcDDoANTDUxt0hKtiDLwAcQA6ERwmQHNtDYKM3YHHtSyQIA7zDGIw method: GET
+1/4/2018 6:48:29 PM
+Skipped due to deletion: seq: 11661388;  id: 69680b91-3e4d-4590-8343-c80a6e7f40a1;  rev: 147-65e4a0e99df39610333e662e616d482c;  
+1/4/2018 6:48:30 PM
+Skipped due to deletion: seq: 11661414;  id: 01fbae45-e67e-11e7-b8e1-56ce7f333890;  rev: 53-47a4298474754f71bb3a51f0d2ac9eb1;  
+1/4/2018 6:48:30 PM
+Skipped due to deletion: seq: 11661421;  id: 2624de31-e67f-11e7-b8e1-56ce7f333890;  rev: 42-6e404ac462ca4848934e4a69edc1b019;  
+1/4/2018 6:48:30 PM
+Skipped due to deletion: seq: 11661461;  id: 13c9c30b-e754-11e7-9b7c-56ce7f333890;  rev: 22-36095f2c29d442dbb722ab591297ea3b;  
+1/4/2018 6:48:30 PM
+Skipped due to deletion: seq: 11661467;  id: 90c094c2-c720-49c5-9c6c-7477d51133a3;  rev: 48-b95fa8551d24d2cfab38d7b5d03ea14f;  
+1/4/2018 6:48:30 PM
+Skipped due to deletion: seq: 11661510;  id: 1a0e9453-ecc1-11e7-8aa7-56ce7f333890;  rev: 29-e4b9409147d945d18181f597999b2bbb;  
+1/4/2018 6:48:30 PM
+Skipped due to deletion: seq: 11661511;  id: 260be205-e755-11e7-9b7c-56ce7f333890;  rev: 19-6f95fb1ac3bf4f90996a879af472ecd8;  
+1/4/2018 6:48:30 PM
+Skipped due to deletion: seq: 11661524;  id: 22a777df-e75c-11e7-9b7c-56ce7f333890;  rev: 22-f50e1d99f16e4424ba26c3ccfa35ffd8;  
+1/4/2018 6:48:30 PM
+Skipped due to deletion: seq: 11661525;  id: 259e9579-ecc0-11e7-8aa7-56ce7f333890;  rev: 27-b114eda52bd861e4bd90863c851d4af2;  
+1/4/2018 6:48:30 PM
+Skipped due to deletion: seq: 11661536;  id: 00298b8e-eccb-11e7-8aa7-56ce7f333890;  rev: 26-d2f40597a1044371a8cb14058afd82c0;  
+1/4/2018 6:48:30 PM
+Skipped due to deletion: seq: 11661537;  id: 5679b592-ecc3-11e7-8aa7-56ce7f333890;  rev: 27-fc245f038dd345efb200370aba46b4f2;  
+1/4/2018 6:48:30 PM
+Skipped due to deletion: seq: 11661538;  id: 4b0134d3-e758-11e7-9b7c-56ce7f333890;  rev: 21-20a882d761184afd984268c2737cb618;  
+1/4/2018 6:48:30 PM
+Skipped due to deletion: seq: 11661539;  id: 0258e4d4-e746-11e7-9b7c-56ce7f333890;  rev: 20-96c7a60949ca438ead8326ebcc58e89b;  
+1/4/2018 6:48:30 PM
+Skipped due to deletion: seq: 11661557;  id: 0005b864-e6a8-11e7-b8e1-56ce7f333890;  rev: 43-b7e762d04b394329b692058f0a1eeffa;  
+1/4/2018 6:48:30 PM
+Skipped due to deletion: seq: 11661558;  id: 59183789-e74e-11e7-9b7c-56ce7f333890;  rev: 22-087c602ef01a4826aa97771406f49d15;  
+1/4/2018 6:48:30 PM
+Skipped due to deletion: seq: 11661559;  id: 2442a6cf-eccc-11e7-8aa7-56ce7f333890;  rev: 24-c785299874b84a2ea932fa59f61e9fa5;  
+1/4/2018 6:48:31 PM
+Skipped due to deletion: seq: 11661560;  id: 1ce551df-ecc8-11e7-8aa7-56ce7f333890;  rev: 27-d10675c6319b4023a70dabcbb897326c;  
+1/4/2018 6:48:31 PM
+Skipped due to deletion: seq: 11661561;  id: 3b815fdb-ecbb-11e7-8aa7-56ce7f333890;  rev: 28-b9e462ffef7fbbf6ee696e57ba9c3bc7;  
+1/4/2018 6:48:31 PM
+Skipped due to deletion: seq: 11661562;  id: 09ccc497-d481-11e7-8a12-56ce7f333890;  rev: 31-0951b26038e23a4e5b2adf636374fd55;  
+1/4/2018 6:48:31 PM
+Skipped due to deletion: seq: 11661563;  id: 2df5aa8e-ecc6-11e7-8aa7-56ce7f333890;  rev: 25-e9170d667f1349b959f8823d092f52eb;  
+1/4/2018 6:48:31 PM
+Skipped due to deletion: seq: 11661564;  id: aeb014b8-ecce-11e7-8aa7-56ce7f333890;  rev: 28-fcefe4342bbe4e4eb758079798c03073;  
+1/4/2018 6:48:31 PM
+Skipped due to deletion: seq: 11661565;  id: 36c92ff1-e752-11e7-9b7c-56ce7f333890;  rev: 21-19b82b039ba64150b70b46cbb7079cc1;  
+1/4/2018 6:48:31 PM
+Skipped due to deletion: seq: 11661566;  id: 4c80dafa-f1ec-4e20-9c0a-08fc96fce736;  rev: 39-e55f79d1512441a19caa2bd38d79843b;  
+1/4/2018 6:48:31 PM
+Skipped due to deletion: seq: 11661567;  id: 6a5d0a36-ecb9-11e7-8aa7-56ce7f333890;  rev: 27-1940afa3164a4f98be36110a25a9701d;  
+1/4/2018 6:48:31 PM
+Skipped due to deletion: seq: 11661568;  id: 6f33138a-ecc5-11e7-8aa7-56ce7f333890;  rev: 27-dec6e471dbc941f09d0e5debea823eb9;  
+1/4/2018 6:48:31 PM
+Skipped due to deletion: seq: 11661569;  id: a39b0892-ecc2-11e7-8aa7-56ce7f333890;  rev: 24-a027e7a49623c0a512f3bd53dea6e883;  
+1/4/2018 6:48:31 PM
+Skipped due to deletion: seq: 11661570;  id: 78fd115d-e726-11e7-9b7c-56ce7f333890;  rev: 32-79fcce1964f944dbaaaa12315f2980a6;  
+1/4/2018 6:48:31 PM
+Skipped due to deletion: seq: 11661611;  id: 2fb41d87-f16a-11e7-80bc-56ce7f333890;  rev: 12-8043b167835d43a395bcca0562ccd8f1;  
+1/4/2018 6:48:31 PM
+Skipped due to deletion: seq: 11661612;  id: 373f322c-e69c-11e7-b8e1-56ce7f333890;  rev: 35-36006e487ff34549a618ecff8d0eddb7;  
+1/4/2018 6:48:31 PM
+Skipped due to deletion: seq: 11661613;  id: 30288d00-ecad-11e7-8aa7-56ce7f333890;  rev: 53-f6ae924aa8fe458fb36d625dcfb5e09a;  
+1/4/2018 6:48:31 PM
+Skipped due to deletion: seq: 11661614;  id: 1f527140-ebfb-11e7-9a03-56ce7f333890;  rev: 44-aa1128926b1f4623aadce802ca9e8235;  
+1/4/2018 6:48:31 PM
+Skipped due to deletion: seq: 11661615;  id: 5aa47995-ecce-11e7-8aa7-56ce7f333890;  rev: 31-a8e6658a3af6416390b1ee84de643755;  
+1/4/2018 6:48:31 PM
+Skipped due to deletion: seq: 11661616;  id: c1cf5db6-ecc3-11e7-8aa7-56ce7f333890;  rev: 24-622435b3298c480d98e5b140285b97d9;  
+1/4/2018 6:48:32 PM
+Skipped due to deletion: seq: 11661617;  id: 20a13dcc-ec0e-11e7-9a03-56ce7f333890;  rev: 52-ded69007e2d844b78fde425026ec9e1d;  
+1/4/2018 6:48:32 PM
+Skipped due to deletion: seq: 11661618;  id: c63737e0-ecbf-11e7-8aa7-56ce7f333890;  rev: 26-f93dacf8a57e47a4f5d7af6016c27cf4;  
+1/4/2018 6:48:32 PM
+Skipped due to deletion: seq: 11661619;  id: 5ecd4b09-ecc9-11e7-8aa7-56ce7f333890;  rev: 27-ede62171ec59446e9a24a0cb78642267;  
+1/4/2018 6:48:32 PM
+Skipped due to deletion: seq: 11661620;  id: 600c73c7-ecbd-11e7-8aa7-56ce7f333890;  rev: 29-cd84c994ea80ceb5e975807ef8c381a4;  
+1/4/2018 6:48:32 PM
+Skipped due to deletion: seq: 11661621;  id: 7a4296c9-ecc3-11e7-8aa7-56ce7f333890;  rev: 28-eb85bbf253c5f0fc5898b0e6d8264aa0;  
+1/4/2018 6:48:32 PM
+Skipped due to deletion: seq: 11661622;  id: 6a53fa58-e72e-11e7-9b7c-56ce7f333890;  rev: 24-c8598dbafcb44f81b118027fe2d91db3;  
+1/4/2018 6:48:32 PM
+Skipped due to deletion: seq: 11661623;  id: b4f643f2-66f6-46ba-a3fa-6dee92391ab5;  rev: 39-adc3e5e36018460fabb1deffe78f74e5;  
+1/4/2018 6:48:32 PM
+Skipped due to deletion: seq: 11661624;  id: adc03714-eccd-11e7-8aa7-56ce7f333890;  rev: 28-ea290a355ced44bc8256e6ff92560c82;  
+1/4/2018 6:48:32 PM
+Skipped due to deletion: seq: 11661625;  id: c013b21b-ecce-11e7-8aa7-56ce7f333890;  rev: 23-c6fa5ba1ff9f4fb9a155a36e4be3aa27;  
+1/4/2018 6:48:32 PM
+Skipped due to deletion: seq: 11661626;  id: c1691bd8-ecc2-11e7-8aa7-56ce7f333890;  rev: 29-f39702cdf790f8dcc44c0cac962b4af1;  
+1/4/2018 6:48:32 PM
+Skipped due to deletion: seq: 11661627;  id: 63cdce8b-e73c-11e7-9b7c-56ce7f333890;  rev: 23-68da515a687a40aab4bbfac451943068;  
+1/4/2018 6:48:32 PM
+Skipped due to deletion: seq: 11661628;  id: fb40313a-e751-11e7-9b7c-56ce7f333890;  rev: 22-c7438541920943fc930ecbe210bd39de;  
+1/4/2018 6:48:32 PM
+Skipped due to deletion: seq: 11661629;  id: 6b470e59-e740-11e7-9b7c-56ce7f333890;  rev: 24-2e1aaff79f6e45ef883f86e81c1f7a62;  
+1/4/2018 6:48:32 PM
+Skipped due to deletion: seq: 11661630;  id: cc4ee086-e744-11e7-9b7c-56ce7f333890;  rev: 22-249ed1ba05d34d8aa0ca781b274672b8;  
+1/4/2018 6:48:32 PM
+Skipped due to deletion: seq: 11661631;  id: 71bade8e-eccc-11e7-8aa7-56ce7f333890;  rev: 28-a6f978e91dff4919be71697050bf4b76;  
+1/4/2018 6:48:32 PM
+Skipped due to deletion: seq: 11661632;  id: d0c091f7-e74f-11e7-9b7c-56ce7f333890;  rev: 21-dccfabcd145e429f9564620ea3cf3117;  
+1/4/2018 6:48:32 PM
+Skipped due to deletion: seq: 11661633;  id: b51f2dbf-e755-11e7-9b7c-56ce7f333890;  rev: 18-a3079f5468954641bc36e930662c0c93;  
+1/4/2018 6:48:33 PM
+Skipped due to deletion: seq: 11661634;  id: e9a7f72a-ecbe-11e7-8aa7-56ce7f333890;  rev: 24-c387b8bc83524eee93e388291e95cf19;  
+1/4/2018 6:48:33 PM
+Skipped due to deletion: seq: 11661635;  id: c9149112-10e6-4c4a-81b1-76323a1ff5ea;  rev: 39-3b4d5495f74e458e990dba7decd599c3;  
+1/4/2018 6:48:33 PM
+Skipped due to deletion: seq: 11661636;  id: d9419abe-e756-11e7-9b7c-56ce7f333890;  rev: 19-5be663733ad54a71a1b0cbb3631ef432;  
+1/4/2018 6:48:33 PM
+Skipped due to deletion: seq: 11661637;  id: 882dcf0e-ecc8-11e7-8aa7-56ce7f333890;  rev: 26-f327354a869e4331981d403e779b357b;  
+1/4/2018 6:48:33 PM
+Skipped due to deletion: seq: 11661638;  id: f22c0ef4-e749-11e7-9b7c-56ce7f333890;  rev: 24-f63a37f7a2084619ad12ff17f500eb4d;  
+1/4/2018 6:48:33 PM
+Skipped due to deletion: seq: 11661639;  id: 9cd8672e-ecc0-11e7-8aa7-56ce7f333890;  rev: 27-a8e2649bb57247598472c54147ca987a;  
+1/4/2018 6:48:33 PM
+Skipped due to deletion: seq: 11661640;  id: 360b0acc-f16b-11e7-80bc-56ce7f333890;  rev: 10-fe98b203f3d942349a15458763fc6967;  
+1/4/2018 6:48:33 PM
+Skipped due to deletion: seq: 11661641;  id: 5842285c-5128-4695-9743-6fbdd2adf0eb;  rev: 41-f5707919df1d4c1ebc714ba9b10f0f85;  
+1/4/2018 6:48:33 PM
+Skipped due to deletion: seq: 11661642;  id: 8587d111-d462-11e7-8a12-56ce7f333890;  rev: 48-67cb428104c7849c9f09efc476a351cf;  
+1/4/2018 6:48:33 PM
+Skipped due to deletion: seq: 11661643;  id: db29aa29-e75b-11e7-9b7c-56ce7f333890;  rev: 23-57831d030669408db0dfae2db4c47db0;  
+1/4/2018 6:48:33 PM
+Skipped due to deletion: seq: 11661644;  id: a6a3b042-f0e0-11e7-9dc4-56ce7f333890;  rev: 215-5e057beda144489ead142828e3ab4611;  
+1/4/2018 6:48:33 PM
+Skipped due to deletion: seq: 11661645;  id: 5e452f04-e74c-11e7-9b7c-56ce7f333890;  rev: 20-751e2f07d0de4edf8ed8ec9c397e3a7e;  
+1/4/2018 6:48:33 PM
+Skipped due to deletion: seq: 11661646;  id: 603f7501-eccd-11e7-8aa7-56ce7f333890;  rev: 24-ee8816767b4448bfaf559294ba85fbc6;  
+1/4/2018 6:48:33 PM
+Skipped due to deletion: seq: 11662143;  id: 67a89604-492e-4a09-aa53-b1336b378938;  rev: 32-77c6289e14bd42e68c56aeee0e606505;  
+1/4/2018 6:48:33 PM
+Skipped due to deletion: seq: 11662457;  id: b316ab01-c94e-4dfd-9f0a-6b728eb34f76;  rev: 8-a53cedb88132445fbebaf44b4b6078e0;  
+1/4/2018 6:48:33 PM
+Skipped due to deletion: seq: 11662458;  id: ca353e7e-3670-4827-a66e-c15c41ed955b;  rev: 26-cf8859e56c6d48e6a14608a83907263f;  
+1/4/2018 6:48:33 PM
+Skipped due to deletion: seq: 11662459;  id: cc8ab119-4bfd-4dbe-b966-32e079263357;  rev: 41-87c35458e8c85ec8a03f893e1a5fbdb1;  
+1/4/2018 6:48:34 PM
+Skipped due to deletion: seq: 11662460;  id: 7ab18b20-ecc4-11e7-8aa7-56ce7f333890;  rev: 30-cd373ad4b072491ba2e1ccf6314e94b1;  
+1/4/2018 6:48:34 PM
+Skipped due to deletion: seq: 11662461;  id: 907ec2c9-ecbf-11e7-8aa7-56ce7f333890;  rev: 26-dae295edd9ca401182032885a5ae0604;  
+1/4/2018 6:48:34 PM
+Skipped due to deletion: seq: 11662712;  id: c5a49ff5-c16c-4064-9c84-0adf3d8528cc;  rev: 50-a0d7fc2c8ec647e4b4ddce9d324a3304;  
+1/4/2018 6:48:34 PM
+Skipped due to deletion: seq: 11663032;  id: 424eeb90-8f4d-4c83-9ea5-8903eeb8ecf2;  rev: 42-2f9793e04e11043f59a2b97ad860b7e3;  
+1/4/2018 6:48:34 PM
+Skipped due to deletion: seq: 11663033;  id: 62a06290-e748-11e7-9b7c-56ce7f333890;  rev: 24-47c7a6e7ba9745c08b6ec017f65294c1;  
+1/4/2018 6:48:34 PM
+Skipped due to deletion: seq: 11663034;  id: 73a9257b-e67f-11e7-b8e1-56ce7f333890;  rev: 52-f3db2413e3974f91bd7437e2e43c44a5;  
+1/4/2018 6:48:34 PM
+Skipped due to deletion: seq: 11663095;  id: 83d775b8-2fdc-4a4c-8534-bbdc4fc9ab32;  rev: 47-e9f1e6faf77e4b19a45ea27c9b134787;  
+1/4/2018 6:48:34 PM
+Skipped due to deletion: seq: 11663418;  id: 412dbbf4-4a20-46e9-a2c3-b0a2cb396be7;  rev: 80-36327797f3b145f385aa7537b648ed9a;  
+1/4/2018 6:48:34 PM
+Skipped due to deletion: seq: 11663419;  id: 458920d4-e67a-4f34-8a43-01dbd5645445;  rev: 24-a3f4112517c44cbbb93096f0fe705de6;  
+1/4/2018 6:48:34 PM
+Skipped due to deletion: seq: 11663634;  id: 9777a72a-7edb-49b2-9fd5-6e330db7da48;  rev: 29-76c6f2154969b3c554ab110291ba65c1;  
+1/4/2018 6:48:34 PM
+Skipped due to deletion: seq: 11663635;  id: a647e555-e74d-11e7-9b7c-56ce7f333890;  rev: 23-e3a4d413989540aab1d512a58d8605ab;  
+1/4/2018 6:48:34 PM
+Skipped due to deletion: seq: 11663636;  id: 974cb1cd-e755-11e7-9b7c-56ce7f333890;  rev: 25-b8f1236399c74a1f92fb608761285f86;  
+1/4/2018 6:48:34 PM
+Skipped due to deletion: seq: 11663637;  id: afbfe205-e747-11e7-9b7c-56ce7f333890;  rev: 22-90e62007c6274831b1861d74f2786cd9;  
+1/4/2018 6:48:34 PM
+Skipped due to deletion: seq: 11663660;  id: b2faf004-c574-4e32-b670-17e658037a58;  rev: 106-76f3bcdfa8ce449a8a2d0ccd9c1e4746;  
+1/4/2018 6:48:34 PM
+Skipped due to deletion: seq: 11663662;  id: c9647250-ecc7-11e7-8aa7-56ce7f333890;  rev: 28-f285966c25fa451f98e78fb26337d829;  
+1/4/2018 6:48:34 PM
+Skipped due to deletion: seq: 11663663;  id: 9e7e4992-6cc7-49fc-bdc2-b35b71f7e0e6;  rev: 30-cf7bead53e6f4415b1c8cf79a48a1c27;  
+1/4/2018 6:48:35 PM
+Skipped due to deletion: seq: 11663683;  id: 14ebbb81-b2bc-48e3-9dd5-39f5d22e9793;  rev: 24-d33313c19c6bb4ed1acb7c301f444a94;  
+1/4/2018 6:48:35 PM
+Skipped due to deletion: seq: 11663684;  id: a39c5f7b-21a6-4e09-81db-ec6dd48b409b;  rev: 12-da900fc98a284782a257275899bc5fbc;  
+1/4/2018 6:48:35 PM
+Skipped due to deletion: seq: 11663685;  id: bbe4dd6d-f134-11e7-80bc-56ce7f333890;  rev: 61-e64ab45dd1a44d6989684cc22a6c1d1b;  
+1/4/2018 6:48:35 PM
+Skipped due to deletion: seq: 11663686;  id: d655fc44-3703-483d-8aea-fe900cd0963a;  rev: 28-e78d1eaa59fb492aae8d3bf1ade881b8;  
+1/4/2018 6:48:35 PM
+Skipped due to deletion: seq: 11663687;  id: 8be5365b-6baf-4db0-9d03-52782982a634;  rev: 34-9b4a987db26848319514ff689a436284;  
+1/4/2018 6:48:35 PM
+Skipped due to deletion: seq: 11663688;  id: a1aeb7bf-95a1-49e5-b132-181f8dd99b1b;  rev: 42-1df049ee98b8a58ab3a340f8307b5252;  
+1/4/2018 6:48:35 PM
+Skipped due to deletion: seq: 11663689;  id: b376e43b-ecbd-11e7-8aa7-56ce7f333890;  rev: 25-b8647416b5624c3289728ec97e2a7d16;  
+1/4/2018 6:48:35 PM
+Skipped due to deletion: seq: 11663745;  id: 1aa004f3-1a97-4d59-a42a-e23188cb2e4d;  rev: 22-af6ebb2dec5f44fbb12aad49e2fe4a15;  
+1/4/2018 6:48:35 PM
+Skipped due to deletion: seq: 11663746;  id: bcb0a20c-ecc5-11e7-8aa7-56ce7f333890;  rev: 27-95e8d713a82b3f0a409901ae45fd1816;  
+1/4/2018 6:48:35 PM
+Skipped due to deletion: seq: 11663747;  id: c91a2804-6230-4bcf-8d78-cb07b9370673;  rev: 47-b0e01129f74c41dea84c54e84d19ea95;  
+1/4/2018 6:48:35 PM
+Skipped due to deletion: seq: 11663752;  id: f0d5b000-b543-4a5b-a5b4-afbf6bc2ae2b;  rev: 35-90f61e6d695aff4605001dc00b2982f2;  
+1/4/2018 6:48:35 PM
+Skipped due to deletion: seq: 11664093;  id: 168d3bb7-b311-40be-88c7-68e58ef88f6e;  rev: 28-8bb66428b8a3884479a1c6591c022883;  
+1/4/2018 6:48:35 PM
+Skipped due to deletion: seq: 11664257;  id: 63d52096-6c85-454e-a6f5-b0bca1df2a1a;  rev: 15-9f6d4f03e66f885ca37c6759cf720f6a;  
+1/4/2018 6:48:35 PM
+Skipped due to deletion: seq: 11664360;  id: b31c39eb-0a2a-4408-b3c3-aecfe9c50160;  rev: 17-f168f72301b2eb85a886a87532ffd613;  
+1/4/2018 6:48:36 PM
+Skipped due to deletion: seq: 11664399;  id: 62d17293-fba2-4205-b7fd-2dda924b10bb;  rev: 54-d0547b7f9a4147b11f1c6e36709efde8;  
+1/4/2018 6:48:36 PM
+Skipped due to deletion: seq: 11664400;  id: d6b3e280-1bcf-43bc-8b6b-495e6692b3cd;  rev: 29-752f514d7f8d47b08cfba4d72ee73c0f;  
+1/4/2018 6:48:36 PM
+Skipped due to deletion: seq: 11664557;  id: 9be27701-67ad-49a7-a5b7-9c04088e21da;  rev: 237-a51fbbe8df8c4e3cbeda08d542574b32;  
+1/4/2018 6:48:36 PM
+Skipped due to deletion: seq: 11664723;  id: e14af220-15dd-4ef1-91b3-bacf5e32ba16;  rev: 22-f83e3b3e464a02d3c9e3e08620d7fdcb;  
+1/4/2018 6:48:36 PM
+Skipped due to deletion: seq: 11664771;  id: 1443814d-8e3b-4116-a807-c4ea39ce9417;  rev: 44-5381acb06710164ca7a6da2852a900b6;  
+1/4/2018 6:48:36 PM
+Skipped due to deletion: seq: 11664772;  id: 37483dfb-c6dd-4c39-8000-98d230d00085;  rev: 26-50a457ef7856fd8df81c7ab3aa237d15;  
+1/4/2018 6:48:36 PM
+Skipped due to deletion: seq: 11664873;  id: 5539bafa-fa13-4821-b3f7-f4ac8b72e149;  rev: 25-575de2cd990146845a1519fe414472e6;  
+1/4/2018 6:48:36 PM
+Skipped due to deletion: seq: 11664874;  id: cfe6da01-e73e-11e7-9b7c-56ce7f333890;  rev: 22-9b5058121dae45639b4d3f78072b3229;  
+1/4/2018 6:48:36 PM
+Skipped due to deletion: seq: 11664984;  id: a8f1727d-e0aa-487a-a4c5-c222a56f5ca5;  rev: 45-44728685a0776afbe331ce0c9599b6b3;  
+1/4/2018 6:48:36 PM
+Skipped due to deletion: seq: 11664985;  id: aeac54e3-53c7-41ac-9ae2-48e712a1c04d;  rev: 52-e4f3efcab7b340c6bc8a177d0d0c95d4;  
+1/4/2018 6:48:36 PM
+Skipped due to deletion: seq: 11664986;  id: da11c529-ecc4-11e7-8aa7-56ce7f333890;  rev: 27-755b6bd21a2472cd6685971e08b132b4;  
+1/4/2018 6:48:36 PM
+Skipped due to deletion: seq: 11664998;  id: 213215fd-3821-436b-b075-6fff3082d5a2;  rev: 355-49befcdad9f188c25a2297a17269ecbd;  
+1/4/2018 6:48:36 PM
+Skipped due to deletion: seq: 11665001;  id: 51f70cf2-6ac1-48b7-9da4-eaec0141e266;  rev: 79-2926c22db2c9a424ba0719c335f3233a;  
+1/4/2018 6:48:37 PM
+Skipped due to deletion: seq: 11665002;  id: 6837cdbc-d481-4df4-8432-5253b21313bd;  rev: 28-33394f79763596a00513595b277d6736;  
+1/4/2018 6:48:37 PM
+Skipped due to deletion: seq: 11665111;  id: 859e335c-54d3-43e2-9873-748f01bceadf;  rev: 20-e4ab73c013722cc6275380eed283a402;  
+1/4/2018 6:48:37 PM
+Skipped due to deletion: seq: 11665121;  id: 75b4f16b-3a92-4215-b8b6-b9719d68d6ae;  rev: 65-02f5159c39d06a3e692ea3a69cd64f7c;  
+1/4/2018 6:48:37 PM
+Skipped due to deletion: seq: 11665125;  id: baab1d69-2ac1-484e-83c4-9e81ed15ea64;  rev: 23-00424128bed1b45f7b7ad92d106e6d61;  
+1/4/2018 6:48:37 PM
+Skipped due to deletion: seq: 11665141;  id: 13583308-f17d-11e7-80bc-56ce7f333890;  rev: 41-99aa6ce754d24735b41e17e309ab35ee;  
+1/4/2018 6:48:37 PM
+Skipped due to deletion: seq: 11665150;  id: 8fdc25cc-2dcb-4293-aa9d-90dfa16bc316;  rev: 82-f2e02d2746b608c9cbf026ee80fbffa6;  
+1/4/2018 6:48:37 PM
+Skipped due to deletion: seq: 11665153;  id: eef2f34b-25bf-4325-a2b2-03a32435f886;  rev: 61-cbd97ac69686bf6340d087e2b0f0f6f3;  
+1/4/2018 6:48:37 PM
+Skipped due to deletion: seq: 11665195;  id: 024e233e-1578-4a18-aff1-53565258a096;  rev: 18-e7b6e90cad644e19efc997097f9a1f9f;  
+1/4/2018 6:48:37 PM
+Skipped due to deletion: seq: 11665196;  id: 3c00762d-1cd7-4945-a5b3-f79255e927a3;  rev: 103-5f76333ff11cb94b5850ea947639dcd1;  
+1/4/2018 6:48:37 PM
+Skipped due to deletion: seq: 11665197;  id: a66bc11e-f196-11e7-80bc-56ce7f333890;  rev: 7-8d3d167f469e9b63f5b156b96631a9c4;  
+1/4/2018 6:48:37 PM
+Skipped due to deletion: seq: 11665198;  id: ac78c066-f187-11e7-80bc-56ce7f333890;  rev: 23-a69d69f3bfdc4feebf3b83e8aa064c7d;  
+1/4/2018 6:48:37 PM
+Skipped due to deletion: seq: 11665201;  id: 89994895-2b89-4c3f-b8ee-4c50427d7b14;  rev: 13-cb54f342fe88dd2ad66a75125f4e2689;  
+1/4/2018 6:48:37 PM
+Skipped due to deletion: seq: 11665203;  id: 9765b7c8-8f5d-4875-9215-cb5d176f2c08;  rev: 97-a23752257dd6cbbed9e0f362b128cd15;  
+1/4/2018 6:48:37 PM
+Skipped due to deletion: seq: 11665204;  id: d3d304e1-f181-11e7-80bc-56ce7f333890;  rev: 34-f0e62639ae054649a0e1ac3c2f5e8e2f;  
+1/4/2018 6:48:38 PM
+Skipped due to deletion: seq: 11665211;  id: 2544140e-f18c-11e7-80bc-56ce7f333890;  rev: 17-49af8d9ee2bd46adb742574a11ec0be9;  
+1/4/2018 6:48:38 PM
+Skipped due to deletion: seq: 11665212;  id: 9a8e576d-f161-4cbb-ae37-81c7636e0e0e;  rev: 87-4acc63a16a102e0ad00830fe96b8046f;  
+1/4/2018 6:48:38 PM
+Skipped due to deletion: seq: 11665223;  id: 0eeff2dc-f190-11e7-80bc-56ce7f333890;  rev: 16-58b878840914463dab5b9411ed628299;  
+1/4/2018 6:48:38 PM
+Skipped due to deletion: seq: 11665224;  id: 34c04ccb-f186-11e7-80bc-56ce7f333890;  rev: 25-ac1b664ab74c5a02fc92a408d073aa66;  
+1/4/2018 6:48:38 PM
+Skipped due to deletion: seq: 11665225;  id: 59668e51-f179-11e7-80bc-56ce7f333890;  rev: 45-d43a7352449a984bc48505c13cdeca0a;  
+1/4/2018 6:48:38 PM
+Skipped due to deletion: seq: 11665226;  id: 5237e406-f176-11e7-80bc-56ce7f333890;  rev: 50-a70bf4c2accd09e44bd593f1d0a78e79;  
+1/4/2018 6:48:38 PM
+Skipped due to deletion: seq: 11665227;  id: 953907ed-9749-42d7-9e0f-83b3403d588e;  rev: 12-0c7444ab1e4e1549c5ba44d5f8a2c885;  
+1/4/2018 6:48:38 PM
+Skipped due to deletion: seq: 11665228;  id: b45742d4-f17d-11e7-80bc-56ce7f333890;  rev: 38-d82736be8b7b0991d29a37abcaeb0ee7;  
+1/4/2018 6:48:38 PM
+Skipped due to deletion: seq: 11665229;  id: d90282ae-54a0-47ee-a462-c15fdf7645ac;  rev: 94-34a5b77457d1cd3f9a538c0a13e6849d;  
+1/4/2018 6:48:38 PM
+Skipped due to deletion: seq: 11665230;  id: a0d57c73-e34b-4d65-ab04-fe57edb2cc21;  rev: 74-e90488af3b10f021cb6ea820a2c13f36;  
+1/4/2018 6:48:38 PM
+Skipped due to deletion: seq: 11665231;  id: d9c27691-c636-4a4f-bfc5-37a0962abd26;  rev: 83-43586483a1447486cbabd59ca9e06be1;  
+1/4/2018 6:48:38 PM
+Skipped due to deletion: seq: 11665232;  id: 8b7bc90e-62f2-4010-a205-5c47ad223846;  rev: 166-9518e2ce7d954d4f786163609c7be24b;  
+1/4/2018 6:48:38 PM
+Skipped due to deletion: seq: 11665233;  id: b3a59267-bfc3-4f02-8e82-aceb8681fdcb;  rev: 20-d3a5b1546644879eb0b4c6133264a788;  
+1/4/2018 6:48:38 PM
+Skipped due to deletion: seq: 11665235;  id: ec565ecb-a3e5-405c-919a-32f9cca16782;  rev: 67-6f609d71e9c30aa6ce0fddee1505d5e1;  
+1/4/2018 6:48:38 PM
+Skipped due to deletion: seq: 11665236;  id: e9bfea04-ecce-11e7-8aa7-56ce7f333890;  rev: 26-b809c1a489aa4bd6a0978b6b4458a145;  
+1/4/2018 6:48:39 PM
+Skipped due to deletion: seq: 11665237;  id: 16081bc2-f193-11e7-80bc-56ce7f333890;  rev: 11-fea7e4bea413445dbfc0dee60b485804;  
+1/4/2018 6:48:39 PM
+Skipped due to deletion: seq: 11665238;  id: eed47908-e741-11e7-9b7c-56ce7f333890;  rev: 22-bc641a7285ea4f5291e826b89feb5395;  
+1/4/2018 6:48:39 PM
+Skipped due to deletion: seq: 11665239;  id: ff174d72-f185-11e7-80bc-56ce7f333890;  rev: 25-4adf8f44ce1444ab8ad83f86987231f2;  
+1/4/2018 6:48:39 PM
+Skipped due to deletion: seq: 11665241;  id: 3dcb900b-64e8-4758-8f45-2fdffd9fc7ec;  rev: 287-50fd6f54ac20b988ead37953c5b579af;  
+1/4/2018 6:48:39 PM
+Skipped due to deletion: seq: 11665243;  id: f34f75ec-5433-4a84-b9cf-2ac6a2b97ec2;  rev: 23-454091c12e614188f68279d41cae5587;  
+1/4/2018 6:48:39 PM
+Skipped due to deletion: seq: 11665244;  id: cc610922-85ec-46a6-8762-a2974a826d0e;  rev: 42-f3db8de127f247e8b116ae1ecccdec93;  
+1/4/2018 6:48:39 PM
+Skipped due to deletion: seq: 11665245;  id: fde66904-0b0b-4770-a603-9c264442c8c4;  rev: 15-b10848aa311ab6a9dd49782a308168c9;  
+1/4/2018 6:48:39 PM
+Skipped due to deletion: seq: 11665247;  id: d829c30a-f16e-11e7-80bc-56ce7f333890;  rev: 76-7d33d7dc92bb79c3dcf4fdf1615a5c35;  
+1/4/2018 6:48:39 PM
+Skipped due to deletion: seq: 11665248;  id: eb4e42c5-f171-11e7-80bc-56ce7f333890;  rev: 63-bbae50e9b9424baf94bc901274e6c8e7;  
+1/4/2018 6:48:39 PM
+Skipped due to deletion: seq: 11665250;  id: 2c0c840b-f18e-11e7-80bc-56ce7f333890;  rev: 13-c9a90379ba338d359b21ddfd8e3d217b;  
+1/4/2018 6:48:39 PM
+Skipped due to deletion: seq: 11665251;  id: 1c67a33e-f194-11e7-80bc-56ce7f333890;  rev: 11-bf4287b7d4ad41ee8aa51672310323c1;  
+1/4/2018 6:48:39 PM
+Skipped due to deletion: seq: 11665254;  id: b8bc3dc1-f0f1-11e7-9dc4-56ce7f333890;  rev: 159-372d1ec37ca3442d9fd17a3a5ff68213;  
+1/4/2018 6:48:39 PM
+Skipped due to deletion: seq: 11665256;  id: fca1c924-3a93-42c2-a7cc-d23b791749a6;  rev: 53-abb0b7673ec583f3fed441ba87c40854;  
+1/4/2018 6:48:39 PM
+Skipped due to deletion: seq: 11665257;  id: c04c6f61-f18c-11e7-80bc-56ce7f333890;  rev: 17-d4aa6599212c4c699393b884f7ddb25d;  
+1/4/2018 6:48:39 PM
+Skipped due to deletion: seq: 11665804;  id: 3a239aac-b5a9-43b1-bedc-ab48fc383d24;  rev: 23-ed576ed870f94af98f28cb90672c9e83;  
+1/4/2018 6:48:39 PM
+Skipped due to deletion: seq: 11665805;  id: c6b5aea2-f16f-11e7-80bc-56ce7f333890;  rev: 74-c512d15e06f37c19cc65dfa892855c7f;  
+1/4/2018 6:48:39 PM
+seq: 11665902;  id: a33db185-4276-4f21-ac81-a1bb115f3c2b;  rev: 41-d753c1c08def63c2eead0bdb2acb4b24;  
+1/4/2018 6:48:39 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/a33db185-4276-4f21-ac81-a1bb115f3c2b method: GET
+1/4/2018 6:48:39 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 6:48:46 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/a33db185-4276-4f21-ac81-a1bb115f3c2b method: PUT
+1/4/2018 6:50:15 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":false,"pcr_id":null,"action":null,"ErrorMessage":"missing agency_id."}
+1/4/2018 6:50:15 PM
+Skipped due to deletion: seq: 11665903;  id: c7ff8337-057b-4256-96cd-850ce04f485a;  rev: 31-7ec21830c4976a8ae4ebda53eeff6bbb;  
+1/4/2018 6:50:15 PM
+Skipped due to deletion: seq: 11665994;  id: 296bd226-6f01-46e2-82f5-96c2e7777ce8;  rev: 20-85bfe79f5189053226b2ffeecc1fedfa;  
+1/4/2018 6:50:15 PM
+Skipped due to deletion: seq: 11666136;  id: 2aa1f609-46f3-45ac-88a7-00d5cff04ce5;  rev: 78-c23c33bfbcbdab4dfb8f77bd873e2574;  
+1/4/2018 6:50:15 PM
+Skipped due to deletion: seq: 11666137;  id: 63f426ce-f194-11e7-80bc-56ce7f333890;  rev: 9-c0582777dc1f4cec96e5fe8a13f6abf4;  
+1/4/2018 6:50:15 PM
+Skipped due to deletion: seq: 11666174;  id: 2265e8f4-e034-4ae2-8d8d-47ac62ad5731;  rev: 56-621ff30b42f15d12458f552934da0b12;  
+1/4/2018 6:50:15 PM
+Skipped due to deletion: seq: 11666175;  id: 1c977830-f176-11e7-80bc-56ce7f333890;  rev: 53-2e51b906cb1e40d0a787f321434aabbf;  
+1/4/2018 6:50:15 PM
+Skipped due to deletion: seq: 11666178;  id: 6c16fb03-f16c-11e7-80bc-56ce7f333890;  rev: 72-0e87b5f63a7747f6596fbfae6c4762ac;  
+1/4/2018 6:50:15 PM
+Skipped due to deletion: seq: 11666180;  id: 9f69b5a7-7349-4902-9b67-d10a142dd361;  rev: 73-2c257ec288148616f639d2f9495a369a;  
+1/4/2018 6:50:15 PM
+Skipped due to deletion: seq: 11666181;  id: 6883a105-f172-11e7-80bc-56ce7f333890;  rev: 60-57e3218c2f9941aaabcd1fc0986ad927;  
+1/4/2018 6:50:15 PM
+Skipped due to deletion: seq: 11666182;  id: 73c64d43-571f-48a0-a700-ef3c27981d98;  rev: 80-3e19d0af7e955ff50914171eeec82eac;  
+1/4/2018 6:50:15 PM
+Skipped due to deletion: seq: 11666183;  id: e7f66faf-f196-11e7-80bc-56ce7f333890;  rev: 6-eaee30fe8d4744eb8a87ddc09ae40be5;  
+1/4/2018 6:50:16 PM
+Skipped due to deletion: seq: 11666184;  id: f4cb9656-f189-11e7-80bc-56ce7f333890;  rev: 24-bab3304f80034074b2c63ba1eeb01e2f;  
+1/4/2018 6:50:16 PM
+Skipped due to deletion: seq: 11666185;  id: 56881b09-f860-4746-9713-33643d1d987c;  rev: 52-053f5136c5a7132bcb828bcfed36e850;  
+1/4/2018 6:50:16 PM
+Skipped due to deletion: seq: 11666186;  id: e5338a63-f18f-11e7-80bc-56ce7f333890;  rev: 20-8e1ce9b91770460f8a4d83a794f4b89a;  
+1/4/2018 6:50:16 PM
+seq: 11666189;  id: 7e3b99f7-f1a9-11e7-80bc-56ce7f333890;  rev: 3-504eed3b5e15cd0b9bc06220d0a00be2;  
+1/4/2018 6:50:16 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/7e3b99f7-f1a9-11e7-80bc-56ce7f333890 method: GET
+1/4/2018 6:50:16 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 6:55:25 PM
+Main
+1/4/2018 7:00:57 PM
+Service Started
+1/4/2018 7:00:57 PM
+Last Sequence: 11666186
+1/4/2018 7:01:13 PM
+Main
+1/4/2018 7:01:50 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/_changes?since=11667105-g1AAAAJ7eJzLYWBg4MhgTmEQTM4vTc5ISXLIyU9OzMnILy7JAUoxJTIkyf___z8rgzmJQVxdIBcoxp6SYmBsYW6ITQ8ek5IUgGSSPdwwvn9gw0xTEpMSLdJINcwBZFg8zDCx4DywYYbGacYmaUakGpYAMqweZpioTDXYMEszY0MLo2QSDctjAZIMDUAKaN58iOvOLQcbaJJoYmloRKpXIQYugBi4H2Kg5XWwgQYGZpbmFqZkGXgAYuB9iJeDnoANTDUxt0hKtiDLwAcQA6ERwuoBNtDYKM3YHHtSyQIALarGoA method: GET
+1/4/2018 7:01:56 PM
+seq: 11667116;  id: 96fcec17-f19c-11e7-80bc-56ce7f333890;  rev: 33-d2384d4166e9f561e2d2425f3b15e2d6;  
+1/4/2018 7:01:56 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/96fcec17-f19c-11e7-80bc-56ce7f333890 method: GET
+1/4/2018 7:01:58 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:02:26 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/96fcec17-f19c-11e7-80bc-56ce7f333890 method: PUT
+1/4/2018 7:02:26 PM
+http://192.168.1.152:5984/app-pcr/96fcec17-f19c-11e7-80bc-56ce7f333890 PUT Response: {"ok":true,"id":"96fcec17-f19c-11e7-80bc-56ce7f333890","rev":"34-99d29d6190eb99146df5bc60181365b6"}
+
+1/4/2018 7:02:26 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":true,"pcr_id":"2c16056a-5e1b-4d36-9994-22372cad7715","action":"created"}
+1/4/2018 7:02:26 PM
+seq: 11667125;  id: 7e3b99f7-f1a9-11e7-80bc-56ce7f333890;  rev: 4-93fc1c5c19c9b715cb7e5d39428c326c;  
+1/4/2018 7:02:26 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/7e3b99f7-f1a9-11e7-80bc-56ce7f333890 method: GET
+1/4/2018 7:02:39 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:03:01 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/7e3b99f7-f1a9-11e7-80bc-56ce7f333890 method: PUT
+1/4/2018 7:03:01 PM
+http://192.168.1.152:5984/app-pcr/7e3b99f7-f1a9-11e7-80bc-56ce7f333890 PUT Response: The remote server returned an error: (409) Conflict.
+1/4/2018 7:03:01 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":true,"pcr_id":"d65e79b4-fc6c-4cc1-ae5f-51ed960ebf7d","action":"created"}
+1/4/2018 7:03:01 PM
+seq: 11667137;  id: 32731a20-4268-4289-9496-a0e9cc8278e7;  rev: 47-a8a869824ea3f6b5959a02117f1d177f;  
+1/4/2018 7:03:01 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/32731a20-4268-4289-9496-a0e9cc8278e7 method: GET
+1/4/2018 7:03:07 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:03:27 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/32731a20-4268-4289-9496-a0e9cc8278e7 method: PUT
+1/4/2018 7:03:27 PM
+http://192.168.1.152:5984/app-pcr/32731a20-4268-4289-9496-a0e9cc8278e7 PUT Response: {"ok":true,"id":"32731a20-4268-4289-9496-a0e9cc8278e7","rev":"48-42c6abf1850ca3279e34fcedc029f60d"}
+
+1/4/2018 7:03:27 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":true,"pcr_id":"1c16184f-29d8-4799-a61e-713f92ce7a90","action":"created"}
+1/4/2018 7:03:27 PM
+seq: 11667149;  id: 916ea5f0-f19d-11e7-80bc-56ce7f333890;  rev: 31-a648e80fb4357075e03e99a762ed97d6;  
+1/4/2018 7:03:27 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/916ea5f0-f19d-11e7-80bc-56ce7f333890 method: GET
+1/4/2018 7:03:32 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:03:46 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/916ea5f0-f19d-11e7-80bc-56ce7f333890 method: PUT
+1/4/2018 7:03:46 PM
+http://192.168.1.152:5984/app-pcr/916ea5f0-f19d-11e7-80bc-56ce7f333890 PUT Response: {"ok":true,"id":"916ea5f0-f19d-11e7-80bc-56ce7f333890","rev":"32-d70803a10856963c56abf3656fddd911"}
+
+1/4/2018 7:03:46 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":true,"pcr_id":"399db06b-d740-4e53-a8e1-abb302fc7959","action":"created"}
+1/4/2018 7:03:46 PM
+seq: 11667150;  id: 8babd38d-4fbb-4bd0-ba13-8e1c324851d1;  rev: 16-93bc188c58cf12fd8fe5ebb52b6644d8;  
+1/4/2018 7:03:46 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/8babd38d-4fbb-4bd0-ba13-8e1c324851d1 method: GET
+1/4/2018 7:03:47 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:03:56 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/8babd38d-4fbb-4bd0-ba13-8e1c324851d1 method: PUT
+1/4/2018 7:03:56 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":false,"pcr_id":null,"action":null,"ErrorMessage":"CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`newcems`.`user_login`, CONSTRAINT `FK_user_login_bus` FOREIGN KEY (`bus_id`) REFERENCES `bus` (`id`)). The SQL statement executed was: INSERT INTO `user_login` (`logout_time`, `utc_insert`, `utc_update`, `id`, `driver_user_id`, `emt_user_id`, `unit_no`, `bus_id`, `form800_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8). Bound with :yp0='1970-01-01 00:00:00', :yp1='1970-01-01 00:00:00', :yp2='1970-01-01 00:00:00', :yp3='18668b23-a5c4-f98a-afd3-f7d92e3fd9eb', :yp4='8c4730be-bab3-11e3-b9ed-842b2b4bbc99', :yp5='d74e8976-baab-11e3-8640-002354f956f4', :yp6=NULL, :yp7='05ad37f3-ad26-438d-a512-fa97a27ed0af', :yp8=NULL"}
+1/4/2018 7:03:56 PM
+seq: 11667155;  id: 1eebeddd-b0eb-45dd-9977-6a1de86b83c4;  rev: 28-0c2fffb48c5febd27055005de6d4032b;  
+1/4/2018 7:03:56 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/1eebeddd-b0eb-45dd-9977-6a1de86b83c4 method: GET
+1/4/2018 7:06:24 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:06:44 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/1eebeddd-b0eb-45dd-9977-6a1de86b83c4 method: PUT
+1/4/2018 7:06:44 PM
+http://192.168.1.152:5984/app-pcr/1eebeddd-b0eb-45dd-9977-6a1de86b83c4 PUT Response: {"ok":true,"id":"1eebeddd-b0eb-45dd-9977-6a1de86b83c4","rev":"29-ab691e1cf76e97cec594431bdac225d2"}
+
+1/4/2018 7:06:44 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":true,"pcr_id":"761ef434-f8b1-41b0-9913-22bed9b9949b","action":"created"}
+1/4/2018 7:06:44 PM
+seq: 11667156;  id: 3e6af7f4-f19e-11e7-80bc-56ce7f333890;  rev: 23-8937d2caad838081efe10facd4950c48;  
+1/4/2018 7:06:44 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/3e6af7f4-f19e-11e7-80bc-56ce7f333890 method: GET
+1/4/2018 7:06:47 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:10:00 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/3e6af7f4-f19e-11e7-80bc-56ce7f333890 method: PUT
+1/4/2018 7:10:00 PM
+http://192.168.1.152:5984/app-pcr/3e6af7f4-f19e-11e7-80bc-56ce7f333890 PUT Response: {"ok":true,"id":"3e6af7f4-f19e-11e7-80bc-56ce7f333890","rev":"24-064887f82375fd5a43a20f0b6a7d3aea"}
+
+1/4/2018 7:10:00 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":true,"pcr_id":"bd52c9aa-d84b-402c-81a5-6fe45d8b8b7a","action":"created"}
+1/4/2018 7:10:00 PM
+seq: 11667160;  id: bad38476-77c8-4e7d-abaa-d9d81a0f9fe1;  rev: 31-25104216541e5160187ad28e305ac882;  
+1/4/2018 7:10:00 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/bad38476-77c8-4e7d-abaa-d9d81a0f9fe1 method: GET
+1/4/2018 7:10:01 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:10:53 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/bad38476-77c8-4e7d-abaa-d9d81a0f9fe1 method: PUT
+1/4/2018 7:11:08 PM
+http://192.168.1.152:5984/app-pcr/bad38476-77c8-4e7d-abaa-d9d81a0f9fe1 PUT Response: {"ok":true,"id":"bad38476-77c8-4e7d-abaa-d9d81a0f9fe1","rev":"32-379725d2f08d9a480e508df4c37ee14e"}
+
+1/4/2018 7:12:25 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":true,"pcr_id":"7494fe5f-f719-471d-99bf-0ded173559c1","action":"created"}
+1/4/2018 7:12:25 PM
+seq: 11667163;  id: 628550ee-f19f-11e7-80bc-56ce7f333890;  rev: 26-463249ba0b409dec825895827444c96e;  
+1/4/2018 7:12:25 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/628550ee-f19f-11e7-80bc-56ce7f333890 method: GET
+1/4/2018 7:12:27 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:12:36 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/628550ee-f19f-11e7-80bc-56ce7f333890 method: PUT
+1/4/2018 7:12:36 PM
+http://192.168.1.152:5984/app-pcr/628550ee-f19f-11e7-80bc-56ce7f333890 PUT Response: {"ok":true,"id":"628550ee-f19f-11e7-80bc-56ce7f333890","rev":"27-e0910508120673754e11915d9e76648c"}
+
+1/4/2018 7:12:36 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":true,"pcr_id":"a6b15899-b670-4f58-8c5c-9317ad8be99e","action":"created"}
+1/4/2018 7:12:36 PM
+seq: 11667174;  id: 73aa76e2-f19d-11e7-80bc-56ce7f333890;  rev: 30-4a32933a9348f0cbda0c981613c1bc26;  
+1/4/2018 7:12:36 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/73aa76e2-f19d-11e7-80bc-56ce7f333890 method: GET
+1/4/2018 7:12:36 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:12:40 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/73aa76e2-f19d-11e7-80bc-56ce7f333890 method: PUT
+1/4/2018 7:12:41 PM
+http://192.168.1.152:5984/app-pcr/73aa76e2-f19d-11e7-80bc-56ce7f333890 PUT Response: {"ok":true,"id":"73aa76e2-f19d-11e7-80bc-56ce7f333890","rev":"31-d7f5fd7a81f012875b4fdb44554cb584"}
+
+1/4/2018 7:12:41 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":true,"pcr_id":"37a082a4-a637-4ef3-a21c-790c91317ebc","action":"created"}
+1/4/2018 7:12:41 PM
+seq: 11667175;  id: b5ed1122-58a2-4dc9-8fba-34a888442735;  rev: 25-333181e65c940977613be5c967db6e17;  
+1/4/2018 7:12:41 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/b5ed1122-58a2-4dc9-8fba-34a888442735 method: GET
+1/4/2018 7:12:41 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:12:41 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/b5ed1122-58a2-4dc9-8fba-34a888442735 method: PUT
+1/4/2018 7:12:41 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":false,"pcr_id":null,"action":null,"ErrorMessage":"missing agency_id."}
+1/4/2018 7:12:41 PM
+seq: 11667176;  id: 45b28aa3-dd8b-4432-b7e8-c5da781d0f5f;  rev: 15-1f6e013eea3ed0cf1c7aebdeab5d67c7;  
+1/4/2018 7:12:41 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/45b28aa3-dd8b-4432-b7e8-c5da781d0f5f method: GET
+1/4/2018 7:12:41 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:12:47 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/45b28aa3-dd8b-4432-b7e8-c5da781d0f5f method: PUT
+1/4/2018 7:12:47 PM
+http://192.168.1.152:5984/app-pcr/45b28aa3-dd8b-4432-b7e8-c5da781d0f5f PUT Response: {"ok":true,"id":"45b28aa3-dd8b-4432-b7e8-c5da781d0f5f","rev":"16-25b5e6f27c156fcf0994d7c30393ebaf"}
+
+1/4/2018 7:12:47 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":true,"pcr_id":"1dee0c32-e041-44f8-a6ca-2a4d681f104f","action":"created"}
+1/4/2018 7:12:47 PM
+seq: 11667179;  id: 1af6132b-f19f-11e7-80bc-56ce7f333890;  rev: 21-99d97d9d866ce0e4e4e33644cb64850f;  
+1/4/2018 7:12:47 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/1af6132b-f19f-11e7-80bc-56ce7f333890 method: GET
+1/4/2018 7:12:47 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:12:54 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/1af6132b-f19f-11e7-80bc-56ce7f333890 method: PUT
+1/4/2018 7:12:54 PM
+http://192.168.1.152:5984/app-pcr/1af6132b-f19f-11e7-80bc-56ce7f333890 PUT Response: {"ok":true,"id":"1af6132b-f19f-11e7-80bc-56ce7f333890","rev":"22-7f55fb297a647c3e2a0325410ac0d721"}
+
+1/4/2018 7:12:54 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":true,"pcr_id":"8893e641-058b-4797-9dd7-99d76e7ae40c","action":"created"}
+1/4/2018 7:12:54 PM
+seq: 11667180;  id: 7d1d5aba-64dd-4dd6-b853-28de76b3c441;  rev: 33-85f320387f2be4eda307496743b408a6;  
+1/4/2018 7:12:54 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/7d1d5aba-64dd-4dd6-b853-28de76b3c441 method: GET
+1/4/2018 7:12:54 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:12:55 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/7d1d5aba-64dd-4dd6-b853-28de76b3c441 method: PUT
+1/4/2018 7:12:55 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":false,"pcr_id":null,"action":null,"ErrorMessage":"CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`newcems`.`user_login`, CONSTRAINT `FK_user_login_bus` FOREIGN KEY (`bus_id`) REFERENCES `bus` (`id`)). The SQL statement executed was: INSERT INTO `user_login` (`logout_time`, `utc_insert`, `utc_update`, `id`, `driver_user_id`, `emt_user_id`, `unit_no`, `bus_id`, `form800_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8). Bound with :yp0='1970-01-01 00:00:00', :yp1='1970-01-01 00:00:00', :yp2='1970-01-01 00:00:00', :yp3='18668b23-a5c4-f98a-afd3-f7d92e3fd9eb', :yp4='8c4730be-bab3-11e3-b9ed-842b2b4bbc99', :yp5='d74e8976-baab-11e3-8640-002354f956f4', :yp6=NULL, :yp7='05ad37f3-ad26-438d-a512-fa97a27ed0af', :yp8=NULL"}
+1/4/2018 7:12:55 PM
+seq: 11667181;  id: a4e67360-f1a1-11e7-80bc-56ce7f333890;  rev: 20-adbe1e79574f899765df4deeb88d5713;  
+1/4/2018 7:12:55 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/a4e67360-f1a1-11e7-80bc-56ce7f333890 method: GET
+1/4/2018 7:12:55 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:13:06 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/a4e67360-f1a1-11e7-80bc-56ce7f333890 method: PUT
+1/4/2018 7:13:06 PM
+http://192.168.1.152:5984/app-pcr/a4e67360-f1a1-11e7-80bc-56ce7f333890 PUT Response: {"ok":true,"id":"a4e67360-f1a1-11e7-80bc-56ce7f333890","rev":"21-edd400e1dd0b9f01dcb957eb03c7a4d8"}
+
+1/4/2018 7:13:06 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":true,"pcr_id":"e185811a-9af4-4f32-8cb8-31661c110174","action":"created"}
+1/4/2018 7:13:06 PM
+seq: 11667182;  id: 2f8c95de-f1a6-11e7-80bc-56ce7f333890;  rev: 27-f261b083a17313fd99199885d5642aa2;  
+1/4/2018 7:13:06 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/2f8c95de-f1a6-11e7-80bc-56ce7f333890 method: GET
+1/4/2018 7:13:21 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:13:28 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/2f8c95de-f1a6-11e7-80bc-56ce7f333890 method: PUT
+1/4/2018 7:13:28 PM
+http://192.168.1.152:5984/app-pcr/2f8c95de-f1a6-11e7-80bc-56ce7f333890 PUT Response: {"ok":true,"id":"2f8c95de-f1a6-11e7-80bc-56ce7f333890","rev":"28-30bb059b13b8232f94615561e9f5f359"}
+
+1/4/2018 7:13:28 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/2f8c95de-f1a6-11e7-80bc-56ce7f333890 method: PUT
+1/4/2018 7:13:28 PM
+http://192.168.1.152:5984/app-pcr/2f8c95de-f1a6-11e7-80bc-56ce7f333890?rev=27-f261b083a17313fd99199885d5642aa2 PUT Response: The remote server returned an error: (409) Conflict.
+1/4/2018 7:13:28 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":true,"pcr_id":"af2c75c7-9094-4850-92d6-09e9b12a2140","action":"created"}
+1/4/2018 7:13:29 PM
+seq: 11667183;  id: 9ad6bb70-ee3f-4bb6-9154-a0d792523fbe;  rev: 16-02b5a8c4567de7ebda5a505c7d861d26;  
+1/4/2018 7:13:29 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/9ad6bb70-ee3f-4bb6-9154-a0d792523fbe method: GET
+1/4/2018 7:13:29 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:13:29 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/9ad6bb70-ee3f-4bb6-9154-a0d792523fbe method: PUT
+1/4/2018 7:13:29 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":false,"pcr_id":null,"action":null,"ErrorMessage":"CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`newcems`.`user_login`, CONSTRAINT `FK_user_login_bus` FOREIGN KEY (`bus_id`) REFERENCES `bus` (`id`)). The SQL statement executed was: INSERT INTO `user_login` (`logout_time`, `utc_insert`, `utc_update`, `id`, `driver_user_id`, `emt_user_id`, `unit_no`, `bus_id`, `form800_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8). Bound with :yp0='1970-01-01 00:00:00', :yp1='1970-01-01 00:00:00', :yp2='1970-01-01 00:00:00', :yp3='18668b23-a5c4-f98a-afd3-f7d92e3fd9eb', :yp4='8c4730be-bab3-11e3-b9ed-842b2b4bbc99', :yp5='d74e8976-baab-11e3-8640-002354f956f4', :yp6=NULL, :yp7='05ad37f3-ad26-438d-a512-fa97a27ed0af', :yp8=NULL"}
+1/4/2018 7:13:29 PM
+seq: 11667184;  id: 4891f2e8-7a87-428f-a191-e0d54b8a5ff8;  rev: 15-2f1d22c9060fe99fa8236517557b6cfe;  
+1/4/2018 7:13:29 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/4891f2e8-7a87-428f-a191-e0d54b8a5ff8 method: GET
+1/4/2018 7:13:29 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:13:29 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/4891f2e8-7a87-428f-a191-e0d54b8a5ff8 method: PUT
+1/4/2018 7:13:29 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":false,"pcr_id":null,"action":null,"ErrorMessage":"CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`newcems`.`user_login`, CONSTRAINT `FK_user_login_bus` FOREIGN KEY (`bus_id`) REFERENCES `bus` (`id`)). The SQL statement executed was: INSERT INTO `user_login` (`logout_time`, `utc_insert`, `utc_update`, `id`, `driver_user_id`, `emt_user_id`, `unit_no`, `bus_id`, `form800_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8). Bound with :yp0='1970-01-01 00:00:00', :yp1='1970-01-01 00:00:00', :yp2='1970-01-01 00:00:00', :yp3='18668b23-a5c4-f98a-afd3-f7d92e3fd9eb', :yp4='8c4730be-bab3-11e3-b9ed-842b2b4bbc99', :yp5='d74e8976-baab-11e3-8640-002354f956f4', :yp6=NULL, :yp7='05ad37f3-ad26-438d-a512-fa97a27ed0af', :yp8=NULL"}
+1/4/2018 7:13:30 PM
+seq: 11667185;  id: 002e0829-07c3-45e5-a9e5-686a42534586;  rev: 85-6d63695f38004c79fa0113bcd21d0655;  
+1/4/2018 7:13:30 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/002e0829-07c3-45e5-a9e5-686a42534586 method: GET
+1/4/2018 7:13:30 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:13:30 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/002e0829-07c3-45e5-a9e5-686a42534586 method: PUT
+1/4/2018 7:13:30 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":false,"pcr_id":null,"action":null,"ErrorMessage":"missing agency_id."}
+1/4/2018 7:13:30 PM
+seq: 11667186;  id: 735ed251-012a-434b-93e5-11294a521b69;  rev: 18-7bbd93464b693d676e73ecd090b6bfc6;  
+1/4/2018 7:13:30 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/735ed251-012a-434b-93e5-11294a521b69 method: GET
+1/4/2018 7:13:30 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:13:40 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/735ed251-012a-434b-93e5-11294a521b69 method: PUT
+1/4/2018 7:13:40 PM
+http://192.168.1.152:5984/app-pcr/735ed251-012a-434b-93e5-11294a521b69 PUT Response: {"ok":true,"id":"735ed251-012a-434b-93e5-11294a521b69","rev":"19-56d6f60dbf2e02be75f1fad20fd391be"}
+
+1/4/2018 7:13:40 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":true,"pcr_id":"01cd90df-8c6d-4a9e-b9af-7c27c4243420","action":"created"}
+1/4/2018 7:13:40 PM
+seq: 11667187;  id: 73100743-be96-40f9-ab56-227c6ebe6d9d;  rev: 3-3c456268b9bb4b57a5bc3c76a449aa7f;  
+1/4/2018 7:13:40 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/73100743-be96-40f9-ab56-227c6ebe6d9d method: GET
+1/4/2018 7:13:40 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:13:41 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/73100743-be96-40f9-ab56-227c6ebe6d9d method: PUT
+1/4/2018 7:13:41 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":false,"pcr_id":null,"action":null,"ErrorMessage":"CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`newcems`.`user_login`, CONSTRAINT `FK_user_login_bus` FOREIGN KEY (`bus_id`) REFERENCES `bus` (`id`)). The SQL statement executed was: INSERT INTO `user_login` (`logout_time`, `utc_insert`, `utc_update`, `id`, `driver_user_id`, `emt_user_id`, `unit_no`, `bus_id`, `form800_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8). Bound with :yp0='1970-01-01 00:00:00', :yp1='1970-01-01 00:00:00', :yp2='1970-01-01 00:00:00', :yp3='18668b23-a5c4-f98a-afd3-f7d92e3fd9eb', :yp4='8c4730be-bab3-11e3-b9ed-842b2b4bbc99', :yp5='d74e8976-baab-11e3-8640-002354f956f4', :yp6=NULL, :yp7='05ad37f3-ad26-438d-a512-fa97a27ed0af', :yp8=NULL"}
+1/4/2018 7:13:41 PM
+seq: 11667188;  id: aedfdbef-6740-4abc-8eeb-6baf882cc191;  rev: 65-f51e1ddd90e5b92cd854a63998b719f4;  
+1/4/2018 7:13:41 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/aedfdbef-6740-4abc-8eeb-6baf882cc191 method: GET
+1/4/2018 7:13:41 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:13:42 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/aedfdbef-6740-4abc-8eeb-6baf882cc191 method: PUT
+1/4/2018 7:13:42 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":false,"pcr_id":null,"action":null,"ErrorMessage":"missing agency_id."}
+1/4/2018 7:13:42 PM
+seq: 11667189;  id: d365b86f-f93d-4cd1-91cd-2ca9499b3306;  rev: 21-838110e564837602d288e1d5ab06823c;  
+1/4/2018 7:13:42 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/d365b86f-f93d-4cd1-91cd-2ca9499b3306 method: GET
+1/4/2018 7:13:42 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:13:43 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/d365b86f-f93d-4cd1-91cd-2ca9499b3306 method: PUT
+1/4/2018 7:13:43 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":false,"pcr_id":null,"action":null,"ErrorMessage":"CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`newcems`.`user_login`, CONSTRAINT `FK_user_login_bus` FOREIGN KEY (`bus_id`) REFERENCES `bus` (`id`)). The SQL statement executed was: INSERT INTO `user_login` (`logout_time`, `utc_insert`, `utc_update`, `id`, `driver_user_id`, `emt_user_id`, `unit_no`, `bus_id`, `form800_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8). Bound with :yp0='1970-01-01 00:00:00', :yp1='1970-01-01 00:00:00', :yp2='1970-01-01 00:00:00', :yp3='18668b23-a5c4-f98a-afd3-f7d92e3fd9eb', :yp4='8c4730be-bab3-11e3-b9ed-842b2b4bbc99', :yp5='d74e8976-baab-11e3-8640-002354f956f4', :yp6=NULL, :yp7='05ad37f3-ad26-438d-a512-fa97a27ed0af', :yp8=NULL"}
+1/4/2018 7:13:43 PM
+seq: 11667190;  id: 2967a1ca-f1a1-11e7-80bc-56ce7f333890;  rev: 14-aa79ecbb9d1b213d4c8be84651d41298;  
+1/4/2018 7:13:43 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/2967a1ca-f1a1-11e7-80bc-56ce7f333890 method: GET
+1/4/2018 7:13:43 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:13:54 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/2967a1ca-f1a1-11e7-80bc-56ce7f333890 method: PUT
+1/4/2018 7:13:54 PM
+http://192.168.1.152:5984/app-pcr/2967a1ca-f1a1-11e7-80bc-56ce7f333890 PUT Response: {"ok":true,"id":"2967a1ca-f1a1-11e7-80bc-56ce7f333890","rev":"15-b6944a1e77164061f93546f889429d2c"}
+
+1/4/2018 7:13:54 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":true,"pcr_id":"d549e1f5-79b1-4122-aff3-b9636d96e676","action":"created"}
+1/4/2018 7:13:54 PM
+seq: 11667193;  id: 9c6a11d1-f1aa-11e7-80bc-56ce7f333890;  rev: 3-4bd37f3c1d9f010078c75453dc9c8b4c;  
+1/4/2018 7:13:54 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/9c6a11d1-f1aa-11e7-80bc-56ce7f333890 method: GET
+1/4/2018 7:13:54 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:14:02 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/9c6a11d1-f1aa-11e7-80bc-56ce7f333890 method: PUT
+1/4/2018 7:14:03 PM
+http://192.168.1.152:5984/app-pcr/9c6a11d1-f1aa-11e7-80bc-56ce7f333890 PUT Response: {"ok":true,"id":"9c6a11d1-f1aa-11e7-80bc-56ce7f333890","rev":"4-2269c4cbd6101d855275277df0c9dd97"}
+
+1/4/2018 7:14:03 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":true,"pcr_id":"9cd8a65f-7213-45c2-82cc-42afbdfe6e0e","action":"created"}
+1/4/2018 7:14:03 PM
+seq: 11667199;  id: 75fdde39-f1a3-11e7-80bc-56ce7f333890;  rev: 16-dd3ad2bb00ce04ca0a9c58faba2d013d;  
+1/4/2018 7:14:03 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/75fdde39-f1a3-11e7-80bc-56ce7f333890 method: GET
+1/4/2018 7:14:03 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:14:16 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/75fdde39-f1a3-11e7-80bc-56ce7f333890 method: PUT
+1/4/2018 7:14:16 PM
+http://192.168.1.152:5984/app-pcr/75fdde39-f1a3-11e7-80bc-56ce7f333890 PUT Response: {"ok":true,"id":"75fdde39-f1a3-11e7-80bc-56ce7f333890","rev":"17-2ce90170a81588f4de267de9d7c5ee64"}
+
+1/4/2018 7:14:16 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":true,"pcr_id":"6895d072-dfc4-42f3-84ed-7ec0d0a478e0","action":"created"}
+1/4/2018 7:14:16 PM
+seq: 11667200;  id: dfefa0aa-92b3-49c5-a3df-75ecd82912da;  rev: 9-9e0c95c6a8ec0b1660c7462497db4f92;  
+1/4/2018 7:14:17 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/dfefa0aa-92b3-49c5-a3df-75ecd82912da method: GET
+1/4/2018 7:14:17 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:14:17 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/dfefa0aa-92b3-49c5-a3df-75ecd82912da method: PUT
+1/4/2018 7:14:17 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":false,"pcr_id":null,"action":null,"ErrorMessage":"CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`newcems`.`user_login`, CONSTRAINT `FK_user_login_bus` FOREIGN KEY (`bus_id`) REFERENCES `bus` (`id`)). The SQL statement executed was: INSERT INTO `user_login` (`logout_time`, `utc_insert`, `utc_update`, `id`, `driver_user_id`, `emt_user_id`, `unit_no`, `bus_id`, `form800_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8). Bound with :yp0='1970-01-01 00:00:00', :yp1='1970-01-01 00:00:00', :yp2='1970-01-01 00:00:00', :yp3='18668b23-a5c4-f98a-afd3-f7d92e3fd9eb', :yp4='8c4730be-bab3-11e3-b9ed-842b2b4bbc99', :yp5='d74e8976-baab-11e3-8640-002354f956f4', :yp6=NULL, :yp7='05ad37f3-ad26-438d-a512-fa97a27ed0af', :yp8=NULL"}
+1/4/2018 7:14:17 PM
+seq: 11667202;  id: 7ffe0d9b-f19e-11e7-80bc-56ce7f333890;  rev: 26-df24c2551eca909a1d73c05d3d173db2;  
+1/4/2018 7:14:17 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/7ffe0d9b-f19e-11e7-80bc-56ce7f333890 method: GET
+1/4/2018 7:14:17 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:14:31 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/7ffe0d9b-f19e-11e7-80bc-56ce7f333890 method: PUT
+1/4/2018 7:14:31 PM
+http://192.168.1.152:5984/app-pcr/7ffe0d9b-f19e-11e7-80bc-56ce7f333890 PUT Response: {"ok":true,"id":"7ffe0d9b-f19e-11e7-80bc-56ce7f333890","rev":"27-e2bbd4c3cafbe06185ccfd0bb22bd3e6"}
+
+1/4/2018 7:14:31 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":true,"pcr_id":"98ff965a-18f9-40bf-bdcc-897a42ce6a58","action":"created"}
+1/4/2018 7:14:31 PM
+seq: 11667203;  id: c0d55e3a-d764-4b97-ad99-e9ec2311c88d;  rev: 28-827fddcc6719bad2b638402954cba5e1;  
+1/4/2018 7:14:31 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/c0d55e3a-d764-4b97-ad99-e9ec2311c88d method: GET
+1/4/2018 7:14:31 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:14:40 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/c0d55e3a-d764-4b97-ad99-e9ec2311c88d method: PUT
+1/4/2018 7:14:40 PM
+http://192.168.1.152:5984/app-pcr/c0d55e3a-d764-4b97-ad99-e9ec2311c88d PUT Response: {"ok":true,"id":"c0d55e3a-d764-4b97-ad99-e9ec2311c88d","rev":"29-1e8375206cb2810b1d5b39b0a55bb67d"}
+
+1/4/2018 7:14:40 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":true,"pcr_id":"5b359b4e-27e9-494e-8097-c8ea94e29dad","action":"created"}
+1/4/2018 7:14:40 PM
+seq: 11667205;  id: 343cabe9-79b1-4d41-ba29-d0e9cdd72469;  rev: 7-393e8e1612174ba096c4fc70ea71b670;  
+1/4/2018 7:14:40 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/343cabe9-79b1-4d41-ba29-d0e9cdd72469 method: GET
+1/4/2018 7:14:40 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:14:41 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/343cabe9-79b1-4d41-ba29-d0e9cdd72469 method: PUT
+1/4/2018 7:14:41 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":false,"pcr_id":null,"action":null,"ErrorMessage":"CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`newcems`.`user_login`, CONSTRAINT `FK_user_login_bus` FOREIGN KEY (`bus_id`) REFERENCES `bus` (`id`)). The SQL statement executed was: INSERT INTO `user_login` (`logout_time`, `utc_insert`, `utc_update`, `id`, `driver_user_id`, `emt_user_id`, `unit_no`, `bus_id`, `form800_id`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8). Bound with :yp0='1970-01-01 00:00:00', :yp1='1970-01-01 00:00:00', :yp2='1970-01-01 00:00:00', :yp3='18668b23-a5c4-f98a-afd3-f7d92e3fd9eb', :yp4='8c4730be-bab3-11e3-b9ed-842b2b4bbc99', :yp5='d74e8976-baab-11e3-8640-002354f956f4', :yp6=NULL, :yp7='05ad37f3-ad26-438d-a512-fa97a27ed0af', :yp8=NULL"}
+1/4/2018 7:14:41 PM
+seq: 11667206;  id: b0fc8c96-fa40-43b4-b3f7-98a7e0098963;  rev: 40-080872bb57511db329591d226530d11a;  
+1/4/2018 7:14:41 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/b0fc8c96-fa40-43b4-b3f7-98a7e0098963 method: GET
+1/4/2018 7:14:41 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:14:49 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/b0fc8c96-fa40-43b4-b3f7-98a7e0098963 method: PUT
+1/4/2018 7:14:49 PM
+http://192.168.1.152:5984/app-pcr/b0fc8c96-fa40-43b4-b3f7-98a7e0098963 PUT Response: {"ok":true,"id":"b0fc8c96-fa40-43b4-b3f7-98a7e0098963","rev":"41-aed8126921b664951c65f5e99269d73d"}
+
+1/4/2018 7:14:49 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":true,"pcr_id":"20aa51cd-f149-435c-91be-89308d13306f","action":"created"}
+1/4/2018 7:14:49 PM
+seq: 11667207;  id: 0f75e9e6-309b-4965-8ce4-21c34181d650;  rev: 20-e0f7e094f837c68bb6674640f225145b;  
+1/4/2018 7:14:49 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/0f75e9e6-309b-4965-8ce4-21c34181d650 method: GET
+1/4/2018 7:14:49 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:25:31 PM
+Main
+1/4/2018 7:25:36 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/_changes?since=11667105-g1AAAAJ7eJzLYWBg4MhgTmEQTM4vTc5ISXLIyU9OzMnILy7JAUoxJTIkyf___z8rgzmJQVxdIBcoxp6SYmBsYW6ITQ8ek5IUgGSSPdwwvn9gw0xTEpMSLdJINcwBZFg8zDCx4DywYYbGacYmaUakGpYAMqweZpioTDXYMEszY0MLo2QSDctjAZIMDUAKaN58iOvOLQcbaJJoYmloRKpXIQYugBi4H2Kg5XWwgQYGZpbmFqZkGXgAYuB9iJeDnoANTDUxt0hKtiDLwAcQA6ERwuoBNtDYKM3YHHtSyQIALarGoA method: GET
+1/4/2018 7:25:40 PM
+seq: 11667132;  id: 916ea5f0-f19d-11e7-80bc-56ce7f333890;  rev: 32-d70803a10856963c56abf3656fddd911;  
+1/4/2018 7:25:40 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/916ea5f0-f19d-11e7-80bc-56ce7f333890 method: GET
+1/4/2018 7:25:40 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:25:47 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/916ea5f0-f19d-11e7-80bc-56ce7f333890 method: PUT
+1/4/2018 7:25:47 PM
+http://192.168.1.152:5984/app-pcr/916ea5f0-f19d-11e7-80bc-56ce7f333890 PUT Response: {"ok":true,"id":"916ea5f0-f19d-11e7-80bc-56ce7f333890","rev":"33-1ab1808bb0217e8c299059270c49800c"}
+
+1/4/2018 7:25:47 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":true,"pcr_id":"57a63392-72f8-4ab9-b814-7e9d340d8a65","action":"created"}
+1/4/2018 7:25:47 PM
+seq: 11667141;  id: 628550ee-f19f-11e7-80bc-56ce7f333890;  rev: 27-e0910508120673754e11915d9e76648c;  
+1/4/2018 7:25:47 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/628550ee-f19f-11e7-80bc-56ce7f333890 method: GET
+1/4/2018 7:25:47 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:25:58 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/628550ee-f19f-11e7-80bc-56ce7f333890 method: PUT
+1/4/2018 7:25:58 PM
+http://192.168.1.152:5984/app-pcr/628550ee-f19f-11e7-80bc-56ce7f333890 PUT Response: {"ok":true,"id":"628550ee-f19f-11e7-80bc-56ce7f333890","rev":"28-6c66666450e785ffc2e820823a5f26ec"}
+
+1/4/2018 7:25:58 PM
+ImportPcr Response: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch:  {"success":true,"pcr_id":"887c80ca-dfec-42f2-8299-83e4ab25af58","action":"created"}
+1/4/2018 7:25:58 PM
+seq: 11667150;  id: 1eebeddd-b0eb-45dd-9977-6a1de86b83c4;  rev: 29-ab691e1cf76e97cec594431bdac225d2;  
+1/4/2018 7:25:58 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/1eebeddd-b0eb-45dd-9977-6a1de86b83c4 method: GET
+1/4/2018 7:26:01 PM
+UrlRequest for: http://192.168.1.152/cemslocal/yiicems/index.php?r=api/CouchDB/PostPcrFromCouch method: POST
+1/4/2018 7:26:10 PM
+UrlRequest for: http://192.168.1.152:5984/app-pcr/1eebeddd-b0eb-45dd-9977-6a1de86b83c4 method: PUT
+1/4/2018 7:26:10 PM
+http://192.168.1.152:5984/app-pcr/1eebeddd-b0eb-45dd-9977-6a1de86b83c4 PUT Response: {"ok":true,"id":"1eebeddd-b0eb-45dd-9977-6a1de86b83c4","rev":"30-526e6110537b064ad738be53cb9c17e8"}
+

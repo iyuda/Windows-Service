@@ -1,0 +1,136 @@
+
+9/28/2017 6:16:23 PM
+Object reference not set to an instance of an object.:
+Stack trace: at CemsMobilePcrSrv.WindowsService.CheckRevisions(String LastSeq)
+Source: CemsMobilePcrSrv
+
+9/28/2017 6:16:23 PM
+Object reference not set to an instance of an object.:
+Stack trace: at CemsMobilePcrSrv.WindowsService.CheckRevisions(String LastSeq)
+Source: CemsMobilePcrSrv
+
+9/28/2017 6:16:23 PM
+Object reference not set to an instance of an object.:
+Stack trace: at CemsMobilePcrSrv.WindowsService.CheckRevisions(String LastSeq)
+Source: CemsMobilePcrSrv
+
+9/28/2017 6:21:27 PM
+Object reference not set to an instance of an object.:
+Stack trace: at CemsMobilePcrSrv.WindowsService.CheckRevisions(String LastSeq)
+Source: CemsMobilePcrSrv
+
+9/28/2017 6:23:35 PM
+The process cannot access the file 'C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\bin\Debug\Logs\Thursday\CouchStatus.log' because it is being used by another process.:
+Stack trace: at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   at System.IO.File.InternalAppendAllText(String path, String contents, Encoding encoding)
+   at System.IO.File.AppendAllText(String path, String contents)
+   at CemsMobilePcrSrv.Logger.LogActivity(String strMessage, String LogFileName)
+   at CemsMobilePcrSrv.WindowsService.UrlRequest(String url, String method, String content_type, String data)
+Source: mscorlib
+
+9/28/2017 6:23:40 PM
+The process cannot access the file 'C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\bin\Debug\Logs\Thursday\CouchStatus.log' because it is being used by another process.:
+Stack trace: at CemsMobilePcrSrv.WindowsService.UrlRequest(String url, String method, String content_type, String data)
+   at CemsMobilePcrSrv.WindowsService.CheckRevisions(String LastSeq)
+Source: mscorlib
+
+9/28/2017 6:29:59 PM
+The process cannot access the file 'C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\bin\Debug\Logs\Thursday\CouchStatus.log' because it is being used by another process.:
+Stack trace: at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   at System.IO.File.InternalAppendAllText(String path, String contents, Encoding encoding)
+   at System.IO.File.AppendAllText(String path, String contents)
+   at CemsMobilePcrSrv.Logger.LogActivity(String strMessage, String LogFileName)
+   at CemsMobilePcrSrv.WindowsService.UrlRequest(String url, String method, String content_type, String data)
+Source: mscorlib
+
+9/28/2017 6:30:12 PM
+The process cannot access the file 'C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\bin\Debug\Logs\Thursday\CouchStatus.log' because it is being used by another process.:
+Stack trace: at CemsMobilePcrSrv.WindowsService.UrlRequest(String url, String method, String content_type, String data)
+   at CemsMobilePcrSrv.WindowsService.CheckRevisions(String LastSeq)
+Source: mscorlib
+
+9/28/2017 6:41:18 PM
+Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path '', line 1, position 142580.:
+Stack trace: at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at CemsMobilePcrSrv.JsonMaker.GetIOSJsonExtract(String Expression, String Input)
+Source: Newtonsoft.Json
+
+9/28/2017 6:41:19 PM
+The process cannot access the file 'C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\bin\Debug\Logs\Thursday\Exceptions.log' because it is being used by another process.:
+Stack trace: at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   at System.IO.File.InternalAppendAllText(String path, String contents, Encoding encoding)
+   at System.IO.File.AppendAllText(String path, String contents)
+   at CemsMobilePcrSrv.Logger.LogException(Exception e, String LogFileName, String ErrorButtonMsg)
+   at CemsMobilePcrSrv.JsonMaker.GetIOSJsonExtract(String Expression, String Input)
+   at CemsMobilePcrSrv.WindowsService.CheckRevisions(String LastSeq)
+Source: mscorlib
+
+9/28/2017 6:41:20 PM
+Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path '', line 1, position 142580.:
+Stack trace: at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at CemsMobilePcrSrv.JsonMaker.GetIOSJsonExtract(String Expression, String Input)
+Source: Newtonsoft.Json
+
+9/28/2017 6:41:20 PM
+Object reference not set to an instance of an object.:
+Stack trace: at CemsMobilePcrSrv.WindowsService.CheckRevisions(String LastSeq)
+Source: CemsMobilePcrSrv
+
+9/28/2017 6:41:22 PM
+The process cannot access the file 'C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\bin\Debug\Logs\Thursday\Activity.log' because it is being used by another process.:
+Stack trace: at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   at System.IO.File.InternalAppendAllText(String path, String contents, Encoding encoding)
+   at System.IO.File.AppendAllText(String path, String contents)
+   at CemsMobilePcrSrv.Logger.LogActivity(String strMessage, String LogFileName)
+   at CemsMobilePcrSrv.WindowsService.CheckRevisions(String LastSeq)
+Source: mscorlib
+
+9/28/2017 6:42:44 PM
+The process cannot access the file 'C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\bin\Debug\Logs\Thursday\Activity.log' because it is being used by another process.:
+Stack trace: at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   at System.IO.File.InternalAppendAllText(String path, String contents, Encoding encoding)
+   at System.IO.File.AppendAllText(String path, String contents)
+   at CemsMobilePcrSrv.Logger.LogActivity(String strMessage, String LogFileName)
+   at CemsMobilePcrSrv.WindowsService.CheckRevisions(String LastSeq)
+Source: mscorlib
+
+9/28/2017 6:43:16 PM
+The process cannot access the file 'C:\Work Area\CemsMobilePcrSrv\CemsMobilePcrSrv\bin\Debug\Logs\Thursday\Activity.log' because it is being used by another process.:
+Stack trace: at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize, Boolean checkHost)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding)
+   at System.IO.File.InternalAppendAllText(String path, String contents, Encoding encoding)
+   at System.IO.File.AppendAllText(String path, String contents)
+   at CemsMobilePcrSrv.Logger.LogActivity(String strMessage, String LogFileName)
+   at CemsMobilePcrSrv.WindowsService.CheckRevisions(String LastSeq)
+Source: mscorlib
